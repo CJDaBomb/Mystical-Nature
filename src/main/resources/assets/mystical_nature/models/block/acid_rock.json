@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mystical_nature:blocks/acidrock",
+    "particle": "mystical_nature:blocks/acidrock"
+  }
+}

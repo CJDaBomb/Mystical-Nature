@@ -18,14 +18,44 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "acid_rock_spike"
+    },
+    {
+      "name": "BlackRock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_rock"
+    },
+    {
+      "name": "AcidRock",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acid_rock"
+    },
+    {
+      "name": "BlackSand",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_sand"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.mystical_nature.black_rock": "Black Rock",
       "block.mystical_nature.acid_rock_spike": "Black Rock Spike",
-      "block.mystical_nature.black_rock_spike": "Black Rock Spike"
+      "block.mystical_nature.black_rock_spike": "Black Rock Spike",
+      "block.mystical_nature.acid_rock": "Acid Rock",
+      "block.mystical_nature.black_sand": "Black Sand"
     }
   },
   "workspaceSettings": {

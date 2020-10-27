@@ -2,35 +2,35 @@
   "_fv": 10,
   "_type": "block",
   "definition": {
-    "texture": "acidrock",
+    "texture": "blacksand",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 2,
-    "customModelName": "acidspike:default",
-    "rotationMode": 1,
+    "renderType": 11,
+    "customModelName": "Single texture",
+    "rotationMode": 0,
     "emissiveRendering": false,
     "itemTexture": "",
-    "hasTransparency": true,
+    "hasTransparency": false,
     "connectedSides": false,
-    "transparencyType": "CUTOUT",
+    "transparencyType": "SOLID",
     "mx": 0.0,
     "my": 0.0,
     "mz": 0.0,
-    "Mx": 0.9375,
-    "My": 1.75,
-    "Mz": 0.9375,
-    "name": "Black Rock Spike",
+    "Mx": 1.0,
+    "My": 1.0,
+    "Mz": 1.0,
+    "name": "Black Sand",
     "specialInfo": [],
-    "hardness": 2.0,
-    "resistance": 6.0,
-    "hasGravity": false,
+    "hardness": 0.5,
+    "resistance": 0.5,
+    "hasGravity": true,
     "creativeTab": {
       "value": "BUILDING_BLOCKS"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "shovel",
     "customDrop": {
       "value": ""
     },
@@ -39,9 +39,9 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
-    "lightOpacity": 0,
+    "lightOpacity": 255,
     "material": {
-      "value": "ROCK"
+      "value": "SAND"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -59,9 +59,9 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "SAND"
     },
-    "luminance": 0.5,
+    "luminance": 0.0,
     "unbreakable": false,
     "breakHarvestLevel": 1,
     "spawnParticles": false,
