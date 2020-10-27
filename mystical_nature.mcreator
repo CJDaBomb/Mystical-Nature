@@ -1,10 +1,32 @@
 {
   "id_map": {},
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "BlackRockSpike",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_rock_spike"
+    },
+    {
+      "name": "AcidRockSpike",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acid_rock_spike"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.mystical_nature.acid_rock_spike": "Black Rock Spike",
+      "block.mystical_nature.black_rock_spike": "Black Rock Spike"
+    }
   },
   "workspaceSettings": {
     "modid": "mystical_nature",
