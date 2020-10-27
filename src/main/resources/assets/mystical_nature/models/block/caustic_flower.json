@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "mystical_nature:blocks/acidlilac",
+    "particle": "mystical_nature:blocks/acidlilac"
+  }
+}

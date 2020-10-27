@@ -50,7 +50,7 @@ public class CorrosionPotion extends MysticalNatureModElements.ModElement {
 	public static class EffectCustom extends Effect {
 		private final ResourceLocation potionIcon;
 		public EffectCustom() {
-			super(EffectType.HARMFUL, -11216569);
+			super(EffectType.HARMFUL, -6684928);
 			setRegistryName("corrosion");
 			potionIcon = new ResourceLocation("mystical_nature:textures/corrosion.png");
 		}

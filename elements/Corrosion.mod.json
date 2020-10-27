@@ -6,7 +6,7 @@
     "effectName": "Corrosion",
     "icon": "corrosion.png",
     "color": {
-      "value": -11216569,
+      "value": -6684928,
       "falpha": 0.0
     },
     "isInstant": false,
