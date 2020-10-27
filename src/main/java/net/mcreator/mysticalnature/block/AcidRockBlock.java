@@ -2,6 +2,7 @@
 package net.mcreator.mysticalnature.block;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.common.ToolType;
 
 import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.item.ItemStack;
@@ -34,7 +35,8 @@ public class AcidRockBlock extends MysticalNatureModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2f, 6f).lightValue(8));
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2f, 6f).lightValue(8).harvestLevel(1)
+					.harvestTool(ToolType.PICKAXE));
 			setRegistryName("acid_rock");
 		}
 
