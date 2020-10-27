@@ -1,0 +1,22 @@
+{
+  "_fv": 10,
+  "_type": "potion",
+  "definition": {
+    "name": "Corrosion",
+    "effectName": "Corrosion",
+    "icon": "corrosion.png",
+    "color": {
+      "value": -11216569,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "registerPotionType": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "CorrosionOnPotionActiveTick"
+    }
+  }
+}

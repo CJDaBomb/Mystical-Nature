@@ -1,7 +1,15 @@
 {
-  "block.mystical_nature.black_rock": "Black Rock",
+  "item.minecraft.potion.effect.corrosion": "Corrosion",
   "block.mystical_nature.acid_rock_spike": "Black Rock Spike",
-  "block.mystical_nature.black_rock_spike": "Black Rock Spike",
+  "item.minecraft.splash_potion.effect.corrosion": "Splash Corrosion",
+  "item.minecraft.lingering_potion.effect.corrosion": "Lingering Corrosion",
+  "block.mystical_nature.black_sand": "Black Sand",
   "block.mystical_nature.acid_rock": "Acid Rock",
-  "block.mystical_nature.black_sand": "Black Sand"
+  "block.mystical_nature.black_rock": "Black Rock",
+  "effect.corrosion": "Corrosion",
+  "block.mystical_nature.black_rock_spike": "Black Rock Spike",
+  "fluid.acid": "Acid",
+  "item.mystical_nature.acid_bucket": "Acid Bucket",
+  "death.attack.corrosion": "%1$s died from corrosion",
+  "item.minecraft.tipped_arrow.effect.corrosion": "Arrow of Corrosion"
 }

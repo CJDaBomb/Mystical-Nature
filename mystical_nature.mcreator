@@ -45,17 +45,142 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "black_sand"
+    },
+    {
+      "name": "CorrosionOnPotionActiveTick",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "corrosion_on_potion_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Corrosion",
+      "type": "potion",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "corrosion"
+    },
+    {
+      "name": "AcidMobplayerCollidesBlock",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acid_mobplayer_collides_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Acid",
+      "type": "fluid",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acid"
+    },
+    {
+      "name": "BlackRockSpikeUpdateTick",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_rock_spike_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlackRockUpdateTick",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_rock_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "corrosionTick",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.mystical_nature.black_rock": "Black Rock",
+      "item.minecraft.potion.effect.corrosion": "Corrosion",
       "block.mystical_nature.acid_rock_spike": "Black Rock Spike",
-      "block.mystical_nature.black_rock_spike": "Black Rock Spike",
+      "item.minecraft.splash_potion.effect.corrosion": "Splash Corrosion",
+      "item.minecraft.lingering_potion.effect.corrosion": "Lingering Corrosion",
+      "block.mystical_nature.black_sand": "Black Sand",
       "block.mystical_nature.acid_rock": "Acid Rock",
-      "block.mystical_nature.black_sand": "Black Sand"
+      "block.mystical_nature.black_rock": "Black Rock",
+      "effect.corrosion": "Corrosion",
+      "block.mystical_nature.black_rock_spike": "Black Rock Spike",
+      "fluid.acid": "Acid",
+      "item.mystical_nature.acid_bucket": "Acid Bucket",
+      "death.attack.corrosion": "%1$s died from corrosion",
+      "item.minecraft.tipped_arrow.effect.corrosion": "Arrow of Corrosion"
     }
   },
   "workspaceSettings": {

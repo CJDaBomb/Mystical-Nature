@@ -1,0 +1,24 @@
+{
+  "_fv": 10,
+  "_type": "fluid",
+  "definition": {
+    "name": "Acid",
+    "textureStill": "acidstill",
+    "textureFlowing": "acidflow",
+    "luminosity": 0,
+    "density": 1000,
+    "viscosity": 1000,
+    "isGas": false,
+    "type": "WATER",
+    "generateBucket": true,
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "onEntityCollides": {
+      "name": "AcidMobplayerCollidesBlock"
+    }
+  }
+}
