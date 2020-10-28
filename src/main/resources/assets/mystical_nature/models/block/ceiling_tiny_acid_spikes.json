@@ -1,0 +1,8 @@
+{
+  "parent": "mystical_nature:custom/ceilingtinyacidspikes",
+  "textures": {
+    "all": "mystical_nature:blocks/acidrock",
+    "particle": "mystical_nature:blocks/acidrock",
+    "1": "mystical_nature:blocks/acidrock"
+  }
+}

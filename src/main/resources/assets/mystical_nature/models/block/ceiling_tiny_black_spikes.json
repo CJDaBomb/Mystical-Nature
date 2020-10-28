@@ -1,0 +1,8 @@
+{
+  "parent": "mystical_nature:custom/ceilingtinyspikes",
+  "textures": {
+    "all": "mystical_nature:blocks/blackrock",
+    "particle": "mystical_nature:blocks/blackrock",
+    "1": "mystical_nature:blocks/blackrock"
+  }
+}

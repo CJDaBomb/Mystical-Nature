@@ -182,6 +182,60 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "acidaisy"
+    },
+    {
+      "name": "TinyBlackSpikes",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tiny_black_spikes"
+    },
+    {
+      "name": "TinyAcidSpikes",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tiny_acid_spikes"
+    },
+    {
+      "name": "CeilingTinyBlackSpikes",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ceiling_tiny_black_spikes"
+    },
+    {
+      "name": "CeilingTinyAcidSpikes",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ceiling_tiny_acid_spikes"
+    },
+    {
+      "name": "Gastrofrog",
+      "type": "mob",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gastrofrog"
+    },
+    {
+      "name": "Acidophilix",
+      "type": "mob",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acidophilix"
     }
   ],
   "variable_elements": [
@@ -195,22 +249,30 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.minecraft.potion.effect.corrosion": "Corrosion",
       "block.mystical_nature.acid_rock_spike": "Black Rock Spike",
-      "item.minecraft.splash_potion.effect.corrosion": "Splash Corrosion",
       "block.mystical_nature.caustic_flower": "Caustic Flower",
-      "item.minecraft.lingering_potion.effect.corrosion": "Lingering Corrosion",
       "block.mystical_nature.corroded_grass": "Corroded Grass",
       "block.mystical_nature.black_sand": "Black Sand",
       "block.mystical_nature.acid_rock": "Acid Rock",
       "block.mystical_nature.black_rock": "Black Rock",
       "effect.corrosion": "Corrosion",
       "block.mystical_nature.acidaisy": "Acidaisy",
+      "block.mystical_nature.ceiling_tiny_black_spikes": "Ceiling Tiny Black Spikes",
       "block.mystical_nature.black_rock_spike": "Black Rock Spike",
-      "fluid.acid": "Acid",
+      "block.mystical_nature.tiny_acid_spikes": "Tiny Black Spikes",
+      "block.mystical_nature.ceiling_tiny_acid_spikes": "Ceiling Tiny Acid Spikes",
       "item.mystical_nature.acid_bucket": "Acid Bucket",
-      "death.attack.corrosion": "%1$s died from corrosion",
-      "item.minecraft.tipped_arrow.effect.corrosion": "Arrow of Corrosion"
+      "item.mystical_nature.gastrofrog": "Gastrofrog Spawn Egg",
+      "entity.mystical_nature.acidophilix": "Acidophilix",
+      "item.minecraft.tipped_arrow.effect.corrosion": "Arrow of Corrosion",
+      "item.minecraft.potion.effect.corrosion": "Corrosion",
+      "block.mystical_nature.tiny_black_spikes": "Tiny Black Spikes",
+      "item.minecraft.splash_potion.effect.corrosion": "Splash Corrosion",
+      "item.mystical_nature.acidophilix": "Acidophilix Spawn Egg",
+      "item.minecraft.lingering_potion.effect.corrosion": "Lingering Corrosion",
+      "entity.mystical_nature.gastrofrog": "Gastrofrog",
+      "fluid.acid": "Acid",
+      "death.attack.corrosion": "%1$s died from corrosion"
     }
   },
   "workspaceSettings": {
