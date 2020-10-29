@@ -236,6 +236,35 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "acidophilix"
+    },
+    {
+      "name": "TinyBlackSpikesUpdateTick",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tiny_black_spikes_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -258,8 +287,8 @@
       "effect.corrosion": "Corrosion",
       "block.mystical_nature.acidaisy": "Acidaisy",
       "block.mystical_nature.ceiling_tiny_black_spikes": "Ceiling Tiny Black Spikes",
-      "block.mystical_nature.tiny_acid_spikes": "Tiny Black Spikes",
       "block.mystical_nature.black_rock_spike": "Black Rock Spike",
+      "block.mystical_nature.tiny_acid_spikes": "Tiny Black Spikes",
       "block.mystical_nature.ceiling_tiny_acid_spikes": "Ceiling Tiny Acid Spikes",
       "item.mystical_nature.acid_bucket": "Acid Bucket",
       "item.mystical_nature.gastrofrog": "Gastrofrog Spawn Egg",
