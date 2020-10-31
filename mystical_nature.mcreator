@@ -320,7 +320,23 @@
       "value": "0"
     }
   ],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "acidophilixdeathsound",
+      "file": "acidophilixdeathsound",
+      "category": "hostile"
+    },
+    {
+      "name": "acidophilixhurtsound",
+      "file": "acidophilixhurtsound",
+      "category": "master"
+    },
+    {
+      "name": "acidophilixidlesound",
+      "file": "acidophilixidlesound",
+      "category": "hostile"
+    }
+  ],
   "language_map": {
     "en_us": {
       "block.mystical_nature.acid_rock_spike": "Black Rock Spike",

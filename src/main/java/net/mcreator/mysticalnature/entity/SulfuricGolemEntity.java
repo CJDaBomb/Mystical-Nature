@@ -203,7 +203,7 @@ public class SulfuricGolemEntity extends MysticalNatureModElements.ModElement {
 			this.Larm.rotateAngleX = MathHelper.cos(f * 0.6662F) * f1;
 			this.Lleg.rotateAngleX = MathHelper.cos(f * 1.0F) * -1.0F * f1;
 			this.Rleg.rotateAngleX = MathHelper.cos(f * 1.0F) * 1.0F * f1;
-			this.Rarm.rotateAngleY = MathHelper.cos(f * 0.6662F + (float) Math.PI) * f1;
+			this.Rarm.rotateAngleX = MathHelper.cos(f * 0.6662F + (float) Math.PI) * f1;
 		}
 	}
 }
