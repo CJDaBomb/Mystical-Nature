@@ -1,0 +1,7 @@
+{
+  "parent": "mystical_nature:custom/golemfist",
+  "textures": {
+    "0": "mystical_nature:blocks/golemfist",
+    "particle": "mystical_nature:items/golem_fist"
+  }
+}

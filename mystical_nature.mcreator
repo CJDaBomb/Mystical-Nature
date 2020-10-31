@@ -292,6 +292,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "corrosive_spider"
+    },
+    {
+      "name": "SulfuricGolem",
+      "type": "mob",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sulfuric_golem"
+    },
+    {
+      "name": "SulfuricGaunlet",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sulfuric_gaunlet"
     }
   ],
   "variable_elements": [
@@ -306,17 +324,20 @@
   "language_map": {
     "en_us": {
       "block.mystical_nature.acid_rock_spike": "Black Rock Spike",
+      "item.mystical_nature.sulfuric_golem": "Sulfuric Golem Spawn Egg",
       "item.mystical_nature.acidmander": "Acidmander Spawn Egg",
       "block.mystical_nature.caustic_flower": "Caustic Flower",
       "block.mystical_nature.corroded_grass": "Corroded Grass",
       "block.mystical_nature.black_sand": "Black Sand",
       "block.mystical_nature.acid_rock": "Acid Rock",
+      "entity.mystical_nature.sulfuric_golem": "Sulfuric Golem",
       "block.mystical_nature.black_rock": "Black Rock",
       "block.mystical_nature.dead_bush": "Dead Bush",
       "effect.corrosion": "Corrosion",
       "block.mystical_nature.acidaisy": "Acidaisy",
       "entity.mystical_nature.acidmander": "Acidmander",
       "block.mystical_nature.ceiling_tiny_black_spikes": "Ceiling Tiny Black Spikes",
+      "item.mystical_nature.sulfuric_gaunlet": "Sulfuric Gaunlet",
       "block.mystical_nature.tiny_acid_spikes": "Tiny Black Spikes",
       "block.mystical_nature.black_rock_spike": "Black Rock Spike",
       "block.mystical_nature.ceiling_tiny_acid_spikes": "Ceiling Tiny Acid Spikes",
