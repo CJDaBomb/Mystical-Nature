@@ -73,13 +73,13 @@
       "value": ""
     },
     "livingSound": {
-      "value": ""
+      "value": "CUSTOM:acidophilixidlesound"
     },
     "hurtSound": {
-      "value": "entity.generic.hurt"
+      "value": "CUSTOM:acidophilixhurtsound"
     },
     "deathSound": {
-      "value": "entity.generic.death"
+      "value": "CUSTOM:acidophilixdeathsound"
     },
     "stepSound": {
       "value": ""
