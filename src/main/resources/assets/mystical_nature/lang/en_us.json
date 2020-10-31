@@ -1,4 +1,5 @@
 {
+  "block.mystical_nature.ghostwood_leaves": "Ghostwood Leaves",
   "block.mystical_nature.acid_rock_spike": "Black Rock Spike",
   "block.mystical_nature.caustic_flower": "Caustic Flower",
   "block.mystical_nature.corroded_grass": "Corroded Grass",
@@ -8,6 +9,7 @@
   "effect.corrosion": "Corrosion",
   "block.mystical_nature.acidaisy": "Acidaisy",
   "block.mystical_nature.ceiling_tiny_black_spikes": "Ceiling Tiny Black Spikes",
+  "block.mystical_nature.stripped_ghost_wood": "Stripped Ghost Wood",
   "block.mystical_nature.black_rock_spike": "Black Rock Spike",
   "block.mystical_nature.tiny_acid_spikes": "Tiny Black Spikes",
   "block.mystical_nature.ceiling_tiny_acid_spikes": "Ceiling Tiny Acid Spikes",
@@ -20,7 +22,10 @@
   "item.minecraft.splash_potion.effect.corrosion": "Splash Corrosion",
   "item.mystical_nature.acidophilix": "Acidophilix Spawn Egg",
   "item.minecraft.lingering_potion.effect.corrosion": "Lingering Corrosion",
+  "block.mystical_nature.ghostwood_log": "Ghostwood Log",
   "entity.mystical_nature.gastrofrog": "Gastrofrog",
   "fluid.acid": "Acid",
+  "block.mystical_nature.ghost_wood": "Ghost Wood",
+  "block.mystical_nature.stripped_ghostwood_log": "Stripped Ghostwood Log",
   "death.attack.corrosion": "%1$s died from corrosion"
 }

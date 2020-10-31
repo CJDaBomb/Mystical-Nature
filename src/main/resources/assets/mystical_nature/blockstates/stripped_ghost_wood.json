@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mystical_nature:block/stripped_ghost_wood"
+    },
+    "facing=east": {
+      "model": "mystical_nature:block/stripped_ghost_wood",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mystical_nature:block/stripped_ghost_wood",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mystical_nature:block/stripped_ghost_wood",
+      "y": 270
+    }
+  }
+}
