@@ -48,12 +48,12 @@ public class MysticalNatureModElements {
 	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public MysticalNatureModElements() {
-		sounds.put(new ResourceLocation("mystical_nature", "acidophilixdeathsound"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("mystical_nature", "acidophilixdeathsound")));
 		sounds.put(new ResourceLocation("mystical_nature", "acidophilixhurtsound"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("mystical_nature", "acidophilixhurtsound")));
 		sounds.put(new ResourceLocation("mystical_nature", "acidophilixidlesound"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("mystical_nature", "acidophilixidlesound")));
+		sounds.put(new ResourceLocation("mystical_nature", "acidophilixdeathsound"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("mystical_nature", "acidophilixdeathsound")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("mystical_nature").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

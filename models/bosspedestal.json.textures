@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "blackstonepillar",
+        "1": "acidrock"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -310,6 +310,60 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "sulfuric_gaunlet"
+    },
+    {
+      "name": "BlackStone",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_stone"
+    },
+    {
+      "name": "BlackStoneBricks",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_stone_bricks"
+    },
+    {
+      "name": "PolishedBlackStone",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_black_stone"
+    },
+    {
+      "name": "BlackStonePillar",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_stone_pillar"
+    },
+    {
+      "name": "BlackDirt",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_dirt"
+    },
+    {
+      "name": "AcidPedestal",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acid_pedestal"
     }
   ],
   "variable_elements": [
@@ -322,11 +376,6 @@
   ],
   "sound_elements": [
     {
-      "name": "acidophilixdeathsound",
-      "file": "acidophilixdeathsound",
-      "category": "hostile"
-    },
-    {
       "name": "acidophilixhurtsound",
       "file": "acidophilixhurtsound",
       "category": "master"
@@ -334,6 +383,11 @@
     {
       "name": "acidophilixidlesound",
       "file": "acidophilixidlesound",
+      "category": "hostile"
+    },
+    {
+      "name": "acidophilixdeathsound",
+      "file": "acidophilixdeathsound",
       "category": "hostile"
     }
   ],
@@ -357,7 +411,9 @@
       "block.mystical_nature.tiny_acid_spikes": "Tiny Black Spikes",
       "block.mystical_nature.black_rock_spike": "Black Rock Spike",
       "block.mystical_nature.ceiling_tiny_acid_spikes": "Ceiling Tiny Acid Spikes",
+      "block.mystical_nature.acid_pedestal": "Acid Pedestal",
       "item.mystical_nature.acid_bucket": "Acid Bucket",
+      "block.mystical_nature.black_stone_pillar": "Black Stone Pillar",
       "item.mystical_nature.gastrofrog": "Gastrofrog Spawn Egg",
       "entity.mystical_nature.acidophilix": "Acidophilix",
       "item.mystical_nature.corrosive_spider": "Corrosive Spider Spawn Egg",
@@ -366,10 +422,14 @@
       "item.minecraft.potion.effect.corrosion": "Corrosion",
       "block.mystical_nature.tiny_black_spikes": "Tiny Black Spikes",
       "item.minecraft.splash_potion.effect.corrosion": "Splash Corrosion",
+      "block.mystical_nature.polished_black_stone": "Polished Black Stone",
       "item.mystical_nature.acidophilix": "Acidophilix Spawn Egg",
+      "block.mystical_nature.black_stone_bricks": "Black Stone Bricks",
+      "block.mystical_nature.black_dirt": "Black Dirt",
       "item.minecraft.lingering_potion.effect.corrosion": "Lingering Corrosion",
       "entity.mystical_nature.gastrofrog": "Gastrofrog",
       "fluid.acid": "Acid",
+      "block.mystical_nature.black_stone": "Black Stone",
       "death.attack.corrosion": "%1$s died from corrosion"
     }
   },
