@@ -364,51 +364,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "black_stone_pillar"
-    },
-    {
-      "name": "StrippedGhostWood",
-      "type": "block",
-      "sortid": 21,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "stripped_ghost_wood"
-    },
-    {
-      "name": "GhostwoodLeaves",
-      "type": "block",
-      "sortid": 19,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "ghostwood_leaves"
-    },
-    {
-      "name": "StrippedGhostwoodLog",
-      "type": "block",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "stripped_ghostwood_log"
-    },
-    {
-      "name": "GhostWood",
-      "type": "block",
-      "sortid": 20,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "ghost_wood"
-    },
-    {
-      "name": "GhostwoodLog",
-      "type": "block",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "ghostwood_log"
     }
   ],
   "variable_elements": [
