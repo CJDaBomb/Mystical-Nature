@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "mystical_nature:block/stripped_ghostwood_log"
+    },
+    "facing=north": {
+      "model": "mystical_nature:block/stripped_ghostwood_log"
+    },
+    "facing=east": {
+      "model": "mystical_nature:block/stripped_ghostwood_log",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "mystical_nature:block/stripped_ghostwood_log",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "mystical_nature:block/stripped_ghostwood_log",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "mystical_nature:block/stripped_ghostwood_log",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

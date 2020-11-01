@@ -4,13 +4,13 @@ package net.mcreator.mysticalnature.block;
 import net.minecraft.block.material.Material;
 
 @MysticalNatureModElements.ModElement.Tag
-public class BlackStonePillarBlock extends MysticalNatureModElements.ModElement {
+public class StrippedGhostwoodLogBlock extends MysticalNatureModElements.ModElement {
 
-	@ObjectHolder("mystical_nature:black_stone_pillar")
+	@ObjectHolder("mystical_nature:stripped_ghostwood_log")
 	public static final Block block = null;
 
-	public BlackStonePillarBlock(MysticalNatureModElements instance) {
-		super(instance, 26);
+	public StrippedGhostwoodLogBlock(MysticalNatureModElements instance) {
+		super(instance, 18);
 
 	}
 
@@ -28,12 +28,12 @@ public class BlackStonePillarBlock extends MysticalNatureModElements.ModElement 
 		public CustomBlock() {
 			super(
 
-					Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.5f, 6f).lightValue(0).harvestLevel(1)
-							.harvestTool(ToolType.PICKAXE));
+					Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(0.85f, 6.5f).lightValue(5).harvestLevel(1)
+							.harvestTool(ToolType.AXE));
 
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.SOUTH));
 
-			setRegistryName("black_stone_pillar");
+			setRegistryName("stripped_ghostwood_log");
 		}
 
 		@Override
@@ -63,6 +63,11 @@ public class BlackStonePillarBlock extends MysticalNatureModElements.ModElement 
 			else
 				facing = Direction.SOUTH;
 			return this.getDefaultState().with(FACING, facing);
+		}
+
+		@Override
+		public int getFlammability(BlockState state, IBlockReader world, BlockPos pos, Direction face) {
+			return 4;
 		}
 
 		@Override

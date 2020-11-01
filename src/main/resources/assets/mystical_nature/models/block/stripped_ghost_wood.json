@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mystical_nature:blocks/stripped_ghostwood_log",
+    "particle": "mystical_nature:blocks/stripped_ghostwood_log"
+  }
+}

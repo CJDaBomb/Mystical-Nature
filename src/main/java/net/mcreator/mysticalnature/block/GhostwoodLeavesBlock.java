@@ -4,13 +4,13 @@ package net.mcreator.mysticalnature.block;
 import net.minecraft.block.material.Material;
 
 @MysticalNatureModElements.ModElement.Tag
-public class BlackDirtBlock extends MysticalNatureModElements.ModElement {
+public class GhostwoodLeavesBlock extends MysticalNatureModElements.ModElement {
 
-	@ObjectHolder("mystical_nature:black_dirt")
+	@ObjectHolder("mystical_nature:ghostwood_leaves")
 	public static final Block block = null;
 
-	public BlackDirtBlock(MysticalNatureModElements instance) {
-		super(instance, 27);
+	public GhostwoodLeavesBlock(MysticalNatureModElements instance) {
+		super(instance, 19);
 
 	}
 
@@ -21,15 +21,15 @@ public class BlackDirtBlock extends MysticalNatureModElements.ModElement {
 				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
 	}
 
-	public static class CustomBlock extends Block {
+	public static class CustomBlock extends LeavesBlock {
 
 		public CustomBlock() {
 			super(
 
-					Block.Properties.create(Material.EARTH).sound(SoundType.GROUND).hardnessAndResistance(0.5f, 0.5f).lightValue(0).harvestLevel(1)
-							.harvestTool(ToolType.SHOVEL));
+					Block.Properties.create(Material.LEAVES).sound(SoundType.PLANT).hardnessAndResistance(0.5499999999999999f, 4f).lightValue(0)
+							.notSolid());
 
-			setRegistryName("black_dirt");
+			setRegistryName("ghostwood_leaves");
 		}
 
 		@Override

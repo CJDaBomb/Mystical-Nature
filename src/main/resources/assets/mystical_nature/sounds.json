@@ -1,4 +1,13 @@
 {
+  "acidophilixdeathsound": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "mystical_nature:acidophilixdeathsound",
+        "stream": false
+      }
+    ]
+  },
   "acidophilixhurtsound": {
     "category": "master",
     "sounds": [
@@ -13,15 +22,6 @@
     "sounds": [
       {
         "name": "mystical_nature:acidophilixidlesound",
-        "stream": false
-      }
-    ]
-  },
-  "acidophilixdeathsound": {
-    "category": "hostile",
-    "sounds": [
-      {
-        "name": "mystical_nature:acidophilixdeathsound",
         "stream": false
       }
     ]
