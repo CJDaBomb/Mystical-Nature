@@ -1,0 +1,30 @@
+{
+  "group": "mystical_nature",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "mystical_nature:black_rock"
+    },
+    "3": {
+      "item": "mystical_nature:black_rock"
+    },
+    "4": {
+      "item": "mystical_nature:unknown_element"
+    },
+    "5": {
+      "item": "mystical_nature:black_rock"
+    },
+    "7": {
+      "item": "mystical_nature:black_rock"
+    }
+  },
+  "result": {
+    "item": "mystical_nature:acid_rock",
+    "count": 4
+  }
+}

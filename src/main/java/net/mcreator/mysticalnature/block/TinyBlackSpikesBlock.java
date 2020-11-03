@@ -22,6 +22,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.item.BlockItem;
+import net.minecraft.entity.Entity;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.block.material.Material;
@@ -31,6 +32,9 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.mysticalnature.procedures.TinyBlackSpikesUpdateTickProcedure;
+import net.mcreator.mysticalnature.procedures.TinyBlackSpikesNeighbourBlockChangesProcedure;
+import net.mcreator.mysticalnature.procedures.TinyBlackSpikesEntityCollidesInTheBlockProcedure;
+import net.mcreator.mysticalnature.item.BlackrockPebbleItem;
 import net.mcreator.mysticalnature.MysticalNatureModElements;
 
 import java.util.Random;
@@ -44,7 +48,7 @@ public class TinyBlackSpikesBlock extends MysticalNatureModElements.ModElement {
 	@ObjectHolder("mystical_nature:tiny_black_spikes")
 	public static final Block block = null;
 	public TinyBlackSpikesBlock(MysticalNatureModElements instance) {
-		super(instance, 11);
+		super(instance, 6);
 	}
 
 	@Override
@@ -63,7 +67,7 @@ public class TinyBlackSpikesBlock extends MysticalNatureModElements.ModElement {
 		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2f, 6f).lightValue(0).harvestLevel(1)
-					.harvestTool(ToolType.PICKAXE).notSolid());
+					.harvestTool(ToolType.PICKAXE).doesNotBlockMovement().notSolid().tickRandomly());
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
 			setRegistryName("tiny_black_spikes");
 		}
@@ -101,16 +105,26 @@ public class TinyBlackSpikesBlock extends MysticalNatureModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(BlackrockPebbleItem.block, (int) (1)));
 		}
 
 		@Override
-		public void onBlockAdded(BlockState state, World world, BlockPos pos, BlockState oldState, boolean moving) {
-			super.onBlockAdded(state, world, pos, oldState, moving);
+		public void neighborChanged(BlockState state, World world, BlockPos pos, Block neighborBlock, BlockPos fromPos, boolean moving) {
+			super.neighborChanged(state, world, pos, neighborBlock, fromPos, moving);
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
-			world.getPendingBlockTicks().scheduleTick(new BlockPos(x, y, z), this, this.tickRate(world));
+			if (world.getRedstonePowerFromNeighbors(new BlockPos(x, y, z)) > 0) {
+			} else {
+			}
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				TinyBlackSpikesNeighbourBlockChangesProcedure.executeProcedure($_dependencies);
+			}
 		}
 
 		@Override
@@ -127,7 +141,19 @@ public class TinyBlackSpikesBlock extends MysticalNatureModElements.ModElement {
 				$_dependencies.put("world", world);
 				TinyBlackSpikesUpdateTickProcedure.executeProcedure($_dependencies);
 			}
-			world.getPendingBlockTicks().scheduleTick(new BlockPos(x, y, z), this, this.tickRate(world));
+		}
+
+		@Override
+		public void onEntityCollision(BlockState state, World world, BlockPos pos, Entity entity) {
+			super.onEntityCollision(state, world, pos, entity);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				TinyBlackSpikesEntityCollidesInTheBlockProcedure.executeProcedure($_dependencies);
+			}
 		}
 	}
 }

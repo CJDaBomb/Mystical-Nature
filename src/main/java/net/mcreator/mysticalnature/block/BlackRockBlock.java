@@ -6,7 +6,6 @@ import net.minecraftforge.common.ToolType;
 
 import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.server.ServerWorld;
-import net.minecraft.world.World;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
@@ -31,7 +30,7 @@ public class BlackRockBlock extends MysticalNatureModElements.ModElement {
 	@ObjectHolder("mystical_nature:black_rock")
 	public static final Block block = null;
 	public BlackRockBlock(MysticalNatureModElements instance) {
-		super(instance, 3);
+		super(instance, 2);
 	}
 
 	@Override
@@ -43,7 +42,7 @@ public class BlackRockBlock extends MysticalNatureModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2f, 6f).lightValue(0).harvestLevel(1)
-					.harvestTool(ToolType.PICKAXE));
+					.harvestTool(ToolType.PICKAXE).tickRandomly());
 			setRegistryName("black_rock");
 		}
 
@@ -53,15 +52,6 @@ public class BlackRockBlock extends MysticalNatureModElements.ModElement {
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
 			return Collections.singletonList(new ItemStack(this, 1));
-		}
-
-		@Override
-		public void onBlockAdded(BlockState state, World world, BlockPos pos, BlockState oldState, boolean moving) {
-			super.onBlockAdded(state, world, pos, oldState, moving);
-			int x = pos.getX();
-			int y = pos.getY();
-			int z = pos.getZ();
-			world.getPendingBlockTicks().scheduleTick(new BlockPos(x, y, z), this, this.tickRate(world));
 		}
 
 		@Override
@@ -78,7 +68,6 @@ public class BlackRockBlock extends MysticalNatureModElements.ModElement {
 				$_dependencies.put("world", world);
 				BlackRockUpdateTickProcedure.executeProcedure($_dependencies);
 			}
-			world.getPendingBlockTicks().scheduleTick(new BlockPos(x, y, z), this, this.tickRate(world));
 		}
 	}
 }

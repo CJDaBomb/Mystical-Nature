@@ -1,0 +1,41 @@
+{
+  "_fv": 10,
+  "_type": "loottable",
+  "definition": {
+    "type": "Generic",
+    "pools": [
+      {
+        "minrolls": 1,
+        "maxrolls": 1,
+        "minbonusrolls": 1,
+        "maxbonusrolls": 1,
+        "hasbonusrolls": false,
+        "entries": [
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:AcidBall"
+            },
+            "weight": 45
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:AcidMeat"
+            },
+            "weight": 45
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:GastroFrogLegs.boots"
+            },
+            "weight": 10
+          }
+        ]
+      }
+    ],
+    "name": "entities/gastrofrog",
+    "namespace": "mod"
+  }
+}

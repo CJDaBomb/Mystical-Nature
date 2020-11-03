@@ -1,0 +1,26 @@
+{
+  "group": "mystical_nature",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "mystical_nature:unknown_element"
+    },
+    "1": {
+      "item": "mystical_nature:unknown_element"
+    },
+    "2": {
+      "item": "mystical_nature:unknown_element"
+    },
+    "3": {
+      "item": "mystical_nature:unknown_element"
+    }
+  },
+  "result": {
+    "item": "mystical_nature:unknown_element",
+    "count": 1
+  }
+}

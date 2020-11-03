@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mystical_nature:blocks/blackstone",
+    "up": "mystical_nature:blocks/blackstone",
+    "north": "mystical_nature:blocks/blackstonepillar",
+    "east": "mystical_nature:blocks/blackstonepillar",
+    "south": "mystical_nature:blocks/blackstonepillar",
+    "west": "mystical_nature:blocks/blackstonepillar",
+    "particle": "mystical_nature:blocks/blackstone"
+  }
+}

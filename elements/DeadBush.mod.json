@@ -22,13 +22,13 @@
       "value": "PLANT"
     },
     "customDrop": {
-      "value": ""
+      "value": "Blocks.AIR"
     },
     "dropAmount": 1,
     "forceTicking": false,
     "emissiveRendering": false,
     "hasTileEntity": false,
-    "isReplaceable": false,
+    "isReplaceable": true,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
       "value": ""
@@ -37,10 +37,17 @@
     "aiPathNodeType": "DEFAULT",
     "flammability": 0,
     "fireSpreadSpeed": 0,
-    "frequencyOnChunks": 0,
+    "frequencyOnChunks": 3,
     "spawnWorldTypes": [
-      "Surface"
+      "CUSTOM:BlackDimension"
     ],
-    "restrictionBiomes": []
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:AcidBarrens"
+      }
+    ],
+    "onDestroyedByPlayer": {
+      "name": "DeadBushPlantDestroyedByPlayer"
+    }
   }
 }

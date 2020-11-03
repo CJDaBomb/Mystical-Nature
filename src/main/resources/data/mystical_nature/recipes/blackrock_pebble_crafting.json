@@ -1,0 +1,16 @@
+{
+  "group": "mystical_nature",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "mystical_nature:black_rock"
+    }
+  },
+  "result": {
+    "item": "mystical_nature:blackrock_pebble",
+    "count": 1
+  }
+}

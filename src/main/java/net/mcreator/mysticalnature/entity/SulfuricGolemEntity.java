@@ -5,6 +5,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.fml.network.NetworkHooks;
 import net.minecraftforge.fml.network.FMLPlayMessages;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+<<<<<<< HEAD
 import net.minecraftforge.fml.client.registry.RenderingRegistry;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.client.event.ModelRegistryEvent;
@@ -27,6 +28,35 @@ import net.minecraft.entity.ai.goal.LookRandomlyGoal;
 import net.minecraft.entity.ai.goal.HurtByTargetGoal;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.EntityType;
+=======
+import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.fml.client.registry.RenderingRegistry;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.client.event.ModelRegistryEvent;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.world.gen.Heightmap;
+import net.minecraft.world.biome.Biome;
+import net.minecraft.world.World;
+import net.minecraft.util.math.MathHelper;
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.util.DamageSource;
+import net.minecraft.network.IPacket;
+import net.minecraft.item.SpawnEggItem;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Item;
+import net.minecraft.entity.projectile.PotionEntity;
+import net.minecraft.entity.projectile.ArrowEntity;
+import net.minecraft.entity.monster.MonsterEntity;
+import net.minecraft.entity.ai.goal.RandomWalkingGoal;
+import net.minecraft.entity.ai.goal.MeleeAttackGoal;
+import net.minecraft.entity.ai.goal.LookRandomlyGoal;
+import net.minecraft.entity.ai.goal.HurtByTargetGoal;
+import net.minecraft.entity.SharedMonsterAttributes;
+import net.minecraft.entity.EntityType;
+import net.minecraft.entity.EntitySpawnPlacementRegistry;
+>>>>>>> branch 'master' of https://github.com/CJDaBomb/Mystical-Nature
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.CreatureAttribute;
@@ -43,18 +73,40 @@ import com.mojang.blaze3d.matrix.MatrixStack;
 public class SulfuricGolemEntity extends MysticalNatureModElements.ModElement {
 	public static EntityType entity = null;
 	public SulfuricGolemEntity(MysticalNatureModElements instance) {
+<<<<<<< HEAD
 		super(instance, 21);
+=======
+		super(instance, 31);
+>>>>>>> branch 'master' of https://github.com/CJDaBomb/Mystical-Nature
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
 	@Override
 	public void initElements() {
 		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER).setShouldReceiveVelocityUpdates(true)
+<<<<<<< HEAD
 				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(2f, 3f)).build("sulfuric_golem")
 						.setRegistryName("sulfuric_golem");
+=======
+				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(2f, 3f))
+						.build("sulfuric_golem").setRegistryName("sulfuric_golem");
+>>>>>>> branch 'master' of https://github.com/CJDaBomb/Mystical-Nature
 		elements.entities.add(() -> entity);
 		elements.items.add(
+<<<<<<< HEAD
 				() -> new SpawnEggItem(entity, -13421773, -3355648, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("sulfuric_golem"));
+=======
+				() -> new SpawnEggItem(entity, -13421773, -6697984, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("sulfuric_golem"));
+	}
+
+	@Override
+	public void init(FMLCommonSetupEvent event) {
+		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
+			biome.getSpawns(EntityClassification.MONSTER).add(new Biome.SpawnListEntry(entity, 20, 1, 1));
+		}
+		EntitySpawnPlacementRegistry.register(entity, EntitySpawnPlacementRegistry.PlacementType.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES,
+				MonsterEntity::canMonsterSpawn);
+>>>>>>> branch 'master' of https://github.com/CJDaBomb/Mystical-Nature
 	}
 
 	@SubscribeEvent
@@ -76,7 +128,7 @@ public class SulfuricGolemEntity extends MysticalNatureModElements.ModElement {
 
 		public CustomEntity(EntityType<CustomEntity> type, World world) {
 			super(type, world);
-			experienceValue = 0;
+			experienceValue = 10;
 			setNoAI(false);
 		}
 
@@ -92,7 +144,10 @@ public class SulfuricGolemEntity extends MysticalNatureModElements.ModElement {
 			this.goalSelector.addGoal(2, new RandomWalkingGoal(this, 1));
 			this.targetSelector.addGoal(3, new HurtByTargetGoal(this));
 			this.goalSelector.addGoal(4, new LookRandomlyGoal(this));
+<<<<<<< HEAD
 			this.goalSelector.addGoal(5, new SwimGoal(this));
+=======
+>>>>>>> branch 'master' of https://github.com/CJDaBomb/Mystical-Nature
 		}
 
 		@Override
@@ -115,12 +170,25 @@ public class SulfuricGolemEntity extends MysticalNatureModElements.ModElement {
 		}
 
 		@Override
+		public boolean attackEntityFrom(DamageSource source, float amount) {
+			if (source.getImmediateSource() instanceof ArrowEntity)
+				return false;
+			if (source.getImmediateSource() instanceof PotionEntity)
+				return false;
+			return super.attackEntityFrom(source, amount);
+		}
+
+		@Override
 		protected void registerAttributes() {
 			super.registerAttributes();
 			if (this.getAttribute(SharedMonsterAttributes.MOVEMENT_SPEED) != null)
 				this.getAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.3);
 			if (this.getAttribute(SharedMonsterAttributes.MAX_HEALTH) != null)
+<<<<<<< HEAD
 				this.getAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(10);
+=======
+				this.getAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(40);
+>>>>>>> branch 'master' of https://github.com/CJDaBomb/Mystical-Nature
 			if (this.getAttribute(SharedMonsterAttributes.ARMOR) != null)
 				this.getAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(0);
 			if (this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE) == null)

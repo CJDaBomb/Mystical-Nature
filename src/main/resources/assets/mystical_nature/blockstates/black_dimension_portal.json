@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "mystical_nature:block/black_dimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "mystical_nature:block/black_dimension_portal_ns"
+    }
+  }
+}

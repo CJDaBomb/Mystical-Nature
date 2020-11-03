@@ -8,6 +8,7 @@ import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.mysticalnature.block.TinyAcidSpikesBlock;
+import net.mcreator.mysticalnature.block.AcidRockBlock;
 import net.mcreator.mysticalnature.block.AcidBlock;
 import net.mcreator.mysticalnature.MysticalNatureModElements;
 
@@ -16,7 +17,7 @@ import java.util.Map;
 @MysticalNatureModElements.ModElement.Tag
 public class TinyBlackSpikesUpdateTickProcedure extends MysticalNatureModElements.ModElement {
 	public TinyBlackSpikesUpdateTickProcedure(MysticalNatureModElements instance) {
-		super(instance, 17);
+		super(instance, 59);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -48,6 +49,34 @@ public class TinyBlackSpikesUpdateTickProcedure extends MysticalNatureModElement
 				|| (((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z + 1)))).getBlock() == AcidBlock.block.getDefaultState().getBlock())
 						|| ((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z - 1)))).getBlock() == AcidBlock.block.getDefaultState()
 								.getBlock())))) {
+			{
+				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+				BlockState _bs = TinyAcidSpikesBlock.block.getDefaultState();
+				BlockState _bso = world.getBlockState(_bp);
+				for (Map.Entry<IProperty<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
+					IProperty _property = _bs.getBlock().getStateContainer().getProperty(entry.getKey().getName());
+					if (_bs.has(_property))
+						_bs = _bs.with(_property, (Comparable) entry.getValue());
+				}
+				TileEntity _te = world.getTileEntity(_bp);
+				CompoundNBT _bnbt = null;
+				if (_te != null) {
+					_bnbt = _te.write(new CompoundNBT());
+					_te.remove();
+				}
+				world.setBlockState(_bp, _bs, 3);
+				if (_bnbt != null) {
+					_te = world.getTileEntity(_bp);
+					if (_te != null) {
+						try {
+							_te.read(_bnbt);
+						} catch (Exception ignored) {
+						}
+					}
+				}
+			}
+		}
+		if (((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z))).getBlock() == AcidRockBlock.block.getDefaultState().getBlock())) {
 			{
 				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
 				BlockState _bs = TinyAcidSpikesBlock.block.getDefaultState();

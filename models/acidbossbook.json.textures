@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "bossbook",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

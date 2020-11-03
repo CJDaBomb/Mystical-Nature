@@ -5,18 +5,18 @@
     "renderType": 1,
     "texture": "golem_fist",
     "customModelName": "golemfist:default",
-    "name": "Sulfuric Gaunlet",
+    "name": "§2Sulfuric Gaunlet",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "COMBAT"
     },
     "toolType": "Sword",
     "harvestLevel": 1,
     "efficiency": 4.0,
     "attackSpeed": 1.0,
     "enchantability": 2,
-    "damageVsEntity": 4.0,
-    "usageCount": 100,
+    "damageVsEntity": 8.0,
+    "usageCount": 1000,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [],
