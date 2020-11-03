@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "mystical_nature:blocks/redplant3",
+    "particle": "mystical_nature:blocks/redplant3"
+  }
+}

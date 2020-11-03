@@ -4,6 +4,8 @@
     "mystical_nature:acid",
     "mystical_nature:acid_flowing",
     "mystical_nature:blackwater",
-    "mystical_nature:blackwater_flowing"
+    "mystical_nature:blackwater_flowing",
+    "mystical_nature:blood",
+    "mystical_nature:blood_flowing"
   ]
 }

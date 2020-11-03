@@ -1,0 +1,8 @@
+{
+  "parent": "mystical_nature:custom/bloodspidereggs",
+  "textures": {
+    "all": "mystical_nature:blocks/bloodspidereggs",
+    "particle": "mystical_nature:blocks/bloodspidereggs",
+    "0": "mystical_nature:blocks/redleather"
+  }
+}
