@@ -50,8 +50,8 @@
     "movementSpeed": 0.3,
     "armorBaseValue": 0.0,
     "trackingRange": 64,
-    "health": 10,
-    "xpAmount": 0,
+    "health": 25,
+    "xpAmount": 5,
     "waterMob": false,
     "flyingMob": false,
     "guiBoundTo": "<NONE>",
@@ -61,13 +61,13 @@
     "ridable": false,
     "canControlForward": false,
     "canControlStrafe": false,
-    "immuneToFire": false,
+    "immuneToFire": true,
     "immuneToArrows": false,
     "immuneToFallDamage": false,
     "immuneToCactus": false,
     "immuneToDrowning": false,
     "immuneToLightning": false,
-    "immuneToPotions": false,
+    "immuneToPotions": true,
     "immuneToPlayer": false,
     "mobDrop": {
       "value": ""
@@ -106,9 +106,13 @@
     "doesDespawnWhenIdle": true,
     "spawningProbability": 20,
     "mobSpawningType": "monster",
-    "minNumberOfMobsPerGroup": 4,
+    "minNumberOfMobsPerGroup": 1,
     "maxNumberOfMobsPerGroup": 4,
-    "restrictionBiomes": [],
-    "spawnInDungeons": false
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:AcidBarrens"
+      }
+    ],
+    "spawnInDungeons": true
   }
 }

@@ -24,7 +24,7 @@ public class PolishedBlackStoneBlock extends MysticalNatureModElements.ModElemen
 	@ObjectHolder("mystical_nature:polished_black_stone")
 	public static final Block block = null;
 	public PolishedBlackStoneBlock(MysticalNatureModElements instance) {
-		super(instance, 25);
+		super(instance, 17);
 	}
 
 	@Override

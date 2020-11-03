@@ -21,7 +21,7 @@ import java.util.HashMap;
 @MysticalNatureModElements.ModElement.Tag
 public class GastroFrogLegsWearProcedure extends MysticalNatureModElements.ModElement {
 	public GastroFrogLegsWearProcedure(MysticalNatureModElements instance) {
-		super(instance, 30);
+		super(instance, 60);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
@@ -34,7 +34,7 @@ public class GastroFrogLegsWearProcedure extends MysticalNatureModElements.ModEl
 		if ((((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.armorInventory.get(0) : ItemStack.EMPTY)
 				.getItem() == new ItemStack(GastroFrogLegsItem.boots, (int) (1)).getItem())) {
 			if (entity instanceof LivingEntity)
-				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.JUMP_BOOST, (int) 1, (int) 1));
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.JUMP_BOOST, (int) 1, (int) 2));
 		}
 	}
 

@@ -1,0 +1,39 @@
+{
+  "_fv": 10,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "acidslingshot_bow_pulling1",
+    "customModelName": "Normal",
+    "name": "Acid Slingshot",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:BlackrockPebble"
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": ""
+    },
+    "hasGlow": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "AcidSlingshotRangedItemUsed"
+    },
+    "bulletPower": 1.0,
+    "bulletDamage": 3.0,
+    "bulletKnockback": 1,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:BlackrockPebble"
+    },
+    "bulletModel": "ModelBlackRockAmmo",
+    "customBulletModelTexture": "blackrock.png"
+  }
+}

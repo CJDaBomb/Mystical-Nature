@@ -8,6 +8,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.client.registry.RenderingRegistry;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.common.DungeonHooks;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
@@ -22,6 +23,7 @@ import net.minecraft.network.IPacket;
 import net.minecraft.item.SpawnEggItem;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
+import net.minecraft.entity.projectile.PotionEntity;
 import net.minecraft.entity.monster.MonsterEntity;
 import net.minecraft.entity.ai.goal.SwimGoal;
 import net.minecraft.entity.ai.goal.RandomWalkingGoal;
@@ -47,15 +49,15 @@ import com.mojang.blaze3d.matrix.MatrixStack;
 public class AcidophilixEntity extends MysticalNatureModElements.ModElement {
 	public static EntityType entity = null;
 	public AcidophilixEntity(MysticalNatureModElements instance) {
-		super(instance, 16);
+		super(instance, 28);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
 	@Override
 	public void initElements() {
 		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER).setShouldReceiveVelocityUpdates(true)
-				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(0.6f, 1.8f)).build("acidophilix")
-						.setRegistryName("acidophilix");
+				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(0.6f, 1.8f))
+						.build("acidophilix").setRegistryName("acidophilix");
 		elements.entities.add(() -> entity);
 		elements.items
 				.add(() -> new SpawnEggItem(entity, -6697984, -13421773, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("acidophilix"));
@@ -64,10 +66,16 @@ public class AcidophilixEntity extends MysticalNatureModElements.ModElement {
 	@Override
 	public void init(FMLCommonSetupEvent event) {
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
-			biome.getSpawns(EntityClassification.MONSTER).add(new Biome.SpawnListEntry(entity, 20, 4, 4));
+			boolean biomeCriteria = false;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("mystical_nature:acid_barrens")))
+				biomeCriteria = true;
+			if (!biomeCriteria)
+				continue;
+			biome.getSpawns(EntityClassification.MONSTER).add(new Biome.SpawnListEntry(entity, 20, 1, 4));
 		}
 		EntitySpawnPlacementRegistry.register(entity, EntitySpawnPlacementRegistry.PlacementType.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES,
 				MonsterEntity::canMonsterSpawn);
+		DungeonHooks.addDungeonMob(entity, 180);
 	}
 
 	@SubscribeEvent
@@ -89,7 +97,7 @@ public class AcidophilixEntity extends MysticalNatureModElements.ModElement {
 
 		public CustomEntity(EntityType<CustomEntity> type, World world) {
 			super(type, world);
-			experienceValue = 0;
+			experienceValue = 5;
 			setNoAI(false);
 		}
 
@@ -136,12 +144,19 @@ public class AcidophilixEntity extends MysticalNatureModElements.ModElement {
 		}
 
 		@Override
+		public boolean attackEntityFrom(DamageSource source, float amount) {
+			if (source.getImmediateSource() instanceof PotionEntity)
+				return false;
+			return super.attackEntityFrom(source, amount);
+		}
+
+		@Override
 		protected void registerAttributes() {
 			super.registerAttributes();
 			if (this.getAttribute(SharedMonsterAttributes.MOVEMENT_SPEED) != null)
 				this.getAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.3);
 			if (this.getAttribute(SharedMonsterAttributes.MAX_HEALTH) != null)
-				this.getAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(10);
+				this.getAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(25);
 			if (this.getAttribute(SharedMonsterAttributes.ARMOR) != null)
 				this.getAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(0);
 			if (this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE) == null)

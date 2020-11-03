@@ -41,7 +41,7 @@ public class AcidRockSpikeBlock extends MysticalNatureModElements.ModElement {
 	@ObjectHolder("mystical_nature:acid_rock_spike")
 	public static final Block block = null;
 	public AcidRockSpikeBlock(MysticalNatureModElements instance) {
-		super(instance, 2);
+		super(instance, 5);
 	}
 
 	@Override

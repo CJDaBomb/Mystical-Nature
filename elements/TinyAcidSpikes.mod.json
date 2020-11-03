@@ -32,7 +32,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:AcidRockPebble"
     },
     "dropAmount": 1,
     "isBeaconBase": false,
@@ -57,7 +57,7 @@
     "isLadder": false,
     "slipperiness": 0.6,
     "reactionToPushing": "NORMAL",
-    "isNotColidable": false,
+    "isNotColidable": true,
     "soundOnStep": {
       "value": "STONE"
     },
@@ -88,6 +88,12 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onNeighbourBlockChanges": {
+      "name": "TinyBlackSpikesNeighbourBlockChanges"
+    },
+    "onEntityCollides": {
+      "name": "TinyBlackSpikesEntityCollidesInTheBlock"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

@@ -30,7 +30,7 @@ public class AcidPedestalBlock extends MysticalNatureModElements.ModElement {
 	@ObjectHolder("mystical_nature:acid_pedestal")
 	public static final Block block = null;
 	public AcidPedestalBlock(MysticalNatureModElements instance) {
-		super(instance, 28);
+		super(instance, 10);
 	}
 
 	@Override
@@ -47,7 +47,7 @@ public class AcidPedestalBlock extends MysticalNatureModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(-1, 3600000).lightValue(0).notSolid());
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(-1, 3600000).lightValue(15).notSolid());
 			setRegistryName("acid_pedestal");
 		}
 

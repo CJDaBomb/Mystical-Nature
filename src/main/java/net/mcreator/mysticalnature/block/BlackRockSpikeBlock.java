@@ -34,6 +34,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.mysticalnature.procedures.BlackRockSpikeUpdateTickProcedure;
+import net.mcreator.mysticalnature.item.BlackrockPebbleItem;
 import net.mcreator.mysticalnature.MysticalNatureModElements;
 
 import java.util.Random;
@@ -47,7 +48,7 @@ public class BlackRockSpikeBlock extends MysticalNatureModElements.ModElement {
 	@ObjectHolder("mystical_nature:black_rock_spike")
 	public static final Block block = null;
 	public BlackRockSpikeBlock(MysticalNatureModElements instance) {
-		super(instance, 1);
+		super(instance, 4);
 	}
 
 	@Override
@@ -121,7 +122,7 @@ public class BlackRockSpikeBlock extends MysticalNatureModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(BlackrockPebbleItem.block, (int) (3)));
 		}
 
 		@Override

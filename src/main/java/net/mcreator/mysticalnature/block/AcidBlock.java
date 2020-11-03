@@ -39,6 +39,7 @@ import net.minecraft.block.FlowingFluidBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.mysticalnature.world.dimension.BlackDimensionDimension;
 import net.mcreator.mysticalnature.procedures.AcidMobplayerCollidesBlockProcedure;
 import net.mcreator.mysticalnature.MysticalNatureModElements;
 
@@ -56,7 +57,7 @@ public class AcidBlock extends MysticalNatureModElements.ModElement {
 	public static FlowingFluid still = null;
 	private ForgeFlowingFluid.Properties fluidproperties = null;
 	public AcidBlock(MysticalNatureModElements instance) {
-		super(instance, 1);
+		super(instance, 25);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
@@ -107,7 +108,7 @@ public class AcidBlock extends MysticalNatureModElements.ModElement {
 				public boolean place(IWorld world, ChunkGenerator generator, Random rand, BlockPos pos, BlockStateFeatureConfig config) {
 					DimensionType dimensionType = world.getDimension().getType();
 					boolean dimensionCriteria = false;
-					if (dimensionType == DimensionType.OVERWORLD)
+					if (dimensionType == BlackDimensionDimension.type)
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;

@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "corrosive_essence_item",
     "customModelName": "Normal",
-    "name": "Corrosive Essence",
+    "name": "§2Corrosive Essence",
     "creativeTab": {
       "value": "MISC"
     },

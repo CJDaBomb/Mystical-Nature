@@ -16,7 +16,7 @@ public class AcidlessMeatItem extends MysticalNatureModElements.ModElement {
 	@ObjectHolder("mystical_nature:acidless_meat")
 	public static final Item block = null;
 	public AcidlessMeatItem(MysticalNatureModElements instance) {
-		super(instance, 32);
+		super(instance, 51);
 	}
 
 	@Override

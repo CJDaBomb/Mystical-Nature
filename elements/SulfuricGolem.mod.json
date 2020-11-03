@@ -17,7 +17,7 @@
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -3355648,
+      "value": -6697984,
       "falpha": 0.0
     },
     "creativeTab": {
@@ -50,8 +50,8 @@
     "movementSpeed": 0.3,
     "armorBaseValue": 0.0,
     "trackingRange": 64,
-    "health": 10,
-    "xpAmount": 0,
+    "health": 40,
+    "xpAmount": 10,
     "waterMob": false,
     "flyingMob": false,
     "guiBoundTo": "<NONE>",
@@ -61,13 +61,13 @@
     "ridable": false,
     "canControlForward": false,
     "canControlStrafe": false,
-    "immuneToFire": false,
-    "immuneToArrows": false,
+    "immuneToFire": true,
+    "immuneToArrows": true,
     "immuneToFallDamage": false,
     "immuneToCactus": false,
     "immuneToDrowning": false,
     "immuneToLightning": false,
-    "immuneToPotions": false,
+    "immuneToPotions": true,
     "immuneToPlayer": false,
     "mobDrop": {
       "value": ""
@@ -93,7 +93,7 @@
     "particleAmount": 4,
     "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></xml>",
     "breedable": false,
     "tameable": false,
     "breedTriggerItems": [],
@@ -102,12 +102,12 @@
       "value": ""
     },
     "rangedItemType": "Default item",
-    "spawnThisMob": false,
+    "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
     "spawningProbability": 20,
     "mobSpawningType": "monster",
-    "minNumberOfMobsPerGroup": 4,
-    "maxNumberOfMobsPerGroup": 4,
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 1,
     "restrictionBiomes": [],
     "spawnInDungeons": false
   }

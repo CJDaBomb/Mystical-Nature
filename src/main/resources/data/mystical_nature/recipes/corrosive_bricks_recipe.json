@@ -1,0 +1,30 @@
+{
+  "group": "mystical_nature",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "mystical_nature:black_stone"
+    },
+    "3": {
+      "item": "mystical_nature:black_stone"
+    },
+    "4": {
+      "item": "mystical_nature:corrosive_essence"
+    },
+    "5": {
+      "item": "mystical_nature:black_stone"
+    },
+    "7": {
+      "item": "mystical_nature:black_stone"
+    }
+  },
+  "result": {
+    "item": "mystical_nature:corrosive_bricks",
+    "count": 8
+  }
+}

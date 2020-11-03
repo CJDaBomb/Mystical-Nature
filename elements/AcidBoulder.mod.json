@@ -1,0 +1,31 @@
+{
+  "_fv": 10,
+  "_type": "structure",
+  "definition": {
+    "structure": "acid_boulder",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 150000,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": 0,
+    "spawnWorldTypes": [
+      "CUSTOM:BlackDimension"
+    ],
+    "restrictionBlocks": [
+      {
+        "value": "CUSTOM:BlackRock"
+      }
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:AcidBarrens"
+      }
+    ],
+    "ignoreBlocks": "STRUCTURE_BLOCK",
+    "generateCondition": {
+      "name": "AcidBoulderAdditionalGenerationCondition"
+    }
+  }
+}

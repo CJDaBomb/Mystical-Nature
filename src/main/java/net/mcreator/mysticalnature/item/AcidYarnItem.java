@@ -15,7 +15,7 @@ public class AcidYarnItem extends MysticalNatureModElements.ModElement {
 	@ObjectHolder("mystical_nature:acid_yarn")
 	public static final Item block = null;
 	public AcidYarnItem(MysticalNatureModElements instance) {
-		super(instance, 37);
+		super(instance, 32);
 	}
 
 	@Override

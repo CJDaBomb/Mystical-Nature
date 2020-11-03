@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BlackRock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BlackRock"
+      },
+      {
+        "value": "CUSTOM:AcidBall"
+      },
+      {
+        "value": "CUSTOM:BlackRock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BlackRock"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AcidRock"
+    },
+    "name": "acid_rock_recipe_2",
+    "namespace": "mod"
+  }
+}

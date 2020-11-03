@@ -16,14 +16,14 @@ public class SulfuricGaunletItem extends MysticalNatureModElements.ModElement {
 	@ObjectHolder("mystical_nature:sulfuric_gaunlet")
 	public static final Item block = null;
 	public SulfuricGaunletItem(MysticalNatureModElements instance) {
-		super(instance, 22);
+		super(instance, 44);
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new SwordItem(new IItemTier() {
 			public int getMaxUses() {
-				return 100;
+				return 1000;
 			}
 
 			public float getEfficiency() {
@@ -31,7 +31,7 @@ public class SulfuricGaunletItem extends MysticalNatureModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 2f;
+				return 6f;
 			}
 
 			public int getHarvestLevel() {
@@ -45,7 +45,7 @@ public class SulfuricGaunletItem extends MysticalNatureModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 3, -3f, new Item.Properties().group(ItemGroup.COMBAT)) {
 		}.setRegistryName("sulfuric_gaunlet"));
 	}
 }

@@ -27,7 +27,7 @@ public class CorrosionPotion extends MysticalNatureModElements.ModElement {
 	@ObjectHolder("mystical_nature:corrosion")
 	public static final Potion potionType = null;
 	public CorrosionPotion(MysticalNatureModElements instance) {
-		super(instance, 6);
+		super(instance, 55);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
@@ -93,7 +93,6 @@ public class CorrosionPotion extends MysticalNatureModElements.ModElement {
 			double z = entity.getPosZ();
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
 				CorrosionOnPotionActiveTickProcedure.executeProcedure($_dependencies);
 			}
 		}

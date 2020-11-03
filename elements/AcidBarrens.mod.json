@@ -1,0 +1,61 @@
+{
+  "_fv": 10,
+  "_type": "biome",
+  "definition": {
+    "groundBlock": {
+      "value": "CUSTOM:BlackRock"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:BlackRock"
+    },
+    "generateLakes": false,
+    "treeType": 0,
+    "vanillaTreeType": "Default",
+    "minHeight": 7,
+    "spawnVines": false,
+    "treeVines": {
+      "value": ""
+    },
+    "treeStem": {
+      "value": ""
+    },
+    "treeBranch": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "treesPerChunk": 0,
+    "grassPerChunk": 0,
+    "flowersPerChunk": 0,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPathcesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "rainingPossibility": 0.0,
+    "temperature": 0.0,
+    "baseHeight": 0.01,
+    "heightVariation": 0.1,
+    "spawnBiome": false,
+    "biomeWeight": 500,
+    "biomeType": "DESERT",
+    "biomeCategory": "DESERT",
+    "parent": {
+      "value": "No parent"
+    },
+    "biomeDictionaryTypes": [],
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityWitherSkeleton"
+        },
+        "minGroup": 1,
+        "maxGroup": 3,
+        "weight": 20,
+        "spawnType": "monster"
+      }
+    ]
+  }
+}

@@ -45,13 +45,13 @@
       "value": ""
     },
     "mobBehaviourType": "Mob",
-    "mobCreatureType": "UNDEFINED",
+    "mobCreatureType": "ARTHROPOD",
     "attackStrength": 3,
     "movementSpeed": 0.3,
     "armorBaseValue": 0.0,
     "trackingRange": 64,
-    "health": 10,
-    "xpAmount": 0,
+    "health": 25,
+    "xpAmount": 5,
     "waterMob": false,
     "flyingMob": false,
     "guiBoundTo": "<NONE>",
@@ -61,13 +61,13 @@
     "ridable": false,
     "canControlForward": false,
     "canControlStrafe": false,
-    "immuneToFire": false,
+    "immuneToFire": true,
     "immuneToArrows": false,
-    "immuneToFallDamage": false,
+    "immuneToFallDamage": true,
     "immuneToCactus": false,
     "immuneToDrowning": false,
     "immuneToLightning": false,
-    "immuneToPotions": false,
+    "immuneToPotions": true,
     "immuneToPlayer": false,
     "mobDrop": {
       "value": ""
@@ -91,6 +91,9 @@
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
+    "onInitialSpawn": {
+      "name": "CorrosiveSpiderOnInitialEntitySpawn"
+    },
     "hasAI": true,
     "aiBase": "Spider",
     "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
@@ -106,9 +109,13 @@
     "doesDespawnWhenIdle": true,
     "spawningProbability": 20,
     "mobSpawningType": "monster",
-    "minNumberOfMobsPerGroup": 4,
-    "maxNumberOfMobsPerGroup": 4,
-    "restrictionBiomes": [],
-    "spawnInDungeons": false
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 2,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:AcidBarrens"
+      }
+    ],
+    "spawnInDungeons": true
   }
 }

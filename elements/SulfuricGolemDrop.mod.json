@@ -1,0 +1,41 @@
+{
+  "_fv": 10,
+  "_type": "loottable",
+  "definition": {
+    "type": "Entity",
+    "pools": [
+      {
+        "minrolls": 2,
+        "maxrolls": 5,
+        "minbonusrolls": 1,
+        "maxbonusrolls": 1,
+        "hasbonusrolls": false,
+        "entries": [
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:BlackrockPebble"
+            },
+            "weight": 45
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:AcidRockPebble"
+            },
+            "weight": 45
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:SulfuricGaunlet"
+            },
+            "weight": 10
+          }
+        ]
+      }
+    ],
+    "name": "entities/sulfuric_golem",
+    "namespace": "mod"
+  }
+}

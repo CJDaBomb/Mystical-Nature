@@ -32,7 +32,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:BlackrockPebble"
     },
     "dropAmount": 1,
     "isBeaconBase": false,
@@ -44,7 +44,7 @@
       "value": "ROCK"
     },
     "tickRate": 10,
-    "tickRandomly": false,
+    "tickRandomly": true,
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
@@ -57,7 +57,7 @@
     "isLadder": false,
     "slipperiness": 0.6,
     "reactionToPushing": "NORMAL",
-    "isNotColidable": false,
+    "isNotColidable": true,
     "soundOnStep": {
       "value": "STONE"
     },
@@ -88,8 +88,14 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onNeighbourBlockChanges": {
+      "name": "TinyBlackSpikesNeighbourBlockChanges"
+    },
     "onTickUpdate": {
       "name": "TinyBlackSpikesUpdateTick"
+    },
+    "onEntityCollides": {
+      "name": "TinyBlackSpikesEntityCollidesInTheBlock"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

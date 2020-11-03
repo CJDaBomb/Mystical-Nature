@@ -88,16 +88,25 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [],
-    "restrictionBiomes": [],
-    "blocksToReplace": [
+    "onEntityWalksOn": {
+      "name": "AcidRockEntityWalksOnTheBlock"
+    },
+    "spawnWorldTypes": [
+      "CUSTOM:BlackDimension"
+    ],
+    "restrictionBiomes": [
       {
-        "value": "Blocks.STONE"
+        "value": "CUSTOM:AcidBarrens"
       }
     ],
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
+    "blocksToReplace": [
+      {
+        "value": "CUSTOM:BlackRock"
+      }
+    ],
+    "frequencyPerChunks": 32,
+    "frequencyOnChunk": 32,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "maxGenerateHeight": 256
   }
 }
