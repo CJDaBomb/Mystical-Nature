@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:AcidYarn"
+      },
+      {
+        "value": "CUSTOM:AcidYarn"
+      },
+      {
+        "value": "CUSTOM:AcidYarn"
+      },
+      {
+        "value": "CUSTOM:AcidPlantFiber"
+      },
+      {
+        "value": "CUSTOM:CorrosiveEssence"
+      },
+      {
+        "value": "CUSTOM:AcidPlantFiber"
+      },
+      {
+        "value": "CUSTOM:AcidmanderSkin"
+      },
+      {
+        "value": "CUSTOM:AcidmanderSkin"
+      },
+      {
+        "value": "CUSTOM:AcidmanderSkin"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AcidPouch"
+    },
+    "name": "acid_pouch_recipe",
+    "namespace": "mod"
+  }
+}

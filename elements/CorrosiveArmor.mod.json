@@ -15,7 +15,7 @@
     },
     "armorTextureFile": "corrosive_",
     "helmetName": "§2Corrosive Armor Helmet",
-    "bodyName": "§2Corrosive Armor Body",
+    "bodyName": "§2Corrosive Armor Chestplate",
     "leggingsName": "§2Corrosive Armor Leggings",
     "bootsName": "§2Corrosive Armor Boots",
     "helmetSpecialInfo": [],
@@ -39,15 +39,19 @@
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
     "maxDamage": 25,
-    "damageValueHelmet": 2,
-    "damageValueBody": 6,
-    "damageValueLeggings": 5,
+    "damageValueHelmet": 4,
+    "damageValueBody": 9,
+    "damageValueLeggings": 7,
     "damageValueBoots": 2,
-    "enchantability": 9,
-    "toughness": 0.0,
+    "enchantability": 10,
+    "toughness": 2.0,
     "equipSound": {
       "value": ""
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:CorrosiveIngot"
+      }
+    ]
   }
 }

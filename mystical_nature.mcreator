@@ -1752,6 +1752,87 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "corrosive_backpakc"
+    },
+    {
+      "name": "CorrosiveIngot",
+      "type": "item",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "corrosive_ingot"
+    },
+    {
+      "name": "CorrosiveIngotRecipe",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "corrosive_ingot_recipe"
+    },
+    {
+      "name": "CorrosiveArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "corrosive_armor_helmet_recipe"
+    },
+    {
+      "name": "CorrosiveArmorChestRecipe",
+      "type": "recipe",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "corrosive_armor_chest_recipe"
+    },
+    {
+      "name": "CorrosiveArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "corrosive_armor_leggings_recipe"
+    },
+    {
+      "name": "CorrosiveArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "corrosive_armor_boots_recipe"
+    },
+    {
+      "name": "CorrosiveSaberRecipe",
+      "type": "recipe",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "corrosive_saber_recipe"
+    },
+    {
+      "name": "AcidPouchRecipe",
+      "type": "recipe",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acid_pouch_recipe"
+    },
+    {
+      "name": "CorrosiveBackpackRecipe",
+      "type": "recipe",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "corrosive_backpack_recipe"
     }
   ],
   "variable_elements": [
@@ -1793,6 +1874,7 @@
       "block.mystical_nature.acid_rock": "Acid Rock",
       "block.mystical_nature.black_rock": "Black Rock",
       "block.mystical_nature.dead_bush": "Dead Bush",
+      "item.mystical_nature.corrosive_ingot": "§2Corrosive Ingot",
       "entity.mystical_nature.acidmander": "Acidmander",
       "item.mystical_nature.corrosive_essence": "§2Corrosive Essence",
       "item.mystical_nature.sulfuric_gaunlet": "§2Sulfuric Gaunlet",
@@ -1810,7 +1892,7 @@
       "block.mystical_nature.corrosive_pillar": "§2Corrosive Pillar",
       "item.mystical_nature.blackwater_bucket": "Blackwater Bucket",
       "entity.mystical_nature.gastrofrog": "Gastrofrog",
-      "item.mystical_nature.corrosive_armor_chestplate": "§2Corrosive Armor Body",
+      "item.mystical_nature.corrosive_armor_chestplate": "§2Corrosive Armor Chestplate",
       "fluid.acid": "Acid",
       "item.mystical_nature.acidmander_skin": "Acidmander Skin",
       "block.mystical_nature.acid_cloth": "Acid Cloth",

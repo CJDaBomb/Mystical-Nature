@@ -5,8 +5,8 @@
     "type": "Generic",
     "pools": [
       {
-        "minrolls": 1,
-        "maxrolls": 1,
+        "minrolls": 2,
+        "maxrolls": 5,
         "minbonusrolls": 1,
         "maxbonusrolls": 1,
         "hasbonusrolls": false,
@@ -29,6 +29,13 @@
             "type": "item",
             "item": {
               "value": "CUSTOM:GastroFrogLegs.boots"
+            },
+            "weight": 10
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:BlackDimension"
             },
             "weight": 10
           }

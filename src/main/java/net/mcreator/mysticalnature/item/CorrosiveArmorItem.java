@@ -40,11 +40,11 @@ public class CorrosiveArmorItem extends MysticalNatureModElements.ModElement {
 			}
 
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{2, 5, 6, 2}[slot.getIndex()];
+				return new int[]{2, 7, 9, 4}[slot.getIndex()];
 			}
 
 			public int getEnchantability() {
-				return 9;
+				return 10;
 			}
 
 			public net.minecraft.util.SoundEvent getSoundEvent() {
@@ -52,7 +52,7 @@ public class CorrosiveArmorItem extends MysticalNatureModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+				return Ingredient.fromStacks(new ItemStack(CorrosiveIngotItem.block, (int) (1)));
 			}
 
 			@OnlyIn(Dist.CLIENT)
@@ -61,7 +61,7 @@ public class CorrosiveArmorItem extends MysticalNatureModElements.ModElement {
 			}
 
 			public float getToughness() {
-				return 0f;
+				return 2f;
 			}
 		};
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)) {

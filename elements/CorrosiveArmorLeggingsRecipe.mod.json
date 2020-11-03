@@ -5,42 +5,42 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 16,
+    "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:BlackStone"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:BlackStone"
+        "value": "CUSTOM:CorrosiveIngot"
       },
       {
         "value": "CUSTOM:CorrosiveIngot"
       },
       {
-        "value": "CUSTOM:BlackStone"
+        "value": "CUSTOM:CorrosiveIngot"
+      },
+      {
+        "value": "CUSTOM:CorrosiveIngot"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:BlackStone"
+        "value": "CUSTOM:CorrosiveIngot"
+      },
+      {
+        "value": "CUSTOM:CorrosiveIngot"
       },
       {
         "value": ""
+      },
+      {
+        "value": "CUSTOM:CorrosiveIngot"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:CorrosiveBricks"
+      "value": "CUSTOM:CorrosiveArmor.legs"
     },
-    "name": "corrosive_bricks_recipe",
+    "name": "corrosive_armor_leggings_recipe",
     "namespace": "mod"
   }
 }

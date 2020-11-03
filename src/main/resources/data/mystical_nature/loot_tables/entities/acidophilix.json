@@ -10,12 +10,17 @@
         {
           "type": "minecraft:item",
           "name": "mystical_nature:acid_meat",
-          "weight": 5
+          "weight": 30
         },
         {
           "type": "minecraft:item",
           "name": "mystical_nature:blackrock_pebble",
-          "weight": 5
+          "weight": 60
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mystical_nature:black_dimension",
+          "weight": 10
         }
       ]
     }

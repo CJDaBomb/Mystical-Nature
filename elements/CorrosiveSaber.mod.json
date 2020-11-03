@@ -21,7 +21,7 @@
     "hasGlow": false,
     "repairItems": [
       {
-        "value": "CUSTOM:CorrosiveEssence"
+        "value": "CUSTOM:CorrosiveIngot"
       }
     ],
     "stayInGridWhenCrafting": false,

@@ -5,42 +5,42 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 16,
+    "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:AcidRockPebble"
+        "value": "CUSTOM:AcidCloth"
       },
       {
-        "value": "CUSTOM:AcidRockPebble"
+        "value": "CUSTOM:AcidCloth"
       },
       {
-        "value": "CUSTOM:AcidRockPebble"
+        "value": "CUSTOM:AcidCloth"
       },
       {
-        "value": "CUSTOM:AcidRockPebble"
+        "value": "CUSTOM:AcidPlantFiberBlock"
       },
       {
         "value": "CUSTOM:CorrosiveIngot"
       },
       {
-        "value": "CUSTOM:AcidRockPebble"
+        "value": "CUSTOM:AcidPlantFiberBlock"
       },
       {
-        "value": "CUSTOM:AcidRockPebble"
+        "value": "CUSTOM:AcidmanderSkinBlock"
       },
       {
-        "value": "CUSTOM:AcidRockPebble"
+        "value": "CUSTOM:AcidmanderSkinBlock"
       },
       {
-        "value": "CUSTOM:AcidRockPebble"
+        "value": "CUSTOM:AcidmanderSkinBlock"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:CorrosivePebble"
+      "value": "CUSTOM:CorrosiveBackpakc"
     },
-    "name": "corrosive_pebble_recipe",
+    "name": "corrosive_backpack_recipe",
     "namespace": "mod"
   }
 }

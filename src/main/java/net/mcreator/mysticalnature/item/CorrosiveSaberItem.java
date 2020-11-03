@@ -44,7 +44,7 @@ public class CorrosiveSaberItem extends MysticalNatureModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(CorrosiveEssenceItem.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(CorrosiveIngotItem.block, (int) (1)));
 			}
 		}, 3, -2.2f, new Item.Properties().group(ItemGroup.COMBAT)) {
 		}.setRegistryName("corrosive_saber"));

@@ -5,42 +5,42 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 16,
+    "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:AcidRockPebble"
+        "value": "CUSTOM:CorrosiveIngot"
       },
       {
-        "value": "CUSTOM:AcidRockPebble"
-      },
-      {
-        "value": "CUSTOM:AcidRockPebble"
-      },
-      {
-        "value": "CUSTOM:AcidRockPebble"
+        "value": ""
       },
       {
         "value": "CUSTOM:CorrosiveIngot"
       },
       {
-        "value": "CUSTOM:AcidRockPebble"
+        "value": "CUSTOM:CorrosiveIngot"
       },
       {
-        "value": "CUSTOM:AcidRockPebble"
+        "value": "CUSTOM:CorrosiveIngot"
       },
       {
-        "value": "CUSTOM:AcidRockPebble"
+        "value": "CUSTOM:CorrosiveIngot"
       },
       {
-        "value": "CUSTOM:AcidRockPebble"
+        "value": "CUSTOM:CorrosiveIngot"
+      },
+      {
+        "value": "CUSTOM:CorrosiveIngot"
+      },
+      {
+        "value": "CUSTOM:CorrosiveIngot"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:CorrosivePebble"
+      "value": "CUSTOM:CorrosiveArmor.body"
     },
-    "name": "corrosive_pebble_recipe",
+    "name": "corrosive_armor_chest_recipe",
     "namespace": "mod"
   }
 }

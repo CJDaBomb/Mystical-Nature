@@ -5,7 +5,7 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 16,
+    "recipeRetstackSize": 2,
     "group": "",
     "recipeShapeless": false,
     "recipeSlots": [
@@ -13,34 +13,34 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:BlackStone"
+        "value": "CUSTOM:CorrosiveEssence"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:BlackStone"
+        "value": "CUSTOM:CorrosiveEssence"
       },
       {
-        "value": "CUSTOM:CorrosiveIngot"
+        "value": "CUSTOM:BlackDimension"
       },
       {
-        "value": "CUSTOM:BlackStone"
+        "value": "CUSTOM:CorrosiveEssence"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:BlackStone"
+        "value": "CUSTOM:CorrosiveEssence"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:CorrosiveBricks"
+      "value": "CUSTOM:CorrosiveIngot"
     },
-    "name": "corrosive_bricks_recipe",
+    "name": "corrosive_ingot_recipe",
     "namespace": "mod"
   }
 }

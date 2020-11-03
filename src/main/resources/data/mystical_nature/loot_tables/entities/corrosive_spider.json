@@ -3,19 +3,24 @@
   "pools": [
     {
       "rolls": {
-        "min": 1,
+        "min": 2,
         "max": 3
       },
       "entries": [
         {
           "type": "minecraft:item",
           "name": "mystical_nature:acid_yarn",
-          "weight": 5
+          "weight": 60
         },
         {
           "type": "minecraft:item",
           "name": "mystical_nature:acid_ball",
-          "weight": 2
+          "weight": 30
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mystical_nature:black_dimension",
+          "weight": 10
         }
       ]
     }

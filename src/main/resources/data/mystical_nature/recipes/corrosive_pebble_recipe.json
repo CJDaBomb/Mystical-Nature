@@ -8,35 +8,35 @@
   ],
   "key": {
     "0": {
-      "item": "mystical_nature:corrosive_essence"
-    },
-    "1": {
-      "item": "mystical_nature:corrosive_essence"
-    },
-    "2": {
-      "item": "mystical_nature:corrosive_essence"
-    },
-    "3": {
-      "item": "mystical_nature:corrosive_essence"
-    },
-    "4": {
       "item": "mystical_nature:acid_rock_pebble"
     },
+    "1": {
+      "item": "mystical_nature:acid_rock_pebble"
+    },
+    "2": {
+      "item": "mystical_nature:acid_rock_pebble"
+    },
+    "3": {
+      "item": "mystical_nature:acid_rock_pebble"
+    },
+    "4": {
+      "item": "mystical_nature:corrosive_ingot"
+    },
     "5": {
-      "item": "mystical_nature:corrosive_essence"
+      "item": "mystical_nature:acid_rock_pebble"
     },
     "6": {
-      "item": "mystical_nature:corrosive_essence"
+      "item": "mystical_nature:acid_rock_pebble"
     },
     "7": {
-      "item": "mystical_nature:corrosive_essence"
+      "item": "mystical_nature:acid_rock_pebble"
     },
     "8": {
-      "item": "mystical_nature:corrosive_essence"
+      "item": "mystical_nature:acid_rock_pebble"
     }
   },
   "result": {
     "item": "mystical_nature:corrosive_pebble",
-    "count": 8
+    "count": 16
   }
 }

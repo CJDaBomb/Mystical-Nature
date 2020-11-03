@@ -1,0 +1,24 @@
+{
+  "group": "mystical_nature",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "mystical_nature:corrosive_ingot"
+    },
+    "1": {
+      "item": "mystical_nature:corrosive_ingot"
+    },
+    "2": {
+      "item": "mystical_nature:ancient_stick"
+    }
+  },
+  "result": {
+    "item": "mystical_nature:corrosive_saber",
+    "count": 1
+  }
+}

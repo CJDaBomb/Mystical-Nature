@@ -1,0 +1,42 @@
+{
+  "group": "mystical_nature",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mystical_nature:acid_yarn"
+    },
+    "1": {
+      "item": "mystical_nature:acid_yarn"
+    },
+    "2": {
+      "item": "mystical_nature:acid_yarn"
+    },
+    "3": {
+      "item": "mystical_nature:acid_plant_fiber"
+    },
+    "4": {
+      "item": "mystical_nature:corrosive_essence"
+    },
+    "5": {
+      "item": "mystical_nature:acid_plant_fiber"
+    },
+    "6": {
+      "item": "mystical_nature:acidmander_skin"
+    },
+    "7": {
+      "item": "mystical_nature:acidmander_skin"
+    },
+    "8": {
+      "item": "mystical_nature:acidmander_skin"
+    }
+  },
+  "result": {
+    "item": "mystical_nature:acid_pouch",
+    "count": 1
+  }
+}

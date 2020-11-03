@@ -1,0 +1,29 @@
+{
+  "group": "mystical_nature",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "mystical_nature:corrosive_ingot"
+    },
+    "1": {
+      "item": "mystical_nature:corrosive_ingot"
+    },
+    "2": {
+      "item": "mystical_nature:corrosive_ingot"
+    },
+    "3": {
+      "item": "mystical_nature:corrosive_ingot"
+    },
+    "5": {
+      "item": "mystical_nature:corrosive_ingot"
+    }
+  },
+  "result": {
+    "item": "mystical_nature:corrosive_armor_helmet",
+    "count": 1
+  }
+}

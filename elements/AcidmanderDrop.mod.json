@@ -16,14 +16,21 @@
             "item": {
               "value": "CUSTOM:AcidmanderSkin"
             },
-            "weight": 2
+            "weight": 30
           },
           {
             "type": "item",
             "item": {
               "value": "CUSTOM:AcidMeat"
             },
-            "weight": 5
+            "weight": 60
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:BlackDimension"
+            },
+            "weight": 10
           }
         ]
       }

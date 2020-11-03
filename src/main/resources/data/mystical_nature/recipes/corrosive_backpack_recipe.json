@@ -1,0 +1,42 @@
+{
+  "group": "mystical_nature",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mystical_nature:acid_cloth"
+    },
+    "1": {
+      "item": "mystical_nature:acid_cloth"
+    },
+    "2": {
+      "item": "mystical_nature:acid_cloth"
+    },
+    "3": {
+      "item": "mystical_nature:acid_plant_fiber_block"
+    },
+    "4": {
+      "item": "mystical_nature:corrosive_ingot"
+    },
+    "5": {
+      "item": "mystical_nature:acid_plant_fiber_block"
+    },
+    "6": {
+      "item": "mystical_nature:acidmander_skin_block"
+    },
+    "7": {
+      "item": "mystical_nature:acidmander_skin_block"
+    },
+    "8": {
+      "item": "mystical_nature:acidmander_skin_block"
+    }
+  },
+  "result": {
+    "item": "mystical_nature:corrosive_backpakc",
+    "count": 1
+  }
+}

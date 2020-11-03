@@ -21,6 +21,11 @@
           "type": "minecraft:item",
           "name": "mystical_nature:sulfuric_gaunlet",
           "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mystical_nature:black_dimension",
+          "weight": 10
         }
       ]
     }
