@@ -47,15 +47,24 @@ import com.mojang.blaze3d.matrix.MatrixStack;
 public class AcidmanderEntity extends MysticalNatureModElements.ModElement {
 	public static EntityType entity = null;
 	public AcidmanderEntity(MysticalNatureModElements instance) {
+<<<<<<< HEAD
+		super(instance, 19);
+=======
 		super(instance, 29);
+>>>>>>> branch 'master' of https://github.com/CJDaBomb/Mystical-Nature
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
 	@Override
 	public void initElements() {
 		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER).setShouldReceiveVelocityUpdates(true)
+<<<<<<< HEAD
+				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(0.6f, 1.8f)).build("acidmander")
+						.setRegistryName("acidmander");
+=======
 				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(0.6f, 1.8f))
 						.build("acidmander").setRegistryName("acidmander");
+>>>>>>> branch 'master' of https://github.com/CJDaBomb/Mystical-Nature
 		elements.entities.add(() -> entity);
 		elements.items
 				.add(() -> new SpawnEggItem(entity, -6697984, -13421773, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("acidmander"));
@@ -64,12 +73,16 @@ public class AcidmanderEntity extends MysticalNatureModElements.ModElement {
 	@Override
 	public void init(FMLCommonSetupEvent event) {
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
+<<<<<<< HEAD
+			biome.getSpawns(EntityClassification.MONSTER).add(new Biome.SpawnListEntry(entity, 20, 4, 4));
+=======
 			boolean biomeCriteria = false;
 			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("mystical_nature:acid_barrens")))
 				biomeCriteria = true;
 			if (!biomeCriteria)
 				continue;
 			biome.getSpawns(EntityClassification.MONSTER).add(new Biome.SpawnListEntry(entity, 20, 1, 3));
+>>>>>>> branch 'master' of https://github.com/CJDaBomb/Mystical-Nature
 		}
 		EntitySpawnPlacementRegistry.register(entity, EntitySpawnPlacementRegistry.PlacementType.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES,
 				MonsterEntity::canMonsterSpawn);
@@ -145,9 +158,17 @@ public class AcidmanderEntity extends MysticalNatureModElements.ModElement {
 		protected void registerAttributes() {
 			super.registerAttributes();
 			if (this.getAttribute(SharedMonsterAttributes.MOVEMENT_SPEED) != null)
+<<<<<<< HEAD
+				this.getAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.3);
+=======
 				this.getAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.19);
+>>>>>>> branch 'master' of https://github.com/CJDaBomb/Mystical-Nature
 			if (this.getAttribute(SharedMonsterAttributes.MAX_HEALTH) != null)
+<<<<<<< HEAD
+				this.getAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(10);
+=======
 				this.getAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(30);
+>>>>>>> branch 'master' of https://github.com/CJDaBomb/Mystical-Nature
 			if (this.getAttribute(SharedMonsterAttributes.ARMOR) != null)
 				this.getAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(0);
 			if (this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE) == null)

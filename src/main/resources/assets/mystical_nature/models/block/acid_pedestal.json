@@ -1,9 +1,0 @@
-{
-  "parent": "mystical_nature:custom/bosspedestal",
-  "textures": {
-    "all": "mystical_nature:blocks/acidrock",
-    "particle": "mystical_nature:blocks/acidrock",
-    "0": "mystical_nature:blocks/blackstonepillar",
-    "1": "mystical_nature:blocks/acidrock"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "mystical_nature:custom/acidbossbook",
-  "textures": {
-    "1": "mystical_nature:blocks/bossbook",
-    "missing": "mystical_nature:blocks/",
-    "particle": "mystical_nature:items/bossbookitem"
-  }
-}
