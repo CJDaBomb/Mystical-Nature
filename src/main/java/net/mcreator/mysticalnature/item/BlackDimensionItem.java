@@ -15,10 +15,10 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.mcreator.mysticalnature.world.dimension.BlackDimensionDimension;
 
 public class BlackDimensionItem extends Item {
-	@ObjectHolder("mystical_nature:black_dimension")
+	@ObjectHolder("mystical_nature:ancient_dimension")
 	public static final Item block = null;
 	public BlackDimensionItem() {
-		super(new Item.Properties().group(ItemGroup.TOOLS).maxDamage(64));
+		super(new Item.Properties().group(ItemGroup.MISC).maxDamage(64));
 	}
 
 	@Override

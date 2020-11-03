@@ -98,9 +98,9 @@ import com.google.common.cache.LoadingCache;
 
 @MysticalNatureModElements.ModElement.Tag
 public class BlackDimensionDimension extends MysticalNatureModElements.ModElement {
-	@ObjectHolder("mystical_nature:black_dimension")
+	@ObjectHolder("mystical_nature:ancient_dimension")
 	public static final ModDimension dimension = null;
-	@ObjectHolder("mystical_nature:black_dimension_portal")
+	@ObjectHolder("mystical_nature:ancient_dimension_portal")
 	public static final CustomPortalBlock portal = null;
 	public static DimensionType type = null;
 	private static Biome[] dimensionBiomes;
@@ -112,15 +112,15 @@ public class BlackDimensionDimension extends MysticalNatureModElements.ModElemen
 
 	@SubscribeEvent
 	public void registerDimension(RegistryEvent.Register<ModDimension> event) {
-		event.getRegistry().register(new CustomModDimension().setRegistryName("black_dimension"));
+		event.getRegistry().register(new CustomModDimension().setRegistryName("ancient_dimension"));
 	}
 
 	@SubscribeEvent
 	public void onRegisterDimensionsEvent(RegisterDimensionsEvent event) {
-		if (DimensionType.byName(new ResourceLocation("mystical_nature:black_dimension")) == null) {
-			DimensionManager.registerDimension(new ResourceLocation("mystical_nature:black_dimension"), dimension, null, true);
+		if (DimensionType.byName(new ResourceLocation("mystical_nature:ancient_dimension")) == null) {
+			DimensionManager.registerDimension(new ResourceLocation("mystical_nature:ancient_dimension"), dimension, null, true);
 		}
-		type = DimensionType.byName(new ResourceLocation("mystical_nature:black_dimension"));
+		type = DimensionType.byName(new ResourceLocation("mystical_nature:ancient_dimension"));
 	}
 
 	@Override
@@ -131,7 +131,7 @@ public class BlackDimensionDimension extends MysticalNatureModElements.ModElemen
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomPortalBlock());
-		elements.items.add(() -> new BlackDimensionItem().setRegistryName("black_dimension"));
+		elements.items.add(() -> new BlackDimensionItem().setRegistryName("ancient_dimension"));
 	}
 
 	@Override
@@ -143,7 +143,7 @@ public class BlackDimensionDimension extends MysticalNatureModElements.ModElemen
 		public CustomPortalBlock() {
 			super(Block.Properties.create(Material.PORTAL).doesNotBlockMovement().tickRandomly().hardnessAndResistance(-1.0F).sound(SoundType.GLASS)
 					.lightValue(0).noDrops());
-			setRegistryName("black_dimension_portal");
+			setRegistryName("ancient_dimension_portal");
 		}
 
 		@Override
@@ -415,14 +415,14 @@ public class BlackDimensionDimension extends MysticalNatureModElements.ModElemen
 		}
 	}
 	private static PointOfInterestType poi = null;
-	public static final TicketType<BlockPos> CUSTOM_PORTAL = TicketType.create("black_dimension_portal", Vec3i::compareTo, 300);
+	public static final TicketType<BlockPos> CUSTOM_PORTAL = TicketType.create("ancient_dimension_portal", Vec3i::compareTo, 300);
 	@SubscribeEvent
 	public void registerPointOfInterest(RegistryEvent.Register<PointOfInterestType> event) {
 		try {
 			Method method = ObfuscationReflectionHelper.findMethod(PointOfInterestType.class, "func_226359_a_", String.class, Set.class, int.class,
 					int.class);
 			method.setAccessible(true);
-			poi = (PointOfInterestType) method.invoke(null, "black_dimension_portal",
+			poi = (PointOfInterestType) method.invoke(null, "ancient_dimension_portal",
 					Sets.newHashSet(ImmutableSet.copyOf(portal.getStateContainer().getValidStates())), 0, 1);
 			event.getRegistry().register(poi);
 		} catch (Exception e) {

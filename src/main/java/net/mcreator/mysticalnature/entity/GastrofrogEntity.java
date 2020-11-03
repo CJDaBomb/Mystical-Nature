@@ -60,7 +60,7 @@ public class GastrofrogEntity extends MysticalNatureModElements.ModElement {
 	@Override
 	public void initElements() {
 		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER).setShouldReceiveVelocityUpdates(true)
-				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(0.6f, 1.8f))
+				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(1f, 1.9f))
 						.build("gastrofrog").setRegistryName("gastrofrog");
 		elements.entities.add(() -> entity);
 		elements.items
@@ -85,7 +85,7 @@ public class GastrofrogEntity extends MysticalNatureModElements.ModElement {
 	@OnlyIn(Dist.CLIENT)
 	public void registerModels(ModelRegistryEvent event) {
 		RenderingRegistry.registerEntityRenderingHandler(entity, renderManager -> {
-			return new MobRenderer(renderManager, new ModelAcidToad(), 0.5f) {
+			return new MobRenderer(renderManager, new ModelAcidToad(), 1f) {
 				@Override
 				public ResourceLocation getEntityTexture(Entity entity) {
 					return new ResourceLocation("mystical_nature:textures/acidtoad2.png");
