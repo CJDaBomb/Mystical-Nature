@@ -1716,6 +1716,42 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "corrosive_essence_block_recipe"
+    },
+    {
+      "name": "AcidPouchGUI",
+      "type": "gui",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acid_pouch_gui"
+    },
+    {
+      "name": "AcidPouch",
+      "type": "item",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acid_pouch"
+    },
+    {
+      "name": "CorrosiveBagGUI",
+      "type": "gui",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "corrosive_bag_gui"
+    },
+    {
+      "name": "CorrosiveBackpakc",
+      "type": "item",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "corrosive_backpakc"
     }
   ],
   "variable_elements": [
@@ -1749,6 +1785,7 @@
       "item.mystical_nature.acid_ball": "Acid Ball",
       "block.mystical_nature.caustic_flower": "Caustic Flower",
       "item.mystical_nature.corrosive_pebble": "§2Corrosive Pebble",
+      "item.mystical_nature.corrosive_backpakc": "§2Corrosive Backpack",
       "item.mystical_nature.acid_boss_attack": "§2Book Of Corrosion",
       "block.mystical_nature.corroded_grass": "Corroded Grass",
       "item.mystical_nature.acid_slingshot": "Acid Slingshot",
@@ -1759,8 +1796,8 @@
       "entity.mystical_nature.acidmander": "Acidmander",
       "item.mystical_nature.corrosive_essence": "§2Corrosive Essence",
       "item.mystical_nature.sulfuric_gaunlet": "§2Sulfuric Gaunlet",
-      "block.mystical_nature.black_rock_spike": "Black Rock Spike",
       "block.mystical_nature.tiny_acid_spikes": "Tiny Black Spikes",
+      "block.mystical_nature.black_rock_spike": "Black Rock Spike",
       "block.mystical_nature.black_stone_pillar": "Blackstone Pillar",
       "block.mystical_nature.acidmander_skin_block": "Acidmander Skin Block",
       "item.mystical_nature.gastrofrog": "Gastrofrog Spawn Egg",
@@ -1778,6 +1815,7 @@
       "item.mystical_nature.acidmander_skin": "Acidmander Skin",
       "block.mystical_nature.acid_cloth": "Acid Cloth",
       "death.attack.corrosion": "%1$s died from corrosion",
+      "item.mystical_nature.acid_pouch": "Acid Pouch",
       "block.mystical_nature.acid_rock_spike": "Black Rock Spike",
       "item.mystical_nature.acid_rock_pebble": "Acid Rock Pebble",
       "block.mystical_nature.acid_plant_fiber_block": "Acid Plant Fiber Block",
