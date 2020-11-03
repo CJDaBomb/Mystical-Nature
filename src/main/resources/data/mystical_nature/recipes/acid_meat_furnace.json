@@ -1,0 +1,12 @@
+{
+  "group": "mystical_nature",
+  "type": "minecraft:smelting",
+  "experience": 0.5,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "mystical_nature:acid_meat"
+  },
+  "result": {
+    "item": "mystical_nature:acidless_meat"
+  }
+}

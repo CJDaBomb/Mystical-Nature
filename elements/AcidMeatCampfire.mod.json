@@ -1,0 +1,20 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Campfire cooking",
+    "xpReward": 0.5,
+    "cookingTime": 100,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "campfireCookingInputStack": {
+      "value": "CUSTOM:AcidMeat"
+    },
+    "campfireCookingReturnStack": {
+      "value": "CUSTOM:AcidlessMeat"
+    },
+    "name": "acid_meat_campfire",
+    "namespace": "mod"
+  }
+}

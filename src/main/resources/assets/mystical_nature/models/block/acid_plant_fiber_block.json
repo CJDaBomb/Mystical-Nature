@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mystical_nature:blocks/acid_plant_fiber_block_top",
+    "up": "mystical_nature:blocks/acid_plant_fiber_block_top",
+    "north": "mystical_nature:blocks/acid_plant_fiber_block_side",
+    "east": "mystical_nature:blocks/acid_plant_fiber_block_side",
+    "south": "mystical_nature:blocks/acid_plant_fiber_block_side",
+    "west": "mystical_nature:blocks/acid_plant_fiber_block_side",
+    "particle": "mystical_nature:blocks/acid_plant_fiber_block_top"
+  }
+}

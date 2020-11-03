@@ -1,0 +1,42 @@
+{
+  "group": "mystical_nature",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mystical_nature:corrosive_essence"
+    },
+    "1": {
+      "item": "mystical_nature:corrosive_essence"
+    },
+    "2": {
+      "item": "mystical_nature:corrosive_essence"
+    },
+    "3": {
+      "item": "mystical_nature:corrosive_essence"
+    },
+    "4": {
+      "item": "mystical_nature:acid_rock_pebble"
+    },
+    "5": {
+      "item": "mystical_nature:corrosive_essence"
+    },
+    "6": {
+      "item": "mystical_nature:corrosive_essence"
+    },
+    "7": {
+      "item": "mystical_nature:corrosive_essence"
+    },
+    "8": {
+      "item": "mystical_nature:corrosive_essence"
+    }
+  },
+  "result": {
+    "item": "mystical_nature:corrosive_pebble",
+    "count": 8
+  }
+}

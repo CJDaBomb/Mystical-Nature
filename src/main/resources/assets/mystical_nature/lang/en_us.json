@@ -1,5 +1,4 @@
 {
-  "block.mystical_nature.ghostwood_leaves": "Ghostwood Leaves",
   "item.mystical_nature.corrosive_armor_helmet": "§2Corrosive Armor Helmet",
   "item.mystical_nature.acid_ball": "Acid Ball",
   "block.mystical_nature.caustic_flower": "Caustic Flower",
@@ -14,9 +13,8 @@
   "entity.mystical_nature.acidmander": "Acidmander",
   "item.mystical_nature.sulfuric_gaunlet": "§2Sulfuric Gaunlet",
   "item.mystical_nature.corrosive_essence": "§2Corrosive Essence",
-  "block.mystical_nature.stripped_ghost_wood": "Stripped Ghost Wood",
-  "block.mystical_nature.black_rock_spike": "Black Rock Spike",
   "block.mystical_nature.tiny_acid_spikes": "Tiny Black Spikes",
+  "block.mystical_nature.black_rock_spike": "Black Rock Spike",
   "block.mystical_nature.black_stone_pillar": "Blackstone Pillar",
   "block.mystical_nature.acidmander_skin_block": "Acidmander Skin Block",
   "item.mystical_nature.gastrofrog": "Gastrofrog Spawn Egg",
@@ -28,7 +26,6 @@
   "item.mystical_nature.gastro_frog_legs_leggings": "Gastro Frog Legs Leggings",
   "block.mystical_nature.corrosive_pillar": "§2Corrosive Pillar",
   "item.mystical_nature.blackwater_bucket": "Blackwater Bucket",
-  "block.mystical_nature.ghostwood_log": "Ghostwood Log",
   "entity.mystical_nature.gastrofrog": "Gastrofrog",
   "item.mystical_nature.corrosive_armor_chestplate": "§2Corrosive Armor Body",
   "fluid.acid": "Acid",
@@ -71,8 +68,6 @@
   "fluid.blackwater": "Blackwater",
   "block.mystical_nature.black_stone": "Blackstone",
   "item.mystical_nature.gastro_frog_legs_chestplate": "Gastro Frog Legs Body",
-  "block.mystical_nature.ghost_wood": "Ghost Wood",
-  "block.mystical_nature.stripped_ghostwood_log": "Stripped Ghostwood Log",
   "item.mystical_nature.blackrock_pebble": "Blackrock Pebble",
   "block.mystical_nature.acient_remains": "§8Acient Remains",
   "item.mystical_nature.ancient_stick": "§8Ancient Stick"

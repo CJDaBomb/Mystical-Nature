@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mystical_nature:blocks/corrosive_bricks_block",
+    "up": "mystical_nature:blocks/corrosive_bricks_block",
+    "north": "mystical_nature:blocks/corrosive_bricks_block",
+    "east": "mystical_nature:blocks/corrosive_bricks_block",
+    "south": "mystical_nature:blocks/corrosive_bricks_block",
+    "west": "mystical_nature:blocks/corrosive_bricks_block",
+    "particle": "mystical_nature:blocks/corrosive_bricks_block"
+  }
+}
