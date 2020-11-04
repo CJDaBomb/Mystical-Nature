@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CorrosiveBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CorrosiveBricks"
+      },
+      {
+        "value": "CUSTOM:CorrosiveBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CorrosiveBricks"
+      },
+      {
+        "value": "CUSTOM:CorrosiveBricks"
+      },
+      {
+        "value": "CUSTOM:CorrosiveBricks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CorrosiveBrickStais"
+    },
+    "name": "corrosive_brick_stais_recipe",
+    "namespace": "mod"
+  }
+}

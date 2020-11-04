@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mystical_nature:block/polished_corrosive_slab"
+    },
+    "type=top": {
+      "model": "mystical_nature:block/polished_corrosive_slab_top"
+    },
+    "type=double": {
+      "model": "mystical_nature:block/polished_corrosive_slab_full"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "group": "mystical_nature",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "mystical_nature:corrosive_polished"
+    },
+    "1": {
+      "item": "mystical_nature:corrosive_polished"
+    },
+    "2": {
+      "item": "mystical_nature:corrosive_polished"
+    },
+    "3": {
+      "item": "mystical_nature:corrosive_polished"
+    }
+  },
+  "result": {
+    "item": "mystical_nature:corrosive_bricks",
+    "count": 4
+  }
+}

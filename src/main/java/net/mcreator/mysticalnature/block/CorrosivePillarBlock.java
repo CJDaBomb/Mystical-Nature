@@ -2,6 +2,7 @@
 package net.mcreator.mysticalnature.block;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.common.ToolType;
 
 import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.util.Rotation;
@@ -41,7 +42,8 @@ public class CorrosivePillarBlock extends MysticalNatureModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public static final DirectionProperty FACING = DirectionalBlock.FACING;
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.5f, 6f).lightValue(8));
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.5f, 6f).lightValue(8).harvestLevel(1)
+					.harvestTool(ToolType.PICKAXE));
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.SOUTH));
 			setRegistryName("corrosive_pillar");
 		}

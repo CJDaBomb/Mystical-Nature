@@ -1506,15 +1506,6 @@
       "registry_name": "corrosive_bricks"
     },
     {
-      "name": "CorrosiveBricksRecipe",
-      "type": "recipe",
-      "sortid": 111,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "corrosive_bricks_recipe"
-    },
-    {
       "name": "CorrosivePillar",
       "type": "block",
       "sortid": 14,
@@ -2352,6 +2343,141 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "bloody_dirt"
+    },
+    {
+      "name": "PolishedCorrosiveBlockRecipe",
+      "type": "recipe",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_corrosive_block_recipe"
+    },
+    {
+      "name": "CorrosiveBricksRicipe",
+      "type": "recipe",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "corrosive_bricks_ricipe"
+    },
+    {
+      "name": "CorrosivePilarRecipe",
+      "type": "recipe",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "corrosive_pilar_recipe"
+    },
+    {
+      "name": "CorrosiveBrickStais",
+      "type": "block",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "corrosive_brick_stais"
+    },
+    {
+      "name": "CorrosiveBrickStaisRecipe",
+      "type": "recipe",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "corrosive_brick_stais_recipe"
+    },
+    {
+      "name": "CorrosiveBrickSlab",
+      "type": "block",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "corrosive_brick_slab"
+    },
+    {
+      "name": "CorrosiveBrickSlabRecipe",
+      "type": "recipe",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "corrosive_brick_slab_recipe"
+    },
+    {
+      "name": "CorrosiveBrickWall",
+      "type": "block",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "corrosive_brick_wall"
+    },
+    {
+      "name": "CorrosiveBrickWallRecipe",
+      "type": "recipe",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "corrosive_brick_wall_recipe"
+    },
+    {
+      "name": "PolishedCorrosiveStairs",
+      "type": "block",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_corrosive_stairs"
+    },
+    {
+      "name": "PolishedCorrosiveStairsRecipe",
+      "type": "recipe",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_corrosive_stairs_recipe"
+    },
+    {
+      "name": "PolishedCorrosiveSlab",
+      "type": "block",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_corrosive_slab"
+    },
+    {
+      "name": "PolishedCorrosiveSlabRecipe",
+      "type": "recipe",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_corrosive_slab_recipe"
+    },
+    {
+      "name": "PolishedCorrosiveWall",
+      "type": "block",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_corrosive_wall"
+    },
+    {
+      "name": "PolishedCorrosiveWallRecipe",
+      "type": "recipe",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_corrosive_wall_recipe"
     }
   ],
   "variable_elements": [
@@ -2383,6 +2509,7 @@
     "en_us": {
       "block.mystical_nature.blood_mushroom": "Blood Mushroom",
       "item.mystical_nature.corrosive_armor_helmet": "§2Corrosive Armor Helmet",
+      "block.mystical_nature.polished_corrosive_stairs": "§2Polished Corrosive Stairs",
       "item.mystical_nature.acid_ball": "Acid Ball",
       "block.mystical_nature.blood_spider_egg": "Blood Spider Egg",
       "block.mystical_nature.bloodthorns_bush": "Bloodthorns Bush",
@@ -2395,6 +2522,7 @@
       "block.mystical_nature.black_sand": "Black Sand",
       "block.mystical_nature.acid_rock": "Acid Rock",
       "block.mystical_nature.bloodthorns": "Bloodthorns",
+      "block.mystical_nature.corrosive_brick_wall": "§2Corrosive Brick Wall",
       "block.mystical_nature.black_rock": "Black Rock",
       "block.mystical_nature.dead_bush": "Dead Bush",
       "item.mystical_nature.corrosive_ingot": "§2Corrosive Ingot",
@@ -2404,11 +2532,13 @@
       "fluid.blood": "Blood",
       "block.mystical_nature.tiny_acid_spikes": "Tiny Black Spikes",
       "block.mystical_nature.black_rock_spike": "Black Rock Spike",
+      "block.mystical_nature.corrosive_brick_slab": "§2Corrosive Brick Slab",
       "block.mystical_nature.black_stone_pillar": "Blackstone Pillar",
       "block.mystical_nature.acidmander_skin_block": "Acidmander Skin Block",
       "item.mystical_nature.gastrofrog": "Gastrofrog Spawn Egg",
       "entity.mystical_nature.acidophilix": "Acidophilix",
       "item.mystical_nature.corrosive_spider": "Corrosive Spider Spawn Egg",
+      "block.mystical_nature.polished_corrosive_wall": "§2Polished Corrosive Wall",
       "item.minecraft.splash_potion.effect.corrosion": "Splash Corrosion",
       "item.mystical_nature.acidophilix": "Acidophilix Spawn Egg",
       "block.mystical_nature.black_stone_bricks": "Blackstone Bricks",
@@ -2418,6 +2548,8 @@
       "entity.mystical_nature.gastrofrog": "Gastrofrog",
       "item.mystical_nature.corrosive_armor_chestplate": "§2Corrosive Armor Chestplate",
       "fluid.acid": "Acid",
+      "block.mystical_nature.corrosive_brick_stais": "§2Corrosive Brick Stais",
+      "block.mystical_nature.polished_corrosive_slab": "§2Polished Corrosive Slab",
       "item.mystical_nature.acidmander_skin": "Acidmander Skin",
       "block.mystical_nature.acid_cloth": "Acid Cloth",
       "block.mystical_nature.bloodgrass": "Bloodgrass",
@@ -2457,7 +2589,7 @@
       "item.minecraft.lingering_potion.effect.corrosion": "Lingering Corrosion",
       "item.mystical_nature.corrosive_armor_leggings": "§2Corrosive Armor Leggings",
       "block.mystical_nature.corrosive_essence_block": "§2Corrosive Essence Block",
-      "block.mystical_nature.corrosive_polished": "§2Polished Corrosive",
+      "block.mystical_nature.corrosive_polished": "§2Polished Corrosive Block",
       "item.mystical_nature.corrosive_armor_boots": "§2Corrosive Armor Boots",
       "fluid.blackwater": "Blackwater",
       "block.mystical_nature.black_stone": "Blackstone",

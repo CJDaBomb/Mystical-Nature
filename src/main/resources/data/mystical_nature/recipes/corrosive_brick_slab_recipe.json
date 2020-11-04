@@ -1,0 +1,22 @@
+{
+  "group": "mystical_nature",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "mystical_nature:corrosive_bricks"
+    },
+    "1": {
+      "item": "mystical_nature:corrosive_bricks"
+    },
+    "2": {
+      "item": "mystical_nature:corrosive_bricks"
+    }
+  },
+  "result": {
+    "item": "mystical_nature:corrosive_brick_slab",
+    "count": 6
+  }
+}

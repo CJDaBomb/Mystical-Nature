@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_wall_side",
+  "textures": {
+    "wall": "mystical_nature:blocks/corrosive_bricks_block",
+    "particle": "mystical_nature:blocks/corrosive_bricks_block"
+  }
+}
