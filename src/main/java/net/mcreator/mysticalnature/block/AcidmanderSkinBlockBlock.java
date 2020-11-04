@@ -23,7 +23,7 @@ public class AcidmanderSkinBlockBlock extends MysticalNatureModElements.ModEleme
 	@ObjectHolder("mystical_nature:acidmander_skin_block")
 	public static final Block block = null;
 	public AcidmanderSkinBlockBlock(MysticalNatureModElements instance) {
-		super(instance, 24);
+		super(instance, 30);
 	}
 
 	@Override

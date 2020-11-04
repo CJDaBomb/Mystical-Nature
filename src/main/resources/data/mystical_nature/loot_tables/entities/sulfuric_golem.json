@@ -24,7 +24,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "mystical_nature:black_dimension",
+          "name": "mystical_nature:ancient_dimension",
           "weight": 10
         }
       ]

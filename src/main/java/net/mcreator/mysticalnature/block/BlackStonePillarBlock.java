@@ -30,7 +30,7 @@ public class BlackStonePillarBlock extends MysticalNatureModElements.ModElement 
 	@ObjectHolder("mystical_nature:black_stone_pillar")
 	public static final Block block = null;
 	public BlackStonePillarBlock(MysticalNatureModElements instance) {
-		super(instance, 18);
+		super(instance, 24);
 	}
 
 	@Override

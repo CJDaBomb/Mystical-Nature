@@ -20,7 +20,7 @@ import java.util.Map;
 @MysticalNatureModElements.ModElement.Tag
 public class AcidMobplayerCollidesBlockProcedure extends MysticalNatureModElements.ModElement {
 	public AcidMobplayerCollidesBlockProcedure(MysticalNatureModElements instance) {
-		super(instance, 56);
+		super(instance, 74);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

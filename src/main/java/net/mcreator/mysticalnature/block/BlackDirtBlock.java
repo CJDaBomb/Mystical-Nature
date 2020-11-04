@@ -39,7 +39,7 @@ public class BlackDirtBlock extends MysticalNatureModElements.ModElement {
 	@ObjectHolder("mystical_nature:black_dirt")
 	public static final Block block = null;
 	public BlackDirtBlock(MysticalNatureModElements instance) {
-		super(instance, 21);
+		super(instance, 27);
 	}
 
 	@Override

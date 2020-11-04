@@ -50,7 +50,7 @@ public class BlackwaterBlock extends MysticalNatureModElements.ModElement {
 	public static FlowingFluid still = null;
 	private ForgeFlowingFluid.Properties fluidproperties = null;
 	public BlackwaterBlock(MysticalNatureModElements instance) {
-		super(instance, 26);
+		super(instance, 34);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

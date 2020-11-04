@@ -57,7 +57,7 @@ public class CorrodedGrassBlock extends MysticalNatureModElements.ModElement {
 	@ObjectHolder("mystical_nature:corroded_grass")
 	public static final Block block = null;
 	public CorrodedGrassBlock(MysticalNatureModElements instance) {
-		super(instance, 40);
+		super(instance, 53);
 	}
 
 	@Override

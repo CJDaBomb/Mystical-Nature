@@ -39,7 +39,7 @@ public class CorrosiveBrickWallBlock extends MysticalNatureModElements.ModElemen
 	@ObjectHolder("mystical_nature:corrosive_brick_wall")
 	public static final Block block = null;
 	public CorrosiveBrickWallBlock(MysticalNatureModElements instance) {
-		super(instance, 165);
+		super(instance, 20);
 	}
 
 	@Override

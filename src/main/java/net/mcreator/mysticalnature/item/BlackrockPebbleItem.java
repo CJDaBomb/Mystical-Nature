@@ -15,7 +15,7 @@ public class BlackrockPebbleItem extends MysticalNatureModElements.ModElement {
 	@ObjectHolder("mystical_nature:blackrock_pebble")
 	public static final Item block = null;
 	public BlackrockPebbleItem(MysticalNatureModElements instance) {
-		super(instance, 35);
+		super(instance, 43);
 	}
 
 	@Override

@@ -24,7 +24,7 @@ public class CorrosiveBricksBlock extends MysticalNatureModElements.ModElement {
 	@ObjectHolder("mystical_nature:corrosive_bricks")
 	public static final Block block = null;
 	public CorrosiveBricksBlock(MysticalNatureModElements instance) {
-		super(instance, 13);
+		super(instance, 17);
 	}
 
 	@Override

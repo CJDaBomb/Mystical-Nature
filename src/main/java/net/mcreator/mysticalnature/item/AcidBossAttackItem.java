@@ -56,7 +56,7 @@ public class AcidBossAttackItem extends MysticalNatureModElements.ModElement {
 	@ObjectHolder("mystical_nature:entitybulletacid_boss_attack")
 	public static final EntityType arrow = null;
 	public AcidBossAttackItem(MysticalNatureModElements instance) {
-		super(instance, 47);
+		super(instance, 66);
 	}
 
 	@Override

@@ -27,7 +27,7 @@ public class CorrosionPotion extends MysticalNatureModElements.ModElement {
 	@ObjectHolder("mystical_nature:corrosion")
 	public static final Potion potionType = null;
 	public CorrosionPotion(MysticalNatureModElements instance) {
-		super(instance, 55);
+		super(instance, 73);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

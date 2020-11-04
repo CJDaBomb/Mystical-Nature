@@ -24,7 +24,7 @@ public class BloodrootBlock extends MysticalNatureModElements.ModElement {
 	@ObjectHolder("mystical_nature:bloodroot")
 	public static final Block block = null;
 	public BloodrootBlock(MysticalNatureModElements instance) {
-		super(instance, 136);
+		super(instance, 31);
 	}
 
 	@Override

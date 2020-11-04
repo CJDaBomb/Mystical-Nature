@@ -15,7 +15,7 @@ public class CorrosiveIngotItem extends MysticalNatureModElements.ModElement {
 	@ObjectHolder("mystical_nature:corrosive_ingot")
 	public static final Item block = null;
 	public CorrosiveIngotItem(MysticalNatureModElements instance) {
-		super(instance, 127);
+		super(instance, 51);
 	}
 
 	@Override

@@ -32,7 +32,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "Blocks.AIR"
     },
     "dropAmount": 1,
     "isBeaconBase": false,
@@ -102,7 +102,7 @@
       }
     ],
     "frequencyPerChunks": 1,
-    "frequencyOnChunk": 8,
+    "frequencyOnChunk": 10,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 45
   }

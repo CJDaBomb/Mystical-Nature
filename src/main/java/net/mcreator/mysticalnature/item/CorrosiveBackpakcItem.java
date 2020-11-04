@@ -42,7 +42,7 @@ public class CorrosiveBackpakcItem extends MysticalNatureModElements.ModElement 
 	@ObjectHolder("mystical_nature:corrosive_backpakc")
 	public static final Item block = null;
 	public CorrosiveBackpakcItem(MysticalNatureModElements instance) {
-		super(instance, 126);
+		super(instance, 50);
 	}
 
 	@Override

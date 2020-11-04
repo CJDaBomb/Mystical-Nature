@@ -15,7 +15,7 @@ public class AncientStickItem extends MysticalNatureModElements.ModElement {
 	@ObjectHolder("mystical_nature:ancient_stick")
 	public static final Item block = null;
 	public AncientStickItem(MysticalNatureModElements instance) {
-		super(instance, 38);
+		super(instance, 46);
 	}
 
 	@Override

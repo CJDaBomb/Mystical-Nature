@@ -25,7 +25,7 @@ public class BlackSandBlock extends MysticalNatureModElements.ModElement {
 	@ObjectHolder("mystical_nature:black_sand")
 	public static final Block block = null;
 	public BlackSandBlock(MysticalNatureModElements instance) {
-		super(instance, 20);
+		super(instance, 26);
 	}
 
 	@Override

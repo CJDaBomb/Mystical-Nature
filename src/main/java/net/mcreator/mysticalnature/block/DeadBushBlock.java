@@ -57,7 +57,7 @@ public class DeadBushBlock extends MysticalNatureModElements.ModElement {
 	@ObjectHolder("mystical_nature:dead_bush")
 	public static final Block block = null;
 	public DeadBushBlock(MysticalNatureModElements instance) {
-		super(instance, 43);
+		super(instance, 56);
 	}
 
 	@Override

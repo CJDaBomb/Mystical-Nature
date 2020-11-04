@@ -37,7 +37,7 @@ import com.google.common.collect.ImmutableMap;
 @MysticalNatureModElements.ModElement.Tag
 public class BlackrockBoulder3Structure extends MysticalNatureModElements.ModElement {
 	public BlackrockBoulder3Structure(MysticalNatureModElements instance) {
-		super(instance, 95);
+		super(instance, 113);
 	}
 
 	@Override

@@ -36,7 +36,7 @@ public class BloodBlock extends MysticalNatureModElements.ModElement {
 	public static FlowingFluid still = null;
 	private ForgeFlowingFluid.Properties fluidproperties = null;
 	public BloodBlock(MysticalNatureModElements instance) {
-		super(instance, 143);
+		super(instance, 52);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

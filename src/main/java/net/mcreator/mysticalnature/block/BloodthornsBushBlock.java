@@ -50,7 +50,7 @@ public class BloodthornsBushBlock extends MysticalNatureModElements.ModElement {
 	@ObjectHolder("mystical_nature:bloodthorns_bush")
 	public static final Block block = null;
 	public BloodthornsBushBlock(MysticalNatureModElements instance) {
-		super(instance, 139);
+		super(instance, 58);
 	}
 
 	@Override

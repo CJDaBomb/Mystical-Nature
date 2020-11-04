@@ -23,7 +23,7 @@ public class AcidClothBlock extends MysticalNatureModElements.ModElement {
 	@ObjectHolder("mystical_nature:acid_cloth")
 	public static final Block block = null;
 	public AcidClothBlock(MysticalNatureModElements instance) {
-		super(instance, 22);
+		super(instance, 28);
 	}
 
 	@Override

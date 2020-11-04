@@ -29,7 +29,7 @@ public class AcidPlantFiberBlockBlock extends MysticalNatureModElements.ModEleme
 	@ObjectHolder("mystical_nature:acid_plant_fiber_block")
 	public static final Block block = null;
 	public AcidPlantFiberBlockBlock(MysticalNatureModElements instance) {
-		super(instance, 23);
+		super(instance, 29);
 	}
 
 	@Override

@@ -15,7 +15,7 @@ public class AcidPlantFiberItem extends MysticalNatureModElements.ModElement {
 	@ObjectHolder("mystical_nature:acid_plant_fiber")
 	public static final Item block = null;
 	public AcidPlantFiberItem(MysticalNatureModElements instance) {
-		super(instance, 36);
+		super(instance, 44);
 	}
 
 	@Override

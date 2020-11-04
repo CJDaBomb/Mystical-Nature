@@ -15,7 +15,7 @@ public class AcidmanderSkinItem extends MysticalNatureModElements.ModElement {
 	@ObjectHolder("mystical_nature:acidmander_skin")
 	public static final Item block = null;
 	public AcidmanderSkinItem(MysticalNatureModElements instance) {
-		super(instance, 39);
+		super(instance, 47);
 	}
 
 	@Override

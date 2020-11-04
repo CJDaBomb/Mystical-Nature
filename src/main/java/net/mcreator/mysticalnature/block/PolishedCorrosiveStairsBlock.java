@@ -25,7 +25,7 @@ public class PolishedCorrosiveStairsBlock extends MysticalNatureModElements.ModE
 	@ObjectHolder("mystical_nature:polished_corrosive_stairs")
 	public static final Block block = null;
 	public PolishedCorrosiveStairsBlock(MysticalNatureModElements instance) {
-		super(instance, 167);
+		super(instance, 14);
 	}
 
 	@Override

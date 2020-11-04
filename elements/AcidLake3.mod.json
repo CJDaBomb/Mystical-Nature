@@ -4,7 +4,7 @@
   "definition": {
     "structure": "acid_lake_3",
     "randomlyRotateStructure": true,
-    "surfaceDetectionType": "First motion blocking block",
+    "surfaceDetectionType": "First block",
     "spawnProbability": 15000,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,

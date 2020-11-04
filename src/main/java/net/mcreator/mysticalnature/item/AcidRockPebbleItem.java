@@ -15,7 +15,7 @@ public class AcidRockPebbleItem extends MysticalNatureModElements.ModElement {
 	@ObjectHolder("mystical_nature:acid_rock_pebble")
 	public static final Item block = null;
 	public AcidRockPebbleItem(MysticalNatureModElements instance) {
-		super(instance, 37);
+		super(instance, 45);
 	}
 
 	@Override

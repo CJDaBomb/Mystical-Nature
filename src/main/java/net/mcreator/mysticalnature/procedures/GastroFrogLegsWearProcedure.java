@@ -21,7 +21,7 @@ import java.util.HashMap;
 @MysticalNatureModElements.ModElement.Tag
 public class GastroFrogLegsWearProcedure extends MysticalNatureModElements.ModElement {
 	public GastroFrogLegsWearProcedure(MysticalNatureModElements instance) {
-		super(instance, 60);
+		super(instance, 78);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

@@ -37,7 +37,7 @@ import com.google.common.collect.ImmutableMap;
 @MysticalNatureModElements.ModElement.Tag
 public class AcidLake2Structure extends MysticalNatureModElements.ModElement {
 	public AcidLake2Structure(MysticalNatureModElements instance) {
-		super(instance, 83);
+		super(instance, 101);
 	}
 
 	@Override
@@ -58,7 +58,7 @@ public class AcidLake2Structure extends MysticalNatureModElements.ModElement {
 					for (int a = 0; a < count; a++) {
 						int i = ci + random.nextInt(16);
 						int k = ck + random.nextInt(16);
-						int j = world.getHeight(Heightmap.Type.OCEAN_FLOOR_WG, i, k);
+						int j = world.getHeight(Heightmap.Type.WORLD_SURFACE_WG, i, k);
 						j -= 1;
 						BlockState blockAt = world.getBlockState(new BlockPos(i, j, k));
 						boolean blockCriteria = false;

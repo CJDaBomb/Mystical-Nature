@@ -38,7 +38,7 @@ import com.google.common.collect.ImmutableMap;
 @MysticalNatureModElements.ModElement.Tag
 public class Bloodroot7Structure extends MysticalNatureModElements.ModElement {
 	public Bloodroot7Structure(MysticalNatureModElements instance) {
-		super(instance, 152);
+		super(instance, 165);
 	}
 
 	@Override

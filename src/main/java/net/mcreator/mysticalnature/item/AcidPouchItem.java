@@ -42,7 +42,7 @@ public class AcidPouchItem extends MysticalNatureModElements.ModElement {
 	@ObjectHolder("mystical_nature:acid_pouch")
 	public static final Item block = null;
 	public AcidPouchItem(MysticalNatureModElements instance) {
-		super(instance, 124);
+		super(instance, 49);
 	}
 
 	@Override

@@ -54,7 +54,7 @@ import com.mojang.blaze3d.matrix.MatrixStack;
 public class GastrofrogEntity extends MysticalNatureModElements.ModElement {
 	public static EntityType entity = null;
 	public GastrofrogEntity(MysticalNatureModElements instance) {
-		super(instance, 27);
+		super(instance, 35);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

@@ -37,7 +37,7 @@ import com.google.common.collect.ImmutableMap;
 @MysticalNatureModElements.ModElement.Tag
 public class AcidBoulder2Structure extends MysticalNatureModElements.ModElement {
 	public AcidBoulder2Structure(MysticalNatureModElements instance) {
-		super(instance, 76);
+		super(instance, 94);
 	}
 
 	@Override

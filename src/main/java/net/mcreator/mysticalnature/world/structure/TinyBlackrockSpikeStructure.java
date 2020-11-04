@@ -34,7 +34,7 @@ import java.util.Random;
 @MysticalNatureModElements.ModElement.Tag
 public class TinyBlackrockSpikeStructure extends MysticalNatureModElements.ModElement {
 	public TinyBlackrockSpikeStructure(MysticalNatureModElements instance) {
-		super(instance, 99);
+		super(instance, 117);
 	}
 
 	@Override

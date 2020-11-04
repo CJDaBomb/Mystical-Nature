@@ -25,7 +25,7 @@ public class CorrosiveBrickStaisBlock extends MysticalNatureModElements.ModEleme
 	@ObjectHolder("mystical_nature:corrosive_brick_stais")
 	public static final Block block = null;
 	public CorrosiveBrickStaisBlock(MysticalNatureModElements instance) {
-		super(instance, 161);
+		super(instance, 18);
 	}
 
 	@Override

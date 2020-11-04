@@ -54,7 +54,7 @@ import java.util.HashMap;
 public class CorrosiveSpiderEntity extends MysticalNatureModElements.ModElement {
 	public static EntityType entity = null;
 	public CorrosiveSpiderEntity(MysticalNatureModElements instance) {
-		super(instance, 30);
+		super(instance, 38);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

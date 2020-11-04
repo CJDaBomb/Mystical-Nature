@@ -24,6 +24,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
@@ -60,7 +61,7 @@ public class CorrosiveEssenceOreBlock extends MysticalNatureModElements.ModEleme
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(Blocks.AIR, (int) (1)));
 		}
 	}
 	@Override
@@ -88,7 +89,7 @@ public class CorrosiveEssenceOreBlock extends MysticalNatureModElements.ModEleme
 						if (blockAt.getBlock() == BlackStoneBlock.block.getDefaultState().getBlock())
 							blockCriteria = true;
 						return blockCriteria;
-					}), block.getDefaultState(), 8)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(1, 0, 0, 45))));
+					}), block.getDefaultState(), 10)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(1, 0, 0, 45))));
 		}
 	}
 }

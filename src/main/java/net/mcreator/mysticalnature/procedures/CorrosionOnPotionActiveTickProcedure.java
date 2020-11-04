@@ -8,7 +8,7 @@ import java.util.Map;
 @MysticalNatureModElements.ModElement.Tag
 public class CorrosionOnPotionActiveTickProcedure extends MysticalNatureModElements.ModElement {
 	public CorrosionOnPotionActiveTickProcedure(MysticalNatureModElements instance) {
-		super(instance, 54);
+		super(instance, 72);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

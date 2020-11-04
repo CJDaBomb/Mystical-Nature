@@ -15,7 +15,7 @@ public class AcidBallItem extends MysticalNatureModElements.ModElement {
 	@ObjectHolder("mystical_nature:acid_ball")
 	public static final Item block = null;
 	public AcidBallItem(MysticalNatureModElements instance) {
-		super(instance, 33);
+		super(instance, 41);
 	}
 
 	@Override

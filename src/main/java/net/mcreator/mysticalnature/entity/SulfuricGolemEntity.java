@@ -48,7 +48,7 @@ import com.mojang.blaze3d.matrix.MatrixStack;
 public class SulfuricGolemEntity extends MysticalNatureModElements.ModElement {
 	public static EntityType entity = null;
 	public SulfuricGolemEntity(MysticalNatureModElements instance) {
-		super(instance, 31);
+		super(instance, 39);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

@@ -44,7 +44,7 @@ public class AcidBlock extends MysticalNatureModElements.ModElement {
 	public static FlowingFluid still = null;
 	private ForgeFlowingFluid.Properties fluidproperties = null;
 	public AcidBlock(MysticalNatureModElements instance) {
-		super(instance, 25);
+		super(instance, 33);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

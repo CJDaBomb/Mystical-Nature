@@ -50,7 +50,7 @@ import com.mojang.blaze3d.matrix.MatrixStack;
 public class AcidophilixEntity extends MysticalNatureModElements.ModElement {
 	public static EntityType entity = null;
 	public AcidophilixEntity(MysticalNatureModElements instance) {
-		super(instance, 28);
+		super(instance, 36);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

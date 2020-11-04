@@ -50,7 +50,7 @@ public class BloodSpiderEggBlock extends MysticalNatureModElements.ModElement {
 	@ObjectHolder("mystical_nature:blood_spider_egg")
 	public static final Block block = null;
 	public BloodSpiderEggBlock(MysticalNatureModElements instance) {
-		super(instance, 144);
+		super(instance, 62);
 	}
 
 	@Override

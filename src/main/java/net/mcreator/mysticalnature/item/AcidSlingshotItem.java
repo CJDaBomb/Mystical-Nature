@@ -57,7 +57,7 @@ public class AcidSlingshotItem extends MysticalNatureModElements.ModElement {
 	@ObjectHolder("mystical_nature:entitybulletacid_slingshot")
 	public static final EntityType arrow = null;
 	public AcidSlingshotItem(MysticalNatureModElements instance) {
-		super(instance, 46);
+		super(instance, 65);
 	}
 
 	@Override

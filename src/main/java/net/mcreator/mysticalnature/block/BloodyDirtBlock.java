@@ -24,7 +24,7 @@ public class BloodyDirtBlock extends MysticalNatureModElements.ModElement {
 	@ObjectHolder("mystical_nature:bloody_dirt")
 	public static final Block block = null;
 	public BloodyDirtBlock(MysticalNatureModElements instance) {
-		super(instance, 157);
+		super(instance, 32);
 	}
 
 	@Override

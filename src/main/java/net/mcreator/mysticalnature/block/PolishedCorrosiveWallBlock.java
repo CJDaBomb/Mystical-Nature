@@ -39,7 +39,7 @@ public class PolishedCorrosiveWallBlock extends MysticalNatureModElements.ModEle
 	@ObjectHolder("mystical_nature:polished_corrosive_wall")
 	public static final Block block = null;
 	public PolishedCorrosiveWallBlock(MysticalNatureModElements instance) {
-		super(instance, 171);
+		super(instance, 16);
 	}
 
 	@Override
