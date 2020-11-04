@@ -11,9 +11,8 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.gen.placement.Placement;
-import net.minecraft.world.gen.placement.FrequencyConfig;
-import net.minecraft.world.gen.feature.FlowersFeature;
-import net.minecraft.world.gen.feature.DefaultFlowersFeature;
+import net.minecraft.world.gen.placement.NoiseDependant;
+import net.minecraft.world.gen.feature.RandomPatchFeature;
 import net.minecraft.world.gen.feature.BlockClusterFeatureConfig;
 import net.minecraft.world.gen.blockstateprovider.SimpleBlockStateProvider;
 import net.minecraft.world.gen.blockplacer.SimpleBlockPlacer;
@@ -67,12 +66,7 @@ public class BloodthornsBlock extends MysticalNatureModElements.ModElement {
 
 	@Override
 	public void init(FMLCommonSetupEvent event) {
-		FlowersFeature feature = new DefaultFlowersFeature(BlockClusterFeatureConfig::deserialize) {
-			@Override
-			public BlockState getFlowerToPlace(Random random, BlockPos bp, BlockClusterFeatureConfig fc) {
-				return block.getDefaultState();
-			}
-
+		RandomPatchFeature feature = new RandomPatchFeature(BlockClusterFeatureConfig::deserialize) {
 			@Override
 			public boolean place(IWorld world, ChunkGenerator generator, Random random, BlockPos pos, BlockClusterFeatureConfig config) {
 				DimensionType dimensionType = world.getDimension().getType();
@@ -94,7 +88,7 @@ public class BloodthornsBlock extends MysticalNatureModElements.ModElement {
 					feature.withConfiguration(
 							(new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(block.getDefaultState()), new SimpleBlockPlacer()))
 									.tries(64).build())
-							.withPlacement(Placement.COUNT_HEIGHTMAP_32.configure(new FrequencyConfig(2))));
+							.withPlacement(Placement.NOISE_HEIGHTMAP_32.configure(new NoiseDependant(-0.8, 0, 2))));
 		}
 	}
 	public static class BlockCustomFlower extends FlowerBlock {

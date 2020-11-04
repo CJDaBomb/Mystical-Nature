@@ -5,7 +5,7 @@
     "structure": "bloodroot_4",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 50000,
+    "spawnProbability": 100000,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",

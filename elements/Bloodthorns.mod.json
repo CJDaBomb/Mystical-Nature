@@ -6,7 +6,7 @@
     "texture": "redplant",
     "customModelName": "Cross model",
     "plantType": "normal",
-    "staticPlantGenerationType": "Flower",
+    "staticPlantGenerationType": "Grass",
     "growapableSpawnType": "Cave",
     "growapableMaxHeight": 3,
     "name": "Bloodthorns",
