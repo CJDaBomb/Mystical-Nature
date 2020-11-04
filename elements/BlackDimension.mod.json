@@ -22,6 +22,9 @@
     "biomesInDimension": [
       {
         "value": "CUSTOM:AcidBarrens"
+      },
+      {
+        "value": "CUSTOM:BloodyThornsValley"
       }
     ],
     "worldGenType": "Normal world gen",

@@ -125,7 +125,8 @@ public class BlackDimensionDimension extends MysticalNatureModElements.ModElemen
 
 	@Override
 	public void init(FMLCommonSetupEvent event) {
-		dimensionBiomes = new Biome[]{ForgeRegistries.BIOMES.getValue(new ResourceLocation("mystical_nature:acid_barrens")),};
+		dimensionBiomes = new Biome[]{ForgeRegistries.BIOMES.getValue(new ResourceLocation("mystical_nature:acid_barrens")),
+				ForgeRegistries.BIOMES.getValue(new ResourceLocation("mystical_nature:bloody_thorns_valley")),};
 	}
 
 	@Override

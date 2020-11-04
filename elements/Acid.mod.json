@@ -14,9 +14,7 @@
     "creativeTab": {
       "value": "MISC"
     },
-    "spawnWorldTypes": [
-      "CUSTOM:BlackDimension"
-    ],
+    "spawnWorldTypes": [],
     "onEntityCollides": {
       "name": "AcidMobplayerCollidesBlock"
     }

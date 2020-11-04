@@ -3,10 +3,10 @@
   "_type": "biome",
   "definition": {
     "groundBlock": {
-      "value": "CUSTOM:BlackRock"
+      "value": "CUSTOM:BlackDirt"
     },
     "undergroundBlock": {
-      "value": "CUSTOM:BlackRock"
+      "value": "CUSTOM:BlackDirt"
     },
     "generateLakes": false,
     "treeType": 0,
@@ -35,27 +35,17 @@
     "reedsPerChunk": 0,
     "cactiPerChunk": 0,
     "rainingPossibility": 0.0,
-    "temperature": 2.0,
-    "baseHeight": 0.01,
-    "heightVariation": 0.1,
+    "temperature": 1.0,
+    "baseHeight": 0.5,
+    "heightVariation": 0.2,
     "spawnBiome": false,
     "biomeWeight": 500,
-    "biomeType": "DESERT",
-    "biomeCategory": "DESERT",
+    "biomeType": "WARM",
+    "biomeCategory": "PLAINS",
     "parent": {
       "value": "No parent"
     },
     "biomeDictionaryTypes": [],
-    "spawnEntries": [
-      {
-        "entity": {
-          "value": "EntityWitherSkeleton"
-        },
-        "minGroup": 1,
-        "maxGroup": 3,
-        "weight": 20,
-        "spawnType": "monster"
-      }
-    ]
+    "spawnEntries": []
   }
 }

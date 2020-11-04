@@ -1,0 +1,31 @@
+{
+  "_fv": 10,
+  "_type": "structure",
+  "definition": {
+    "structure": "bloodroot_9",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 50000,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": -6,
+    "spawnWorldTypes": [
+      "CUSTOM:BlackDimension"
+    ],
+    "restrictionBlocks": [
+      {
+        "value": "CUSTOM:BlackDirt"
+      }
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:BloodyThornsValley"
+      }
+    ],
+    "ignoreBlocks": "STRUCTURE_BLOCK",
+    "generateCondition": {
+      "name": "Bloodroot9AdditionalGenerationCondition"
+    }
+  }
+}
