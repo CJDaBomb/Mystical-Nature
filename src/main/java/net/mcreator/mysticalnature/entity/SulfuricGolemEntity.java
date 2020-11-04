@@ -59,12 +59,17 @@ public class SulfuricGolemEntity extends MysticalNatureModElements.ModElement {
 						.build("sulfuric_golem").setRegistryName("sulfuric_golem");
 		elements.entities.add(() -> entity);
 		elements.items.add(
-				() -> new SpawnEggItem(entity, -13421773, -6697984, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("sulfuric_golem"));
+				() -> new SpawnEggItem(entity, -13421773, -6684928, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("sulfuric_golem"));
 	}
 
 	@Override
 	public void init(FMLCommonSetupEvent event) {
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
+			boolean biomeCriteria = false;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("mystical_nature:acid_barrens")))
+				biomeCriteria = true;
+			if (!biomeCriteria)
+				continue;
 			biome.getSpawns(EntityClassification.MONSTER).add(new Biome.SpawnListEntry(entity, 20, 1, 1));
 		}
 		EntitySpawnPlacementRegistry.register(entity, EntitySpawnPlacementRegistry.PlacementType.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES,

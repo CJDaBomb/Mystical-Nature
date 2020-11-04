@@ -17,7 +17,7 @@
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -6697984,
+      "value": -6684928,
       "falpha": 0.0
     },
     "creativeTab": {
@@ -108,7 +108,11 @@
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 1,
     "maxNumberOfMobsPerGroup": 1,
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:AcidBarrens"
+      }
+    ],
     "spawnInDungeons": false
   }
 }

@@ -27,6 +27,7 @@ import net.minecraft.block.BlockState;
 
 import net.mcreator.mysticalnature.world.dimension.BlackDimensionDimension;
 import net.mcreator.mysticalnature.procedures.Bloodroot5AdditionalGenerationConditionProcedure;
+import net.mcreator.mysticalnature.block.BloodyDirtBlock;
 import net.mcreator.mysticalnature.block.BlackDirtBlock;
 import net.mcreator.mysticalnature.MysticalNatureModElements;
 
@@ -63,6 +64,8 @@ public class Bloodroot5Structure extends MysticalNatureModElements.ModElement {
 						BlockState blockAt = world.getBlockState(new BlockPos(i, j, k));
 						boolean blockCriteria = false;
 						if (blockAt.getBlock() == BlackDirtBlock.block.getDefaultState().getBlock())
+							blockCriteria = true;
+						if (blockAt.getBlock() == BloodyDirtBlock.block.getDefaultState().getBlock())
 							blockCriteria = true;
 						if (!blockCriteria)
 							continue;

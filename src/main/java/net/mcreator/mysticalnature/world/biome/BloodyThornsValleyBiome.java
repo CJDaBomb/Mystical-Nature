@@ -9,6 +9,7 @@ import net.minecraft.world.gen.surfacebuilders.SurfaceBuilder;
 import net.minecraft.world.biome.DefaultBiomeFeatures;
 import net.minecraft.world.biome.Biome;
 
+import net.mcreator.mysticalnature.block.BloodyDirtBlock;
 import net.mcreator.mysticalnature.block.BlackDirtBlock;
 import net.mcreator.mysticalnature.MysticalNatureModElements;
 
@@ -32,7 +33,7 @@ public class BloodyThornsValleyBiome extends MysticalNatureModElements.ModElemen
 		public CustomBiome() {
 			super(new Biome.Builder().downfall(0f).depth(0.5f).scale(0.2f).temperature(1f).precipitation(Biome.RainType.NONE)
 					.category(Biome.Category.PLAINS).waterColor(4159204).waterFogColor(329011)
-					.surfaceBuilder(SurfaceBuilder.DEFAULT, new SurfaceBuilderConfig(BlackDirtBlock.block.getDefaultState(),
+					.surfaceBuilder(SurfaceBuilder.DEFAULT, new SurfaceBuilderConfig(BloodyDirtBlock.block.getDefaultState(),
 							BlackDirtBlock.block.getDefaultState(), BlackDirtBlock.block.getDefaultState())));
 			setRegistryName("bloody_thorns_valley");
 			DefaultBiomeFeatures.addCarvers(this);

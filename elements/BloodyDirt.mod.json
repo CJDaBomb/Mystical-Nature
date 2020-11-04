@@ -88,19 +88,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "CUSTOM:BlackDimension"
-    ],
-    "restrictionBiomes": [
-      {
-        "value": "CUSTOM:BloodyThornsValley"
-      }
-    ],
-    "blocksToReplace": [
-      {
-        "value": "CUSTOM:BlackDirt"
-      }
-    ],
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
+    "blocksToReplace": [],
     "frequencyPerChunks": 32,
     "frequencyOnChunk": 32,
     "minGenerateHeight": 0,

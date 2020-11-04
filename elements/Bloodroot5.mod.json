@@ -16,6 +16,9 @@
     "restrictionBlocks": [
       {
         "value": "CUSTOM:BlackDirt"
+      },
+      {
+        "value": "CUSTOM:BloodyDirt"
       }
     ],
     "restrictionBiomes": [

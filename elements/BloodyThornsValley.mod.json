@@ -3,7 +3,7 @@
   "_type": "biome",
   "definition": {
     "groundBlock": {
-      "value": "CUSTOM:BlackDirt"
+      "value": "CUSTOM:BloodyDirt"
     },
     "undergroundBlock": {
       "value": "CUSTOM:BlackDirt"
