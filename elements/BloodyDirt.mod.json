@@ -2,12 +2,12 @@
   "_fv": 10,
   "_type": "block",
   "definition": {
-    "texture": "blackdirt",
-    "textureTop": "blackdirt",
-    "textureLeft": "blackdirt",
-    "textureFront": "blackdirt",
-    "textureRight": "blackdirt",
-    "textureBack": "blackdirt",
+    "texture": "bloodydirt",
+    "textureTop": "bloodydirt",
+    "textureLeft": "bloodydirt",
+    "textureFront": "bloodydirt",
+    "textureRight": "bloodydirt",
+    "textureBack": "bloodydirt",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -22,7 +22,7 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Black Dirt",
+    "name": "Bloody Dirt",
     "specialInfo": [],
     "hardness": 0.5,
     "resistance": 0.5,
@@ -88,16 +88,22 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [],
-    "restrictionBiomes": [],
-    "blocksToReplace": [
+    "spawnWorldTypes": [
+      "CUSTOM:BlackDimension"
+    ],
+    "restrictionBiomes": [
       {
-        "value": "Blocks.STONE"
+        "value": "CUSTOM:BloodyThornsValley"
       }
     ],
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
+    "blocksToReplace": [
+      {
+        "value": "CUSTOM:BlackDirt"
+      }
+    ],
+    "frequencyPerChunks": 32,
+    "frequencyOnChunk": 32,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "maxGenerateHeight": 256
   }
 }

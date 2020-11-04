@@ -1,8 +1,8 @@
 {
   "block.mystical_nature.blood_mushroom": "Blood Mushroom",
   "item.mystical_nature.corrosive_armor_helmet": "§2Corrosive Armor Helmet",
-  "block.mystical_nature.blood_spider_egg": "Blood Spider Egg",
   "item.mystical_nature.acid_ball": "Acid Ball",
+  "block.mystical_nature.blood_spider_egg": "Blood Spider Egg",
   "block.mystical_nature.bloodthorns_bush": "Bloodthorns Bush",
   "block.mystical_nature.caustic_flower": "Caustic Flower",
   "item.mystical_nature.corrosive_pebble": "§2Corrosive Pebble",
@@ -55,6 +55,7 @@
   "block.mystical_nature.acidaisy": "Acidaisy",
   "block.mystical_nature.ceiling_tiny_black_spikes": "Ceiling Tiny Black Spikes",
   "block.mystical_nature.corrosive_bricks": "§2Corrosive Bricks",
+  "block.mystical_nature.bloody_dirt": "Bloody Dirt",
   "block.mystical_nature.ceiling_tiny_acid_spikes": "Ceiling Tiny Acid Spikes",
   "block.mystical_nature.acid_pedestal": "Acid Pedestal",
   "item.mystical_nature.acid_bucket": "Acid Bucket",
