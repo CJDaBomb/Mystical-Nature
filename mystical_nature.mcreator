@@ -2762,23 +2762,6 @@
       "registry_name": "horn_power"
     },
     {
-      "name": "AfdasdaFoodEaten",
-      "type": "procedure",
-      "sortid": 201,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "afdasda_food_eaten",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "HornPowerAttack",
       "type": "procedure",
       "sortid": 202,

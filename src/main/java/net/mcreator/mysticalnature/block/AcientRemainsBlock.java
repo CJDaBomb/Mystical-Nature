@@ -81,7 +81,7 @@ public class AcientRemainsBlock extends MysticalNatureModElements.ModElement {
 				if (blockAt.getBlock() == Blocks.SOUL_SAND.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 8)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(10, 0, 0, 64))));
+			}), block.getDefaultState(), 8)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(10, 0, 0, 256))));
 		}
 	}
 }
