@@ -37,7 +37,7 @@ import com.google.common.collect.ImmutableMap;
 @MysticalNatureModElements.ModElement.Tag
 public class AcidBossDenSpawnStructure extends MysticalNatureModElements.ModElement {
 	public AcidBossDenSpawnStructure(MysticalNatureModElements instance) {
-		super(instance, 185);
+		super(instance, 189);
 	}
 
 	@Override

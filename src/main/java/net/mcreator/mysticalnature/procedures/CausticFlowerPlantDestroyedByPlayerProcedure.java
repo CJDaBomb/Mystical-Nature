@@ -17,7 +17,7 @@ import java.util.Map;
 @MysticalNatureModElements.ModElement.Tag
 public class CausticFlowerPlantDestroyedByPlayerProcedure extends MysticalNatureModElements.ModElement {
 	public CausticFlowerPlantDestroyedByPlayerProcedure(MysticalNatureModElements instance) {
-		super(instance, 122);
+		super(instance, 125);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

@@ -1,6 +1,7 @@
 buildscript {
     repositories {
-        maven { url = 'https://files.minecraftforge.net/maven' }
+        maven { 
+	url = 'https://files.minecraftforge.net/maven'}
         jcenter()
         mavenCentral()
     }
@@ -50,7 +51,7 @@ minecraft {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.15.2-31.2.0'
+    minecraft 'net.minecraftforge:forge:1.15.2-31.2.0'	
 }
 
 apply from: 'mcreator.gradle'

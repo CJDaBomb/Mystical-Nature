@@ -27,7 +27,7 @@ import java.util.Collections;
 
 @MysticalNatureModElements.ModElement.Tag
 public class BlackRockBlock extends MysticalNatureModElements.ModElement {
-	@ObjectHolder("mystical_nature:black_rock")
+	@ObjectHolder("mystical_nature:ancient_rock")
 	public static final Block block = null;
 	public BlackRockBlock(MysticalNatureModElements instance) {
 		super(instance, 2);
@@ -43,7 +43,7 @@ public class BlackRockBlock extends MysticalNatureModElements.ModElement {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ORGANIC).sound(SoundType.STONE).hardnessAndResistance(2f, 20f).lightValue(0).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE).tickRandomly());
-			setRegistryName("black_rock");
+			setRegistryName("ancient_rock");
 		}
 
 		@Override

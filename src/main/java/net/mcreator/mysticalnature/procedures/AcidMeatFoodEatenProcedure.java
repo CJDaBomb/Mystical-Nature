@@ -12,7 +12,7 @@ import java.util.Map;
 @MysticalNatureModElements.ModElement.Tag
 public class AcidMeatFoodEatenProcedure extends MysticalNatureModElements.ModElement {
 	public AcidMeatFoodEatenProcedure(MysticalNatureModElements instance) {
-		super(instance, 79);
+		super(instance, 82);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

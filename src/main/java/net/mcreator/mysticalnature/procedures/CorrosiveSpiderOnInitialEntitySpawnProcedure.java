@@ -15,7 +15,7 @@ import java.util.Map;
 @MysticalNatureModElements.ModElement.Tag
 public class CorrosiveSpiderOnInitialEntitySpawnProcedure extends MysticalNatureModElements.ModElement {
 	public CorrosiveSpiderOnInitialEntitySpawnProcedure(MysticalNatureModElements instance) {
-		super(instance, 116);
+		super(instance, 119);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

@@ -11,7 +11,7 @@ import java.util.Map;
 @MysticalNatureModElements.ModElement.Tag
 public class AcidBossAttackRangedItemUsedProcedure extends MysticalNatureModElements.ModElement {
 	public AcidBossAttackRangedItemUsedProcedure(MysticalNatureModElements instance) {
-		super(instance, 128);
+		super(instance, 131);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

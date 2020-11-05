@@ -17,7 +17,7 @@ public class CorrosiveSaberItem extends MysticalNatureModElements.ModElement {
 	@ObjectHolder("mystical_nature:corrosive_saber")
 	public static final Item block = null;
 	public CorrosiveSaberItem(MysticalNatureModElements instance) {
-		super(instance, 68);
+		super(instance, 71);
 	}
 
 	@Override

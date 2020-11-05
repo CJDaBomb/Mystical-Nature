@@ -1,5 +1,5 @@
 {
-  "parent": "mystical_nature:block/black_dirt",
+  "parent": "mystical_nature:block/tiny_ancient_spikes",
   "display": {
     "thirdperson": {
       "rotation": [

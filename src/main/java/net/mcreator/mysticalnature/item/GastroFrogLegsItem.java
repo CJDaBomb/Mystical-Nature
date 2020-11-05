@@ -36,7 +36,7 @@ public class GastroFrogLegsItem extends MysticalNatureModElements.ModElement {
 	@ObjectHolder("mystical_nature:gastro_frog_legs_boots")
 	public static final Item boots = null;
 	public GastroFrogLegsItem(MysticalNatureModElements instance) {
-		super(instance, 64);
+		super(instance, 67);
 	}
 
 	@Override

@@ -27,7 +27,7 @@ import java.util.Collections;
 
 @MysticalNatureModElements.ModElement.Tag
 public class BlackStonePillarBlock extends MysticalNatureModElements.ModElement {
-	@ObjectHolder("mystical_nature:black_stone_pillar")
+	@ObjectHolder("mystical_nature:ancient_pillar")
 	public static final Block block = null;
 	public BlackStonePillarBlock(MysticalNatureModElements instance) {
 		super(instance, 24);
@@ -45,7 +45,7 @@ public class BlackStonePillarBlock extends MysticalNatureModElements.ModElement 
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.5f, 6f).lightValue(0).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE));
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.SOUTH));
-			setRegistryName("black_stone_pillar");
+			setRegistryName("ancient_pillar");
 		}
 
 		@Override

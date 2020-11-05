@@ -18,7 +18,7 @@ public class BloodyThornsValleyBiome extends MysticalNatureModElements.ModElemen
 	@ObjectHolder("mystical_nature:bloody_thorns_valley")
 	public static final CustomBiome biome = null;
 	public BloodyThornsValleyBiome(MysticalNatureModElements instance) {
-		super(instance, 151);
+		super(instance, 154);
 	}
 
 	@Override

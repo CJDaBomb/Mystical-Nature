@@ -1,5 +1,5 @@
 {
-  "parent": "mystical_nature:block/black_rock_spike",
+  "parent": "mystical_nature:block/ancient_rock",
   "display": {
     "thirdperson": {
       "rotation": [

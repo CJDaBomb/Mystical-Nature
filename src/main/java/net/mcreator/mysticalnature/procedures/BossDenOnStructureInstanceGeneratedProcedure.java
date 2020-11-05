@@ -19,7 +19,7 @@ import java.util.Map;
 @MysticalNatureModElements.ModElement.Tag
 public class BossDenOnStructureInstanceGeneratedProcedure extends MysticalNatureModElements.ModElement {
 	public BossDenOnStructureInstanceGeneratedProcedure(MysticalNatureModElements instance) {
-		super(instance, 115);
+		super(instance, 118);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

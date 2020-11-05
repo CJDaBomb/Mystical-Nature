@@ -1,5 +1,5 @@
 {
-  "parent": "mystical_nature:block/black_sand",
+  "parent": "mystical_nature:block/polished_ancient_block",
   "display": {
     "thirdperson": {
       "rotation": [

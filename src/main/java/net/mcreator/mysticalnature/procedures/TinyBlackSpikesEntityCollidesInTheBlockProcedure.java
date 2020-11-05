@@ -11,7 +11,7 @@ import java.util.Map;
 @MysticalNatureModElements.ModElement.Tag
 public class TinyBlackSpikesEntityCollidesInTheBlockProcedure extends MysticalNatureModElements.ModElement {
 	public TinyBlackSpikesEntityCollidesInTheBlockProcedure(MysticalNatureModElements instance) {
-		super(instance, 118);
+		super(instance, 121);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

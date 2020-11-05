@@ -29,7 +29,7 @@ public class CorrosiveArmorItem extends MysticalNatureModElements.ModElement {
 	@ObjectHolder("mystical_nature:corrosive_armor_boots")
 	public static final Item boots = null;
 	public CorrosiveArmorItem(MysticalNatureModElements instance) {
-		super(instance, 69);
+		super(instance, 72);
 	}
 
 	@Override

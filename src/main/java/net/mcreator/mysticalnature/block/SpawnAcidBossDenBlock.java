@@ -28,7 +28,7 @@ public class SpawnAcidBossDenBlock extends MysticalNatureModElements.ModElement 
 	@ObjectHolder("mystical_nature:spawn_acid_boss_den")
 	public static final Block block = null;
 	public SpawnAcidBossDenBlock(MysticalNatureModElements instance) {
-		super(instance, 184);
+		super(instance, 187);
 	}
 
 	@Override

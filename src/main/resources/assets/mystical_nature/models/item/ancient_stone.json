@@ -1,5 +1,5 @@
 {
-  "parent": "mystical_nature:block/ceiling_tiny_black_spikes",
+  "parent": "mystical_nature:block/ancient_stone",
   "display": {
     "thirdperson": {
       "rotation": [

@@ -58,7 +58,7 @@ public class CausticFlowerBlock extends MysticalNatureModElements.ModElement {
 	@ObjectHolder("mystical_nature:caustic_flower")
 	public static final Block block = null;
 	public CausticFlowerBlock(MysticalNatureModElements instance) {
-		super(instance, 54);
+		super(instance, 58);
 	}
 
 	@Override

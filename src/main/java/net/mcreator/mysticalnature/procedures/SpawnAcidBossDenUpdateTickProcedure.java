@@ -17,7 +17,7 @@ import java.util.Map;
 @MysticalNatureModElements.ModElement.Tag
 public class SpawnAcidBossDenUpdateTickProcedure extends MysticalNatureModElements.ModElement {
 	public SpawnAcidBossDenUpdateTickProcedure(MysticalNatureModElements instance) {
-		super(instance, 183);
+		super(instance, 186);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

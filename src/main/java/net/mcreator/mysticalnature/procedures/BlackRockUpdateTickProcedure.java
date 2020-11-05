@@ -16,7 +16,7 @@ import java.util.Map;
 @MysticalNatureModElements.ModElement.Tag
 public class BlackRockUpdateTickProcedure extends MysticalNatureModElements.ModElement {
 	public BlackRockUpdateTickProcedure(MysticalNatureModElements instance) {
-		super(instance, 76);
+		super(instance, 79);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

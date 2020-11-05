@@ -45,7 +45,7 @@ import java.util.Collections;
 
 @MysticalNatureModElements.ModElement.Tag
 public class BlackRockSpikeBlock extends MysticalNatureModElements.ModElement {
-	@ObjectHolder("mystical_nature:black_rock_spike")
+	@ObjectHolder("mystical_nature:ancient_rock_spike")
 	public static final Block block = null;
 	public BlackRockSpikeBlock(MysticalNatureModElements instance) {
 		super(instance, 4);
@@ -69,7 +69,7 @@ public class BlackRockSpikeBlock extends MysticalNatureModElements.ModElement {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2f, 6f).lightValue(0).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE).notSolid());
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
-			setRegistryName("black_rock_spike");
+			setRegistryName("ancient_rock_spike");
 		}
 
 		@Override

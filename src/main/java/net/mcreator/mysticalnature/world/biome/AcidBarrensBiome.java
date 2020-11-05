@@ -19,7 +19,7 @@ public class AcidBarrensBiome extends MysticalNatureModElements.ModElement {
 	@ObjectHolder("mystical_nature:acid_barrens")
 	public static final CustomBiome biome = null;
 	public AcidBarrensBiome(MysticalNatureModElements instance) {
-		super(instance, 86);
+		super(instance, 89);
 	}
 
 	@Override

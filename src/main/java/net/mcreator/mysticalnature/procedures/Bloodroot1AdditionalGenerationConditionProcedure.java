@@ -10,7 +10,7 @@ import java.util.Map;
 @MysticalNatureModElements.ModElement.Tag
 public class Bloodroot1AdditionalGenerationConditionProcedure extends MysticalNatureModElements.ModElement {
 	public Bloodroot1AdditionalGenerationConditionProcedure(MysticalNatureModElements instance) {
-		super(instance, 152);
+		super(instance, 155);
 	}
 
 	public static boolean executeProcedure(Map<String, Object> dependencies) {

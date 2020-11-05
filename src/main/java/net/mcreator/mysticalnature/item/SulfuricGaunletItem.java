@@ -16,7 +16,7 @@ public class SulfuricGaunletItem extends MysticalNatureModElements.ModElement {
 	@ObjectHolder("mystical_nature:sulfuric_gaunlet")
 	public static final Item block = null;
 	public SulfuricGaunletItem(MysticalNatureModElements instance) {
-		super(instance, 63);
+		super(instance, 66);
 	}
 
 	@Override

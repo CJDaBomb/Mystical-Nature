@@ -1,5 +1,5 @@
 {
-  "parent": "mystical_nature:block/black_stone_bricks",
+  "parent": "mystical_nature:block/ancient_bricks",
   "display": {
     "thirdperson": {
       "rotation": [

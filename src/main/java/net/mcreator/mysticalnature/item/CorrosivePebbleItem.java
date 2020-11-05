@@ -17,7 +17,7 @@ public class CorrosivePebbleItem extends MysticalNatureModElements.ModElement {
 	@ObjectHolder("mystical_nature:corrosive_pebble")
 	public static final Item block = null;
 	public CorrosivePebbleItem(MysticalNatureModElements instance) {
-		super(instance, 67);
+		super(instance, 70);
 	}
 
 	@Override

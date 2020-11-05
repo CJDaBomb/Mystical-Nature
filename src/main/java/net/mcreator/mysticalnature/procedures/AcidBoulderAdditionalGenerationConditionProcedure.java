@@ -10,7 +10,7 @@ import java.util.Map;
 @MysticalNatureModElements.ModElement.Tag
 public class AcidBoulderAdditionalGenerationConditionProcedure extends MysticalNatureModElements.ModElement {
 	public AcidBoulderAdditionalGenerationConditionProcedure(MysticalNatureModElements instance) {
-		super(instance, 91);
+		super(instance, 94);
 	}
 
 	public static boolean executeProcedure(Map<String, Object> dependencies) {

@@ -12,7 +12,7 @@ import net.mcreator.mysticalnature.MysticalNatureModElements;
 
 @MysticalNatureModElements.ModElement.Tag
 public class BlackrockPebbleItem extends MysticalNatureModElements.ModElement {
-	@ObjectHolder("mystical_nature:blackrock_pebble")
+	@ObjectHolder("mystical_nature:ancient_pebble")
 	public static final Item block = null;
 	public BlackrockPebbleItem(MysticalNatureModElements instance) {
 		super(instance, 43);
@@ -25,7 +25,7 @@ public class BlackrockPebbleItem extends MysticalNatureModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64));
-			setRegistryName("blackrock_pebble");
+			setRegistryName("ancient_pebble");
 		}
 
 		@Override

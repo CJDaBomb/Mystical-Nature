@@ -1,5 +1,5 @@
 {
-  "parent": "mystical_nature:block/black_stone_pillar",
+  "parent": "mystical_nature:block/ancient_sand",
   "display": {
     "thirdperson": {
       "rotation": [

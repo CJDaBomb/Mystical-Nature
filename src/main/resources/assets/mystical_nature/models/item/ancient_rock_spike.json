@@ -1,5 +1,5 @@
 {
-  "parent": "mystical_nature:block/polished_black_stone",
+  "parent": "mystical_nature:block/ancient_rock_spike",
   "display": {
     "thirdperson": {
       "rotation": [

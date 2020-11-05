@@ -22,7 +22,7 @@ import java.util.Collections;
 
 @MysticalNatureModElements.ModElement.Tag
 public class BlackSandBlock extends MysticalNatureModElements.ModElement {
-	@ObjectHolder("mystical_nature:black_sand")
+	@ObjectHolder("mystical_nature:ancient_sand")
 	public static final Block block = null;
 	public BlackSandBlock(MysticalNatureModElements instance) {
 		super(instance, 26);
@@ -38,7 +38,7 @@ public class BlackSandBlock extends MysticalNatureModElements.ModElement {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.SAND).sound(SoundType.SAND).hardnessAndResistance(0.5f, 0.5f).lightValue(0).harvestLevel(1)
 					.harvestTool(ToolType.SHOVEL));
-			setRegistryName("black_sand");
+			setRegistryName("ancient_sand");
 		}
 
 		@Override

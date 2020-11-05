@@ -45,7 +45,7 @@ import java.util.Collections;
 
 @MysticalNatureModElements.ModElement.Tag
 public class TinyBlackSpikesBlock extends MysticalNatureModElements.ModElement {
-	@ObjectHolder("mystical_nature:tiny_black_spikes")
+	@ObjectHolder("mystical_nature:tiny_ancient_spikes")
 	public static final Block block = null;
 	public TinyBlackSpikesBlock(MysticalNatureModElements instance) {
 		super(instance, 6);
@@ -69,7 +69,7 @@ public class TinyBlackSpikesBlock extends MysticalNatureModElements.ModElement {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2f, 6f).lightValue(0).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE).doesNotBlockMovement().notSolid().tickRandomly());
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
-			setRegistryName("tiny_black_spikes");
+			setRegistryName("tiny_ancient_spikes");
 		}
 
 		@Override

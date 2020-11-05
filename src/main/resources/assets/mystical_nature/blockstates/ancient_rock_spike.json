@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mystical_nature:block/ancient_rock_spike"
+    },
+    "facing=east": {
+      "model": "mystical_nature:block/ancient_rock_spike",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mystical_nature:block/ancient_rock_spike",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mystical_nature:block/ancient_rock_spike",
+      "y": 270
+    }
+  }
+}

@@ -36,7 +36,7 @@ import java.util.Collections;
 
 @MysticalNatureModElements.ModElement.Tag
 public class BlackDirtBlock extends MysticalNatureModElements.ModElement {
-	@ObjectHolder("mystical_nature:black_dirt")
+	@ObjectHolder("mystical_nature:ancient_dirt")
 	public static final Block block = null;
 	public BlackDirtBlock(MysticalNatureModElements instance) {
 		super(instance, 27);
@@ -52,7 +52,7 @@ public class BlackDirtBlock extends MysticalNatureModElements.ModElement {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ORGANIC).sound(SoundType.GROUND).hardnessAndResistance(0.5f, 0.5f).lightValue(0).harvestLevel(0)
 					.harvestTool(ToolType.SHOVEL));
-			setRegistryName("black_dirt");
+			setRegistryName("ancient_dirt");
 		}
 
 		@Override
@@ -82,7 +82,7 @@ public class BlackDirtBlock extends MysticalNatureModElements.ModElement {
 						return false;
 					return super.place(world, generator, rand, pos, config);
 				}
-			}.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("black_dirt", "black_dirt", blockAt -> {
+			}.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("ancient_dirt", "ancient_dirt", blockAt -> {
 				boolean blockCriteria = false;
 				if (blockAt.getBlock() == BloodyDirtBlock.block.getDefaultState().getBlock())
 					blockCriteria = true;

@@ -58,7 +58,7 @@ public class AcidaisyBlock extends MysticalNatureModElements.ModElement {
 	@ObjectHolder("mystical_nature:acidaisy")
 	public static final Block block = null;
 	public AcidaisyBlock(MysticalNatureModElements instance) {
-		super(instance, 55);
+		super(instance, 59);
 	}
 
 	@Override
