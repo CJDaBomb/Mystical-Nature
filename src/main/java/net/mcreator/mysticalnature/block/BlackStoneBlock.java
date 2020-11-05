@@ -35,7 +35,7 @@ public class BlackStoneBlock extends MysticalNatureModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.5f, 6f).lightValue(0).harvestLevel(1)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.5f, 20f).lightValue(0).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE));
 			setRegistryName("black_stone");
 		}

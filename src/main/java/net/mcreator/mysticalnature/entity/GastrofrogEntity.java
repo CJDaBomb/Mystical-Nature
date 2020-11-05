@@ -26,7 +26,6 @@ import net.minecraft.network.IPacket;
 import net.minecraft.item.SpawnEggItem;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
-import net.minecraft.entity.monster.MonsterEntity;
 import net.minecraft.entity.ai.goal.SwimGoal;
 import net.minecraft.entity.ai.goal.RandomWalkingGoal;
 import net.minecraft.entity.ai.goal.RandomSwimmingGoal;
@@ -35,15 +34,16 @@ import net.minecraft.entity.ai.goal.LookRandomlyGoal;
 import net.minecraft.entity.ai.goal.HurtByTargetGoal;
 import net.minecraft.entity.ai.controller.MovementController;
 import net.minecraft.entity.SharedMonsterAttributes;
-import net.minecraft.entity.MobEntity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntitySpawnPlacementRegistry;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.Entity;
+import net.minecraft.entity.CreatureEntity;
 import net.minecraft.entity.CreatureAttribute;
 import net.minecraft.client.renderer.model.ModelRenderer;
 import net.minecraft.client.renderer.entity.model.EntityModel;
 import net.minecraft.client.renderer.entity.MobRenderer;
+import net.minecraft.block.material.Material;
 
 import net.mcreator.mysticalnature.MysticalNatureModElements;
 
@@ -60,7 +60,7 @@ public class GastrofrogEntity extends MysticalNatureModElements.ModElement {
 
 	@Override
 	public void initElements() {
-		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.AMBIENT).setShouldReceiveVelocityUpdates(true)
+		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.CREATURE).setShouldReceiveVelocityUpdates(true)
 				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(1f, 1.9f))
 						.build("gastrofrog").setRegistryName("gastrofrog");
 		elements.entities.add(() -> entity);
@@ -76,10 +76,11 @@ public class GastrofrogEntity extends MysticalNatureModElements.ModElement {
 				biomeCriteria = true;
 			if (!biomeCriteria)
 				continue;
-			biome.getSpawns(EntityClassification.AMBIENT).add(new Biome.SpawnListEntry(entity, 20, 1, 3));
+			biome.getSpawns(EntityClassification.CREATURE).add(new Biome.SpawnListEntry(entity, 20, 1, 3));
 		}
-		EntitySpawnPlacementRegistry.register(entity, EntitySpawnPlacementRegistry.PlacementType.NO_RESTRICTIONS,
-				Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, MobEntity::canSpawnOn);
+		EntitySpawnPlacementRegistry.register(entity, EntitySpawnPlacementRegistry.PlacementType.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES,
+				(entityType, world, reason, pos,
+						random) -> (world.getBlockState(pos.down()).getMaterial() == Material.ORGANIC && world.getLightSubtracted(pos, 0) > 8));
 	}
 
 	@SubscribeEvent
@@ -94,7 +95,7 @@ public class GastrofrogEntity extends MysticalNatureModElements.ModElement {
 			};
 		});
 	}
-	public static class CustomEntity extends MonsterEntity {
+	public static class CustomEntity extends CreatureEntity {
 		public CustomEntity(FMLPlayMessages.SpawnEntity packet, World world) {
 			this(entity, world);
 		}

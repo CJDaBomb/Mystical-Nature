@@ -1,0 +1,56 @@
+{
+  "_fv": 10,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "satyrhorns",
+    "enableBody": false,
+    "textureBody": "",
+    "enableLeggings": false,
+    "textureLeggings": "",
+    "enableBoots": false,
+    "textureBoots": "",
+    "onHelmetTick": {
+      "name": "SatyrHornsHelmetTickEvent"
+    },
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "satyr_",
+    "helmetName": "§4Satyr Horns",
+    "bodyName": "Satyr Horns Body",
+    "leggingsName": "Satyr Horns Leggings",
+    "bootsName": "Satyr Horns Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "ModelSatyrHorns",
+    "helmetModelPart": "head",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 25,
+    "damageValueHelmet": 3,
+    "damageValueBody": 6,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 2,
+    "enchantability": 10,
+    "toughness": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

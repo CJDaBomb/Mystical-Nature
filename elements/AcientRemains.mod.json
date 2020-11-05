@@ -88,15 +88,17 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [],
+    "spawnWorldTypes": [
+      "Nether"
+    ],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE"
+        "value": "Blocks.SOUL_SAND"
       }
     ],
     "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
+    "frequencyOnChunk": 8,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64
   }

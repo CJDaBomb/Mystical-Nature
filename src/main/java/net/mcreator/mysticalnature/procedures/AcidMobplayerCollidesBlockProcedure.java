@@ -20,7 +20,7 @@ import java.util.Map;
 @MysticalNatureModElements.ModElement.Tag
 public class AcidMobplayerCollidesBlockProcedure extends MysticalNatureModElements.ModElement {
 	public AcidMobplayerCollidesBlockProcedure(MysticalNatureModElements instance) {
-		super(instance, 74);
+		super(instance, 77);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -32,17 +32,17 @@ public class AcidMobplayerCollidesBlockProcedure extends MysticalNatureModElemen
 		if ((((!(entity instanceof GastrofrogEntity.CustomEntity))
 				&& ((!(entity instanceof AcidophilixEntity.CustomEntity)) && ((!(entity instanceof AcidmanderEntity.CustomEntity))
 						&& ((!(entity instanceof CorrosiveSpiderEntity.CustomEntity)) && (!(entity instanceof SulfuricGolemEntity.CustomEntity))))))
-				|| (!((((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.armorInventory.get(1) : ItemStack.EMPTY)
+				|| (!((((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.armorInventory.get(3) : ItemStack.EMPTY)
 						.getItem() == new ItemStack(CorrosiveArmorItem.helmet, (int) (1)).getItem())
 						&& ((((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.armorInventory.get(2) : ItemStack.EMPTY)
 								.getItem() == new ItemStack(CorrosiveArmorItem.body, (int) (1)).getItem())
-								&& ((((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.armorInventory.get(3) : ItemStack.EMPTY)
+								&& ((((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.armorInventory.get(1) : ItemStack.EMPTY)
 										.getItem() == new ItemStack(CorrosiveArmorItem.legs, (int) (1)).getItem())
 										&& (((entity instanceof PlayerEntity)
-												? ((PlayerEntity) entity).inventory.armorInventory.get(4)
+												? ((PlayerEntity) entity).inventory.armorInventory.get(0)
 												: ItemStack.EMPTY).getItem() == new ItemStack(CorrosiveArmorItem.boots, (int) (1)).getItem()))))))) {
 			if (entity instanceof LivingEntity)
-				((LivingEntity) entity).addPotionEffect(new EffectInstance(CorrosionPotion.potion, (int) 60, (int) 1));
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(CorrosionPotion.potion, (int) 10, (int) 1));
 		}
 	}
 }

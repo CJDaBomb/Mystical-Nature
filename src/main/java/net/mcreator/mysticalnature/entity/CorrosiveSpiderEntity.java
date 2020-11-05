@@ -26,6 +26,7 @@ import net.minecraft.item.SpawnEggItem;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.projectile.PotionEntity;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.monster.SpiderEntity;
 import net.minecraft.entity.monster.MonsterEntity;
 import net.minecraft.entity.ai.goal.SwimGoal;
@@ -112,7 +113,7 @@ public class CorrosiveSpiderEntity extends MysticalNatureModElements.ModElement 
 		@Override
 		protected void registerGoals() {
 			super.registerGoals();
-			this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, GastrofrogEntity.CustomEntity.class, true, false));
+			this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, PlayerEntity.class, true, false));
 			this.goalSelector.addGoal(2, new RandomWalkingGoal(this, 1));
 			this.targetSelector.addGoal(3, new HurtByTargetGoal(this));
 			this.goalSelector.addGoal(4, new LookRandomlyGoal(this));

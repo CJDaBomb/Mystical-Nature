@@ -19,6 +19,7 @@ import net.minecraft.util.ActionResultType;
 import net.minecraft.util.ActionResult;
 import net.minecraft.network.IPacket;
 import net.minecraft.item.UseAction;
+import net.minecraft.item.ShootableItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
@@ -56,7 +57,7 @@ public class AcidBossAttackItem extends MysticalNatureModElements.ModElement {
 	@ObjectHolder("mystical_nature:entitybulletacid_boss_attack")
 	public static final EntityType arrow = null;
 	public AcidBossAttackItem(MysticalNatureModElements instance) {
-		super(instance, 66);
+		super(instance, 69);
 	}
 
 	@Override
@@ -102,14 +103,42 @@ public class AcidBossAttackItem extends MysticalNatureModElements.ModElement {
 				double y = entity.getPosY();
 				double z = entity.getPosZ();
 				if (true) {
-					ArrowCustomEntity entityarrow = shoot(world, entity, random, 1f, 5, 0);
-					itemstack.damageItem(1, entity, e -> e.sendBreakAnimation(entity.getActiveHand()));
-					entityarrow.pickupStatus = AbstractArrowEntity.PickupStatus.DISALLOWED;
-					{
-						Map<String, Object> $_dependencies = new HashMap<>();
-						$_dependencies.put("entity", entity);
-						$_dependencies.put("itemstack", itemstack);
-						AcidBossAttackRangedItemUsedProcedure.executeProcedure($_dependencies);
+					ItemStack stack = ShootableItem.getHeldAmmo(entity,
+							e -> e.getItem() == new ItemStack(CorrosivePebbleItem.block, (int) (1)).getItem());
+					if (stack == ItemStack.EMPTY) {
+						for (int i = 0; i < entity.inventory.mainInventory.size(); i++) {
+							ItemStack teststack = entity.inventory.mainInventory.get(i);
+							if (teststack != null && teststack.getItem() == new ItemStack(CorrosivePebbleItem.block, (int) (1)).getItem()) {
+								stack = teststack;
+								break;
+							}
+						}
+					}
+					if (entity.abilities.isCreativeMode || stack != ItemStack.EMPTY) {
+						ArrowCustomEntity entityarrow = shoot(world, entity, random, 1f, 5, 0);
+						itemstack.damageItem(1, entity, e -> e.sendBreakAnimation(entity.getActiveHand()));
+						if (entity.abilities.isCreativeMode) {
+							entityarrow.pickupStatus = AbstractArrowEntity.PickupStatus.CREATIVE_ONLY;
+						} else {
+							if (new ItemStack(CorrosivePebbleItem.block, (int) (1)).isDamageable()) {
+								if (stack.attemptDamageItem(1, random, entity)) {
+									stack.shrink(1);
+									stack.setDamage(0);
+									if (stack.isEmpty())
+										entity.inventory.deleteStack(stack);
+								}
+							} else {
+								stack.shrink(1);
+								if (stack.isEmpty())
+									entity.inventory.deleteStack(stack);
+							}
+						}
+						{
+							Map<String, Object> $_dependencies = new HashMap<>();
+							$_dependencies.put("entity", entity);
+							$_dependencies.put("itemstack", itemstack);
+							AcidBossAttackRangedItemUsedProcedure.executeProcedure($_dependencies);
+						}
 					}
 				}
 			}
@@ -147,7 +176,7 @@ public class AcidBossAttackItem extends MysticalNatureModElements.ModElement {
 
 		@Override
 		protected ItemStack getArrowStack() {
-			return null;
+			return new ItemStack(CorrosivePebbleItem.block, (int) (1));
 		}
 
 		@Override
@@ -248,8 +277,8 @@ public class AcidBossAttackItem extends MysticalNatureModElements.ModElement {
 		double y = entity.getPosY();
 		double z = entity.getPosZ();
 		world.playSound((PlayerEntity) null, (double) x, (double) y, (double) z,
-				(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("")), SoundCategory.PLAYERS, 1,
-				1f / (random.nextFloat() * 0.5f + 1) + (power / 2));
+				(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.enchantment_table.use")),
+				SoundCategory.PLAYERS, 1, 1f / (random.nextFloat() * 0.5f + 1) + (power / 2));
 		return entityarrow;
 	}
 
@@ -268,8 +297,8 @@ public class AcidBossAttackItem extends MysticalNatureModElements.ModElement {
 		double y = entity.getPosY();
 		double z = entity.getPosZ();
 		entity.world.playSound((PlayerEntity) null, (double) x, (double) y, (double) z,
-				(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("")), SoundCategory.PLAYERS, 1,
-				1f / (new Random().nextFloat() * 0.5f + 1));
+				(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.enchantment_table.use")),
+				SoundCategory.PLAYERS, 1, 1f / (new Random().nextFloat() * 0.5f + 1));
 		return entityarrow;
 	}
 }

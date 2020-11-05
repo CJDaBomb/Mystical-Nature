@@ -45,6 +45,9 @@
       {
         "value": "CUSTOM:BloodyThornsValley"
       }
-    ]
+    ],
+    "onEntityCollides": {
+      "name": "BloodSpiderEggMobplayerCollidesWithPlant"
+    }
   }
 }

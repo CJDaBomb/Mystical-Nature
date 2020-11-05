@@ -35,7 +35,7 @@ public class BloodyDirtBlock extends MysticalNatureModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.EARTH).sound(SoundType.GROUND).hardnessAndResistance(0.5f, 0.5f).lightValue(0).harvestLevel(0)
+			super(Block.Properties.create(Material.ORGANIC).sound(SoundType.GROUND).hardnessAndResistance(0.5f, 0.5f).lightValue(0).harvestLevel(0)
 					.harvestTool(ToolType.SHOVEL));
 			setRegistryName("bloody_dirt");
 		}

@@ -41,7 +41,7 @@ public class BlackRockBlock extends MysticalNatureModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2f, 6f).lightValue(0).harvestLevel(1)
+			super(Block.Properties.create(Material.ORGANIC).sound(SoundType.STONE).hardnessAndResistance(2f, 20f).lightValue(0).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE).tickRandomly());
 			setRegistryName("black_rock");
 		}

@@ -21,6 +21,7 @@ import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.gen.ChunkGenerator;
 import net.minecraft.world.dimension.DimensionType;
 import net.minecraft.world.biome.Biome;
+import net.minecraft.world.World;
 import net.minecraft.world.IWorld;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
@@ -30,6 +31,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
+import net.minecraft.entity.Entity;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.block.material.Material;
@@ -39,10 +41,13 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.mysticalnature.world.dimension.BlackDimensionDimension;
+import net.mcreator.mysticalnature.procedures.BloodSpiderEggMobplayerCollidesWithPlantProcedure;
 import net.mcreator.mysticalnature.MysticalNatureModElements;
 
 import java.util.Random;
+import java.util.Map;
 import java.util.List;
+import java.util.HashMap;
 import java.util.Collections;
 
 @MysticalNatureModElements.ModElement.Tag
@@ -50,7 +55,7 @@ public class BloodSpiderEggBlock extends MysticalNatureModElements.ModElement {
 	@ObjectHolder("mystical_nature:blood_spider_egg")
 	public static final Block block = null;
 	public BloodSpiderEggBlock(MysticalNatureModElements instance) {
-		super(instance, 62);
+		super(instance, 65);
 	}
 
 	@Override
@@ -115,6 +120,23 @@ public class BloodSpiderEggBlock extends MysticalNatureModElements.ModElement {
 		@Override
 		public PlantType getPlantType(IBlockReader world, BlockPos pos) {
 			return PlantType.Cave;
+		}
+
+		@Override
+		public void onEntityCollision(BlockState state, World world, BlockPos pos, Entity entity) {
+			super.onEntityCollision(state, world, pos, entity);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				BloodSpiderEggMobplayerCollidesWithPlantProcedure.executeProcedure($_dependencies);
+			}
 		}
 	}
 }

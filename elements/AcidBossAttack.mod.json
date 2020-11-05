@@ -12,12 +12,12 @@
     },
     "stackSize": 1,
     "ammoItem": {
-      "value": ""
+      "value": "CUSTOM:CorrosivePebble"
     },
     "shootConstantly": false,
     "usageCount": 100,
     "actionSound": {
-      "value": ""
+      "value": "block.enchantment_table.use"
     },
     "hasGlow": false,
     "enableMeleeDamage": false,

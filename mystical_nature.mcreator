@@ -49,7 +49,7 @@
     {
       "name": "CorrosionOnPotionActiveTick",
       "type": "procedure",
-      "sortid": 72,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -61,7 +61,7 @@
     {
       "name": "Corrosion",
       "type": "potion",
-      "sortid": 73,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -70,7 +70,7 @@
     {
       "name": "AcidMobplayerCollidesBlock",
       "type": "procedure",
-      "sortid": 74,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -96,7 +96,7 @@
     {
       "name": "BlackRockSpikeUpdateTick",
       "type": "procedure",
-      "sortid": 75,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -125,7 +125,7 @@
     {
       "name": "BlackRockUpdateTick",
       "type": "procedure",
-      "sortid": 76,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -154,7 +154,7 @@
     {
       "name": "CorrodedGrass",
       "type": "plant",
-      "sortid": 53,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -163,7 +163,7 @@
     {
       "name": "CausticFlower",
       "type": "plant",
-      "sortid": 54,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -172,7 +172,7 @@
     {
       "name": "Acidaisy",
       "type": "plant",
-      "sortid": 55,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -235,7 +235,7 @@
     {
       "name": "TinyBlackSpikesUpdateTick",
       "type": "procedure",
-      "sortid": 77,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -300,7 +300,7 @@
     {
       "name": "SulfuricGaunlet",
       "type": "tool",
-      "sortid": 63,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -363,7 +363,7 @@
     {
       "name": "GastroFrogLegs",
       "type": "armor",
-      "sortid": 64,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -378,7 +378,7 @@
     {
       "name": "GastroFrogLegsWear",
       "type": "procedure",
-      "sortid": 78,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -395,7 +395,7 @@
     {
       "name": "AcidlessMeat",
       "type": "food",
-      "sortid": 70,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -404,7 +404,7 @@
     {
       "name": "AcidMeatFoodEaten",
       "type": "procedure",
-      "sortid": 79,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -421,7 +421,7 @@
     {
       "name": "AcidMeat",
       "type": "food",
-      "sortid": 71,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -430,7 +430,7 @@
     {
       "name": "AcidMeatFurnace",
       "type": "recipe",
-      "sortid": 80,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -439,7 +439,7 @@
     {
       "name": "AcidMeatSmoker",
       "type": "recipe",
-      "sortid": 81,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -448,7 +448,7 @@
     {
       "name": "AcidMeatCampfire",
       "type": "recipe",
-      "sortid": 82,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -493,7 +493,7 @@
     {
       "name": "BlackrockPebbleCrafting",
       "type": "recipe",
-      "sortid": 83,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -502,7 +502,7 @@
     {
       "name": "BlackrockRecipe",
       "type": "recipe",
-      "sortid": 84,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -511,7 +511,7 @@
     {
       "name": "AcidSlingshot",
       "type": "gun",
-      "sortid": 65,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -520,7 +520,7 @@
     {
       "name": "AcidSlingshotRangedItemUsed",
       "type": "procedure",
-      "sortid": 85,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -541,7 +541,7 @@
     {
       "name": "AcidBarrens",
       "type": "biome",
-      "sortid": 86,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -559,7 +559,7 @@
     {
       "name": "Acidarch",
       "type": "structure",
-      "sortid": 87,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -568,7 +568,7 @@
     {
       "name": "AcidarchAdditionalGenerationCondition",
       "type": "procedure",
-      "sortid": 88,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -598,7 +598,7 @@
     {
       "name": "Acidarch2AdditionalGenerationCondition",
       "type": "procedure",
-      "sortid": 89,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -628,7 +628,7 @@
     {
       "name": "Acidarch2",
       "type": "structure",
-      "sortid": 90,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -637,7 +637,7 @@
     {
       "name": "AcidBoulderAdditionalGenerationCondition",
       "type": "procedure",
-      "sortid": 91,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -667,7 +667,7 @@
     {
       "name": "AcidBoulder",
       "type": "structure",
-      "sortid": 92,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -676,7 +676,7 @@
     {
       "name": "AcidBoulder2AdditionalGenerationCondition",
       "type": "procedure",
-      "sortid": 93,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -706,7 +706,7 @@
     {
       "name": "AcidBoulder2",
       "type": "structure",
-      "sortid": 94,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -715,7 +715,7 @@
     {
       "name": "AcidBoulder3AdditionalGenerationCondition",
       "type": "procedure",
-      "sortid": 95,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -745,7 +745,7 @@
     {
       "name": "AcidLakeAdditionalGenerationCondition",
       "type": "procedure",
-      "sortid": 96,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -775,7 +775,7 @@
     {
       "name": "AcidLake",
       "type": "structure",
-      "sortid": 97,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -784,7 +784,7 @@
     {
       "name": "AcidLake1AdditionalGenerationCondition",
       "type": "procedure",
-      "sortid": 98,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -814,7 +814,7 @@
     {
       "name": "AcidLake1",
       "type": "structure",
-      "sortid": 99,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -823,7 +823,7 @@
     {
       "name": "AcidLake2AdditionalGenerationCondition",
       "type": "procedure",
-      "sortid": 100,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -853,7 +853,7 @@
     {
       "name": "AcidLake2",
       "type": "structure",
-      "sortid": 101,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -862,7 +862,7 @@
     {
       "name": "AcidLake3AdditionalGenerationCondition",
       "type": "procedure",
-      "sortid": 102,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -892,7 +892,7 @@
     {
       "name": "AcidLake3",
       "type": "structure",
-      "sortid": 103,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -901,7 +901,7 @@
     {
       "name": "BlackrockArchAdditionalGenerationCondition",
       "type": "procedure",
-      "sortid": 104,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -931,7 +931,7 @@
     {
       "name": "BlackrockArch",
       "type": "structure",
-      "sortid": 105,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -940,7 +940,7 @@
     {
       "name": "BlackrockArch2AdditionalGenerationCondition",
       "type": "procedure",
-      "sortid": 106,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -970,7 +970,7 @@
     {
       "name": "BlackrockArch2",
       "type": "structure",
-      "sortid": 107,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -979,7 +979,7 @@
     {
       "name": "BlackrockBoulderAdditionalGenerationCondition",
       "type": "procedure",
-      "sortid": 108,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1009,7 +1009,7 @@
     {
       "name": "BlackrockBoulder",
       "type": "structure",
-      "sortid": 109,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1018,7 +1018,7 @@
     {
       "name": "BlackrockBoulder2AdditionalGenerationCondition",
       "type": "procedure",
-      "sortid": 110,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1048,7 +1048,7 @@
     {
       "name": "BlackrockBoulder2",
       "type": "structure",
-      "sortid": 111,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1057,7 +1057,7 @@
     {
       "name": "BlackrockBoulder3AdditionalGenerationCondition",
       "type": "procedure",
-      "sortid": 112,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1087,7 +1087,7 @@
     {
       "name": "BlackrockBoulder3",
       "type": "structure",
-      "sortid": 113,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1096,7 +1096,7 @@
     {
       "name": "AcidBoulder3",
       "type": "structure",
-      "sortid": 114,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1105,7 +1105,7 @@
     {
       "name": "BossDenOnStructureInstanceGenerated",
       "type": "procedure",
-      "sortid": 115,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1134,7 +1134,7 @@
     {
       "name": "CorrosiveSpiderOnInitialEntitySpawn",
       "type": "procedure",
-      "sortid": 116,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1163,7 +1163,7 @@
     {
       "name": "TinyBlackrockSpike",
       "type": "structure",
-      "sortid": 117,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1172,7 +1172,7 @@
     {
       "name": "TinyBlackSpikesEntityCollidesInTheBlock",
       "type": "procedure",
-      "sortid": 118,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1189,7 +1189,7 @@
     {
       "name": "AcidBossAttack",
       "type": "gun",
-      "sortid": 66,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1198,7 +1198,7 @@
     {
       "name": "CeilingTinyBlackSpikesNeighbourBlockChanges",
       "type": "procedure",
-      "sortid": 119,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1236,7 +1236,7 @@
     {
       "name": "TinyBlackSpikesNeighbourBlockChanges",
       "type": "procedure",
-      "sortid": 120,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1265,7 +1265,7 @@
     {
       "name": "CorrodedGrassPlantDestroyedByPlayer",
       "type": "procedure",
-      "sortid": 121,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1298,7 +1298,7 @@
     {
       "name": "CausticFlowerPlantDestroyedByPlayer",
       "type": "procedure",
-      "sortid": 122,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1331,7 +1331,7 @@
     {
       "name": "AcidaisyPlantDestroyedByPlayer",
       "type": "procedure",
-      "sortid": 123,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1382,7 +1382,7 @@
     {
       "name": "AcidRockPebbleRecipe",
       "type": "recipe",
-      "sortid": 124,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1391,7 +1391,7 @@
     {
       "name": "AcidRockRecipe",
       "type": "recipe",
-      "sortid": 125,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1400,7 +1400,7 @@
     {
       "name": "CorrosivePebble",
       "type": "item",
-      "sortid": 67,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1409,7 +1409,7 @@
     {
       "name": "CorrosivePebbleRecipe",
       "type": "recipe",
-      "sortid": 126,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1427,7 +1427,7 @@
     {
       "name": "DeadBushPlantDestroyedByPlayer",
       "type": "procedure",
-      "sortid": 127,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1460,7 +1460,7 @@
     {
       "name": "CorrosiveSaber",
       "type": "tool",
-      "sortid": 68,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1469,7 +1469,7 @@
     {
       "name": "AcidBossAttackRangedItemUsed",
       "type": "procedure",
-      "sortid": 128,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1526,7 +1526,7 @@
     {
       "name": "CorrosiveArmor",
       "type": "armor",
-      "sortid": 69,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1550,7 +1550,7 @@
     {
       "name": "AcidRockEntityWalksOnTheBlock",
       "type": "procedure",
-      "sortid": 129,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1576,7 +1576,7 @@
     {
       "name": "AcidSlingshotRecipe",
       "type": "recipe",
-      "sortid": 130,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1585,7 +1585,7 @@
     {
       "name": "AcidophilixDrop",
       "type": "loottable",
-      "sortid": 131,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1594,7 +1594,7 @@
     {
       "name": "AcidmanderDrop",
       "type": "loottable",
-      "sortid": 132,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1603,7 +1603,7 @@
     {
       "name": "SulfuricGolemDrop",
       "type": "loottable",
-      "sortid": 133,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1612,7 +1612,7 @@
     {
       "name": "CorrosiveSpiderDrop",
       "type": "loottable",
-      "sortid": 134,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1621,7 +1621,7 @@
     {
       "name": "GastrofrogDrop",
       "type": "loottable",
-      "sortid": 135,
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1630,7 +1630,7 @@
     {
       "name": "AcidRockRecipe2",
       "type": "recipe",
-      "sortid": 136,
+      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1648,7 +1648,7 @@
     {
       "name": "AcidClothRecipe",
       "type": "recipe",
-      "sortid": 137,
+      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1675,7 +1675,7 @@
     {
       "name": "AcidPlantFiberBlockRecipe",
       "type": "recipe",
-      "sortid": 138,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1684,7 +1684,7 @@
     {
       "name": "AcidmanderSkinBlockRecipe",
       "type": "recipe",
-      "sortid": 139,
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1702,7 +1702,7 @@
     {
       "name": "CorrosiveEssenceBlockRecipe",
       "type": "recipe",
-      "sortid": 140,
+      "sortid": 143,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1711,7 +1711,7 @@
     {
       "name": "AcidPouchGUI",
       "type": "gui",
-      "sortid": 141,
+      "sortid": 144,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1729,7 +1729,7 @@
     {
       "name": "CorrosiveBagGUI",
       "type": "gui",
-      "sortid": 142,
+      "sortid": 145,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1756,7 +1756,7 @@
     {
       "name": "CorrosiveIngotRecipe",
       "type": "recipe",
-      "sortid": 143,
+      "sortid": 146,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1765,7 +1765,7 @@
     {
       "name": "CorrosiveArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 144,
+      "sortid": 147,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1774,7 +1774,7 @@
     {
       "name": "CorrosiveArmorChestRecipe",
       "type": "recipe",
-      "sortid": 145,
+      "sortid": 148,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1783,7 +1783,7 @@
     {
       "name": "CorrosiveArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 146,
+      "sortid": 149,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1792,7 +1792,7 @@
     {
       "name": "CorrosiveArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 147,
+      "sortid": 150,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1801,7 +1801,7 @@
     {
       "name": "CorrosiveSaberRecipe",
       "type": "recipe",
-      "sortid": 148,
+      "sortid": 151,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1810,7 +1810,7 @@
     {
       "name": "AcidPouchRecipe",
       "type": "recipe",
-      "sortid": 149,
+      "sortid": 152,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1819,7 +1819,7 @@
     {
       "name": "CorrosiveBackpackRecipe",
       "type": "recipe",
-      "sortid": 150,
+      "sortid": 153,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1837,7 +1837,7 @@
     {
       "name": "Bloodthorns",
       "type": "plant",
-      "sortid": 57,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1846,7 +1846,7 @@
     {
       "name": "BloodthornsBush",
       "type": "plant",
-      "sortid": 58,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1855,7 +1855,7 @@
     {
       "name": "Bloodgrass",
       "type": "plant",
-      "sortid": 59,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1864,7 +1864,7 @@
     {
       "name": "Bloodbush",
       "type": "plant",
-      "sortid": 60,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1873,7 +1873,7 @@
     {
       "name": "BloodMushroom",
       "type": "plant",
-      "sortid": 61,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1882,7 +1882,7 @@
     {
       "name": "Blood",
       "type": "fluid",
-      "sortid": 52,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1891,7 +1891,7 @@
     {
       "name": "BloodSpiderEgg",
       "type": "plant",
-      "sortid": 62,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1900,7 +1900,7 @@
     {
       "name": "BloodyThornsValley",
       "type": "biome",
-      "sortid": 151,
+      "sortid": 154,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1909,7 +1909,7 @@
     {
       "name": "Bloodroot1AdditionalGenerationCondition",
       "type": "procedure",
-      "sortid": 152,
+      "sortid": 155,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1939,7 +1939,7 @@
     {
       "name": "Bloodroot1",
       "type": "structure",
-      "sortid": 153,
+      "sortid": 156,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1948,7 +1948,7 @@
     {
       "name": "Bloodroot2AdditionalGenerationCondition",
       "type": "procedure",
-      "sortid": 154,
+      "sortid": 157,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1978,7 +1978,7 @@
     {
       "name": "Bloodroot2",
       "type": "structure",
-      "sortid": 155,
+      "sortid": 158,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1987,7 +1987,7 @@
     {
       "name": "Bloodroot3AdditionalGenerationCondition",
       "type": "procedure",
-      "sortid": 156,
+      "sortid": 159,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2017,7 +2017,7 @@
     {
       "name": "Bloodroot3",
       "type": "structure",
-      "sortid": 157,
+      "sortid": 160,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2026,7 +2026,7 @@
     {
       "name": "Bloodroot4AdditionalGenerationCondition",
       "type": "procedure",
-      "sortid": 158,
+      "sortid": 161,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2056,7 +2056,7 @@
     {
       "name": "Bloodroot4",
       "type": "structure",
-      "sortid": 159,
+      "sortid": 162,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2065,7 +2065,7 @@
     {
       "name": "Bloodroot5AdditionalGenerationCondition",
       "type": "procedure",
-      "sortid": 160,
+      "sortid": 163,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2095,7 +2095,7 @@
     {
       "name": "Bloodroot5",
       "type": "structure",
-      "sortid": 161,
+      "sortid": 164,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2104,7 +2104,7 @@
     {
       "name": "Bloodroot6AdditionalGenerationCondition",
       "type": "procedure",
-      "sortid": 162,
+      "sortid": 165,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2134,7 +2134,7 @@
     {
       "name": "Bloodroot6",
       "type": "structure",
-      "sortid": 163,
+      "sortid": 166,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2143,7 +2143,7 @@
     {
       "name": "Bloodroot7AdditionalGenerationCondition",
       "type": "procedure",
-      "sortid": 164,
+      "sortid": 167,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2173,7 +2173,7 @@
     {
       "name": "Bloodroot7",
       "type": "structure",
-      "sortid": 165,
+      "sortid": 168,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2182,7 +2182,7 @@
     {
       "name": "Bloodroot8AdditionalGenerationCondition",
       "type": "procedure",
-      "sortid": 166,
+      "sortid": 169,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2212,7 +2212,7 @@
     {
       "name": "Bloodroot8",
       "type": "structure",
-      "sortid": 167,
+      "sortid": 170,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2221,7 +2221,7 @@
     {
       "name": "Bloodroot9AdditionalGenerationCondition",
       "type": "procedure",
-      "sortid": 168,
+      "sortid": 171,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2251,7 +2251,7 @@
     {
       "name": "Bloodroot9",
       "type": "structure",
-      "sortid": 169,
+      "sortid": 172,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2260,7 +2260,7 @@
     {
       "name": "Bloodroot10AdditionalGenerationCondition",
       "type": "procedure",
-      "sortid": 170,
+      "sortid": 173,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2290,7 +2290,7 @@
     {
       "name": "Bloodroot10",
       "type": "structure",
-      "sortid": 171,
+      "sortid": 174,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2299,7 +2299,7 @@
     {
       "name": "Bloodroot11AdditionalGenerationCondition",
       "type": "procedure",
-      "sortid": 172,
+      "sortid": 175,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2329,7 +2329,7 @@
     {
       "name": "Bloodroot11",
       "type": "structure",
-      "sortid": 173,
+      "sortid": 176,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2347,7 +2347,7 @@
     {
       "name": "PolishedCorrosiveBlockRecipe",
       "type": "recipe",
-      "sortid": 174,
+      "sortid": 177,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2356,7 +2356,7 @@
     {
       "name": "CorrosiveBricksRicipe",
       "type": "recipe",
-      "sortid": 175,
+      "sortid": 178,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2365,7 +2365,7 @@
     {
       "name": "CorrosivePilarRecipe",
       "type": "recipe",
-      "sortid": 176,
+      "sortid": 179,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2383,7 +2383,7 @@
     {
       "name": "CorrosiveBrickStaisRecipe",
       "type": "recipe",
-      "sortid": 177,
+      "sortid": 180,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2401,7 +2401,7 @@
     {
       "name": "CorrosiveBrickSlabRecipe",
       "type": "recipe",
-      "sortid": 178,
+      "sortid": 181,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2419,7 +2419,7 @@
     {
       "name": "CorrosiveBrickWallRecipe",
       "type": "recipe",
-      "sortid": 179,
+      "sortid": 182,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2437,7 +2437,7 @@
     {
       "name": "PolishedCorrosiveStairsRecipe",
       "type": "recipe",
-      "sortid": 180,
+      "sortid": 183,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2455,7 +2455,7 @@
     {
       "name": "PolishedCorrosiveSlabRecipe",
       "type": "recipe",
-      "sortid": 181,
+      "sortid": 184,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2473,7 +2473,7 @@
     {
       "name": "PolishedCorrosiveWallRecipe",
       "type": "recipe",
-      "sortid": 182,
+      "sortid": 185,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2482,7 +2482,7 @@
     {
       "name": "SpawnAcidBossDenUpdateTick",
       "type": "procedure",
-      "sortid": 183,
+      "sortid": 186,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2511,7 +2511,7 @@
     {
       "name": "SpawnAcidBossDen",
       "type": "block",
-      "sortid": 184,
+      "sortid": 187,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2520,7 +2520,7 @@
     {
       "name": "AcidBossDenSpawnAdditionalGenerationCondition",
       "type": "procedure",
-      "sortid": 185,
+      "sortid": 188,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2550,11 +2550,295 @@
     {
       "name": "AcidBossDenSpawn",
       "type": "structure",
-      "sortid": 185,
+      "sortid": 189,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "acid_boss_den_spawn"
+    },
+    {
+      "name": "CorrosiveHeart",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "corrosive_heart"
+    },
+    {
+      "name": "AcidBoss",
+      "type": "mob",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acid_boss"
+    },
+    {
+      "name": "AcidBossHeart",
+      "type": "mob",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acid_boss_heart"
+    },
+    {
+      "name": "AcidBossHeartEntityDies",
+      "type": "procedure",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acid_boss_heart_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AcidPedestalOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acid_pedestal_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BloodSpider",
+      "type": "mob",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_spider"
+    },
+    {
+      "name": "AngryBloodSpider",
+      "type": "mob",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angry_blood_spider"
+    },
+    {
+      "name": "BloodSpiderEggMobplayerCollidesWithPlant",
+      "type": "procedure",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_spider_egg_mobplayer_collides_with_plant",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Satyr",
+      "type": "mob",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "satyr"
+    },
+    {
+      "name": "Ghoul",
+      "type": "mob",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ghoul"
+    },
+    {
+      "name": "ScarletBoar",
+      "type": "mob",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "scarlet_boar"
+    },
+    {
+      "name": "BloodSpiderEggPlantDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_spider_egg_plant_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HornPower",
+      "type": "potion",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "horn_power"
+    },
+    {
+      "name": "AfdasdaFoodEaten",
+      "type": "procedure",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "afdasda_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HornPowerAttack",
+      "type": "procedure",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "horn_power_attack",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SatyrHorns",
+      "type": "armor",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "satyr_horns",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "SatyrHornsHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "satyr_horns_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Invisible",
+      "type": "gun",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "invisible"
     }
   ],
   "variable_elements": [
@@ -2584,95 +2868,120 @@
   ],
   "language_map": {
     "en_us": {
-      "block.mystical_nature.blood_mushroom": "Blood Mushroom",
       "item.mystical_nature.corrosive_armor_helmet": "§2Corrosive Armor Helmet",
-      "block.mystical_nature.polished_corrosive_stairs": "§2Polished Corrosive Stairs",
       "item.mystical_nature.acid_ball": "Acid Ball",
-      "block.mystical_nature.blood_spider_egg": "Blood Spider Egg",
       "block.mystical_nature.bloodthorns_bush": "Bloodthorns Bush",
-      "block.mystical_nature.caustic_flower": "Caustic Flower",
-      "item.mystical_nature.corrosive_pebble": "§2Corrosive Pebble",
-      "item.mystical_nature.corrosive_backpakc": "§2Corrosive Backpack",
-      "item.mystical_nature.acid_boss_attack": "§2Book Of Corrosion",
       "block.mystical_nature.corroded_grass": "Corroded Grass",
-      "item.mystical_nature.acid_slingshot": "Acid Slingshot",
-      "block.mystical_nature.black_sand": "Black Sand",
       "block.mystical_nature.acid_rock": "Acid Rock",
       "block.mystical_nature.bloodthorns": "Bloodthorns",
       "block.mystical_nature.corrosive_brick_wall": "§2Corrosive Brick Wall",
-      "block.mystical_nature.black_rock": "Black Rock",
+      "item.mystical_nature.satyr_horns_boots": "Satyr Horns Boots",
       "block.mystical_nature.dead_bush": "Dead Bush",
-      "item.mystical_nature.corrosive_ingot": "§2Corrosive Ingot",
       "entity.mystical_nature.acidmander": "Acidmander",
       "item.mystical_nature.corrosive_essence": "§2Corrosive Essence",
       "item.mystical_nature.sulfuric_gaunlet": "§2Sulfuric Gaunlet",
       "fluid.blood": "Blood",
       "block.mystical_nature.tiny_acid_spikes": "Tiny Black Spikes",
+      "entity.mystical_nature.acidophilix": "Acidophilix",
+      "block.mystical_nature.polished_corrosive_wall": "§2Polished Corrosive Wall",
+      "item.minecraft.potion.effect.horn_power": "Horn Power",
+      "block.mystical_nature.black_stone_bricks": "Blackstone Bricks",
+      "entity.mystical_nature.acid_boss": "Acid Boss",
+      "item.mystical_nature.blackwater_bucket": "Blackwater Bucket",
+      "entity.mystical_nature.gastrofrog": "Gastrofrog",
+      "item.mystical_nature.corrosive_armor_chestplate": "§2Corrosive Armor Chestplate",
+      "block.mystical_nature.acid_cloth": "Acid Cloth",
+      "block.mystical_nature.bloodgrass": "Bloodgrass",
+      "death.attack.corrosion": "%1$s died from corrosion",
+      "block.mystical_nature.acid_rock_spike": "Black Rock Spike",
+      "item.mystical_nature.acid_rock_pebble": "Acid Rock Pebble",
+      "block.mystical_nature.acid_plant_fiber_block": "Acid Plant Fiber Block",
+      "effect.horn_power": "Horn Power",
+      "item.mystical_nature.acidmander": "Acidmander Spawn Egg",
+      "item.mystical_nature.acid_meat": "Acid Meat",
+      "item.mystical_nature.invisible": "Invisible",
+      "block.mystical_nature.corrosive_essence_ore": "§2Corrosive Essence Ore",
+      "item.mystical_nature.scarlet_boar": "Scarlet Boar Spawn Egg",
+      "entity.mystical_nature.sulfuric_golem": "Sulfuric Golem",
+      "effect.corrosion": "Corrosion",
+      "block.mystical_nature.corrosive_bricks": "§2Corrosive Bricks",
+      "block.mystical_nature.bloody_dirt": "Bloody Dirt",
+      "block.mystical_nature.ceiling_tiny_acid_spikes": "Ceiling Tiny Acid Spikes",
+      "item.mystical_nature.acidless_meat": "Acidless Meat",
+      "entity.mystical_nature.corrosive_spider": "Corrosive Spider",
+      "block.mystical_nature.bloodbush": "Bloodbush",
+      "item.mystical_nature.blood_bucket": "Blood Bucket",
+      "item.minecraft.potion.effect.corrosion": "Corrosion",
+      "block.mystical_nature.bloodroot": "Bloodroot",
+      "item.mystical_nature.acid_boss_heart": "Acid Boss Heart Spawn Egg",
+      "entity.mystical_nature.satyr": "Satyr",
+      "block.mystical_nature.corrosive_polished": "§2Polished Corrosive Block",
+      "item.mystical_nature.corrosive_armor_boots": "§2Corrosive Armor Boots",
+      "block.mystical_nature.black_stone": "Blackstone",
+      "item.mystical_nature.ancient_dimension": "§8Ancient Essence",
+      "block.mystical_nature.blood_mushroom": "Blood Mushroom",
+      "block.mystical_nature.polished_corrosive_stairs": "§2Polished Corrosive Stairs",
+      "item.mystical_nature.ghoul": "Ghoul Spawn Egg",
+      "block.mystical_nature.blood_spider_egg": "Blood Spider Egg",
+      "block.mystical_nature.caustic_flower": "Caustic Flower",
+      "item.mystical_nature.corrosive_pebble": "§2Corrosive Pebble",
+      "item.mystical_nature.corrosive_backpakc": "§2Corrosive Backpack",
+      "item.mystical_nature.satyr_horns_leggings": "Satyr Horns Leggings",
+      "item.mystical_nature.acid_boss_attack": "§2Book Of Corrosion",
+      "item.mystical_nature.acid_slingshot": "Acid Slingshot",
+      "block.mystical_nature.black_sand": "Black Sand",
+      "block.mystical_nature.black_rock": "Black Rock",
+      "item.mystical_nature.corrosive_ingot": "§2Corrosive Ingot",
+      "entity.mystical_nature.acid_boss_heart": "Acid Boss Heart",
       "block.mystical_nature.black_rock_spike": "Black Rock Spike",
       "block.mystical_nature.corrosive_brick_slab": "§2Corrosive Brick Slab",
       "block.mystical_nature.black_stone_pillar": "Blackstone Pillar",
       "block.mystical_nature.acidmander_skin_block": "Acidmander Skin Block",
       "item.mystical_nature.gastrofrog": "Gastrofrog Spawn Egg",
-      "entity.mystical_nature.acidophilix": "Acidophilix",
       "item.mystical_nature.corrosive_spider": "Corrosive Spider Spawn Egg",
-      "block.mystical_nature.polished_corrosive_wall": "§2Polished Corrosive Wall",
+      "item.mystical_nature.satyr_horns_helmet": "§4Satyr Horns",
+      "entity.mystical_nature.blood_spider": "Blood Spider",
+      "item.minecraft.splash_potion.effect.horn_power": "Splash Horn Power",
+      "item.mystical_nature.corrosive_heart": "§2Corrosive Heart",
       "item.minecraft.splash_potion.effect.corrosion": "Splash Corrosion",
+      "entity.mystical_nature.scarlet_boar": "Scarlet Boar",
       "item.mystical_nature.acidophilix": "Acidophilix Spawn Egg",
-      "block.mystical_nature.black_stone_bricks": "Blackstone Bricks",
+      "item.mystical_nature.satyr_horns_chestplate": "Satyr Horns Body",
       "item.mystical_nature.gastro_frog_legs_leggings": "Gastro Frog Legs Leggings",
       "block.mystical_nature.corrosive_pillar": "§2Corrosive Pillar",
-      "item.mystical_nature.blackwater_bucket": "Blackwater Bucket",
-      "entity.mystical_nature.gastrofrog": "Gastrofrog",
-      "item.mystical_nature.corrosive_armor_chestplate": "§2Corrosive Armor Chestplate",
+      "item.mystical_nature.angry_blood_spider": "Angry Blood Spider Spawn Egg",
+      "item.mystical_nature.acid_boss": "Acid Boss Spawn Egg",
+      "entity.mystical_nature.ghoul": "Ghoul",
       "fluid.acid": "Acid",
       "block.mystical_nature.corrosive_brick_stais": "§2Corrosive Brick Stais",
+      "item.mystical_nature.satyr": "Satyr Spawn Egg",
       "block.mystical_nature.polished_corrosive_slab": "§2Polished Corrosive Slab",
       "item.mystical_nature.acidmander_skin": "Acidmander Skin",
-      "block.mystical_nature.acid_cloth": "Acid Cloth",
-      "block.mystical_nature.bloodgrass": "Bloodgrass",
-      "death.attack.corrosion": "%1$s died from corrosion",
+      "item.minecraft.tipped_arrow.effect.horn_power": "Arrow of Horn Power",
       "item.mystical_nature.acid_pouch": "Acid Pouch",
-      "block.mystical_nature.acid_rock_spike": "Black Rock Spike",
-      "item.mystical_nature.acid_rock_pebble": "Acid Rock Pebble",
-      "block.mystical_nature.acid_plant_fiber_block": "Acid Plant Fiber Block",
       "item.mystical_nature.sulfuric_golem": "Sulfuric Golem Spawn Egg",
+      "entity.mystical_nature.angry_blood_spider": "Angry Blood Spider",
       "item.mystical_nature.acid_yarn": "Acid Yarn",
       "item.mystical_nature.corrosive_saber": "§2Corrosive Saber",
-      "item.mystical_nature.acidmander": "Acidmander Spawn Egg",
-      "item.mystical_nature.acid_meat": "Acid Meat",
       "block.mystical_nature.spawn_acid_boss_den": "Spawn Acid Boss Den",
-      "block.mystical_nature.corrosive_essence_ore": "§2Corrosive Essence Ore",
-      "entity.mystical_nature.sulfuric_golem": "Sulfuric Golem",
-      "effect.corrosion": "Corrosion",
       "block.mystical_nature.acidaisy": "Acidaisy",
       "block.mystical_nature.ceiling_tiny_black_spikes": "Ceiling Tiny Black Spikes",
-      "block.mystical_nature.corrosive_bricks": "§2Corrosive Bricks",
-      "block.mystical_nature.bloody_dirt": "Bloody Dirt",
-      "block.mystical_nature.ceiling_tiny_acid_spikes": "Ceiling Tiny Acid Spikes",
       "block.mystical_nature.acid_pedestal": "Acid Pedestal",
-      "item.mystical_nature.acid_bucket": "Acid Bucket",
       "item.mystical_nature.gastro_frog_legs_helmet": "Gastro Frog Legs Helmet",
-      "item.mystical_nature.acidless_meat": "Acidless Meat",
+      "item.mystical_nature.acid_bucket": "Acid Bucket",
       "item.mystical_nature.gastro_frog_legs_boots": "§2Gastro Frog Legs Boots",
-      "entity.mystical_nature.corrosive_spider": "Corrosive Spider",
-      "block.mystical_nature.bloodbush": "Bloodbush",
-      "item.mystical_nature.blood_bucket": "Blood Bucket",
+      "item.minecraft.lingering_potion.effect.horn_power": "Lingering Horn Power",
       "item.minecraft.tipped_arrow.effect.corrosion": "Arrow of Corrosion",
-      "item.minecraft.potion.effect.corrosion": "Corrosion",
       "block.mystical_nature.tiny_black_spikes": "Tiny Black Spikes",
-      "block.mystical_nature.bloodroot": "Bloodroot",
       "block.mystical_nature.polished_black_stone": "Polished Blackstone",
+      "item.mystical_nature.blood_spider": "Blood Spider Spawn Egg",
       "block.mystical_nature.black_dirt": "Black Dirt",
       "item.mystical_nature.acid_plant_fiber": "Acid Plant Fiber",
       "item.minecraft.lingering_potion.effect.corrosion": "Lingering Corrosion",
       "item.mystical_nature.corrosive_armor_leggings": "§2Corrosive Armor Leggings",
       "block.mystical_nature.corrosive_essence_block": "§2Corrosive Essence Block",
-      "block.mystical_nature.corrosive_polished": "§2Polished Corrosive Block",
-      "item.mystical_nature.corrosive_armor_boots": "§2Corrosive Armor Boots",
       "fluid.blackwater": "Blackwater",
-      "block.mystical_nature.black_stone": "Blackstone",
       "item.mystical_nature.gastro_frog_legs_chestplate": "Gastro Frog Legs Body",
-      "item.mystical_nature.ancient_dimension": "§8Ancient Essence",
       "item.mystical_nature.blackrock_pebble": "Blackrock Pebble",
       "block.mystical_nature.acient_remains": "§8Acient Remains",
       "item.mystical_nature.ancient_stick": "§8Ancient Stick"
